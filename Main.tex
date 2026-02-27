@@ -1,0 +1,1200 @@
+% ══════════════════════════════════════════════════════════════════════════════
+%                     کتاب: راست یا چپ؛ میانه کجاست؟
+%                          نویسنده: مهدی سالم
+%                           شهر: ریچموندهیل
+% ══════════════════════════════════════════════════════════════════════════════
+%                            فایل اصلی: main.tex
+%                    کامپایلر: XeLaTeX | فونت: Vazirmatn
+% ══════════════════════════════════════════════════════════════════════════════
+
+\documentclass[12pt, a4paper, twoside, openright]{book}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                              پکیج‌های پایه
+% ══════════════════════════════════════════════════════════════════════════════
+
+% صفحه‌آرایی و هندسه
+\usepackage[
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2cm,
+    right=2.5cm,
+    headheight=15pt,
+    headsep=1cm,
+    footskip=1.5cm,
+    bindingoffset=0.5cm
+]{geometry}
+
+% ریاضی و نمادها
+\usepackage{amsmath, amssymb, amsfonts}
+
+% گرافیک و رنگ
+\usepackage[dvipsnames, svgnames, x11names, table]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% کتابخانه‌های TikZ
+\usetikzlibrary{
+    shapes.geometric,
+    shapes.symbols,
+    shapes.arrows,
+    shapes.callouts,
+    shapes.misc,
+    arrows.meta,
+    positioning,
+    calc,
+    fit,
+    backgrounds,
+    decorations.pathreplacing,
+    decorations.pathmorphing,
+    decorations.markings,
+    decorations.text,
+    patterns,
+    shadows,
+    shadows.blur,
+    fadings,
+    chains,
+    matrix,
+    mindmap,
+    calendar,
+    quotes,
+    angles,
+    intersections,
+    through,
+    spy,
+    turtle,
+    lindenmayersystems,
+    folding,
+    patterns.meta,
+    bending
+}
+
+% جداول پیشرفته
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{tabularx}
+
+% کادرها و باکس‌ها
+\usepackage[most, skins, breakable]{tcolorbox}
+
+% صفحات عرضی
+\usepackage{pdflscape}
+\usepackage{rotating}
+
+% هدر و فوتر
+\usepackage{fancyhdr}
+
+% لینک‌ها
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue4,
+    citecolor=ForestGreen,
+    urlcolor=Maroon,
+    bookmarks=true,
+    bookmarksopen=true,
+    pdfauthor={مهدی سالم},
+    pdftitle={راست یا چپ؛ میانه کجاست؟},
+    pdfsubject={اندیشه سیاسی},
+    pdfkeywords={چپ، راست، سیاست، ایدئولوژی}
+}
+
+% شماره‌گذاری و فهرست
+\usepackage{tocbibind}
+\usepackage{titletoc}
+\usepackage{titlesec}
+
+% پاورقی
+\usepackage[perpage, symbol*]{footmisc}
+
+% نقل‌قول
+\usepackage{csquotes}
+
+% سایر
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{lettrine}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% فونت و زبان فارسی
+\usepackage{fontspec}
+\setmainfont{Vazirmatn}[
+    Path = ./fonts/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    Script = Arabic,
+    Scale = 1.0
+]
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   🎨 پالت رنگی اختصاصی کتاب
+% ══════════════════════════════════════════════════════════════════════════════
+
+% رنگ‌های اصلی طیف سیاسی
+\definecolor{LeftRed}{RGB}{180, 30, 30}
+\definecolor{LeftRedLight}{RGB}{220, 80, 80}
+\definecolor{LeftRedDark}{RGB}{130, 20, 20}
+
+\definecolor{RightBlue}{RGB}{30, 60, 140}
+\definecolor{RightBlueLight}{RGB}{70, 100, 180}
+\definecolor{RightBlueDark}{RGB}{20, 40, 100}
+
+\definecolor{CenterGreen}{RGB}{50, 130, 70}
+\definecolor{CenterGreenLight}{RGB}{90, 170, 110}
+\definecolor{CenterGreenDark}{RGB}{30, 90, 50}
+
+% رنگ‌های تأکیدی
+\definecolor{GoldAccent}{RGB}{180, 150, 40}
+\definecolor{GoldLight}{RGB}{220, 190, 80}
+\definecolor{GoldDark}{RGB}{140, 110, 20}
+
+\definecolor{PurpleAccent}{RGB}{100, 50, 120}
+\definecolor{PurpleLight}{RGB}{150, 100, 170}
+
+\definecolor{OrangeAccent}{RGB}{200, 100, 30}
+\definecolor{OrangeLight}{RGB}{240, 150, 80}
+
+% رنگ‌های خنثی
+\definecolor{DarkGray}{RGB}{50, 50, 55}
+\definecolor{MediumGray}{RGB}{100, 100, 105}
+\definecolor{LightGray}{RGB}{200, 200, 205}
+\definecolor{VeryLightGray}{RGB}{240, 240, 242}
+\definecolor{PageBg}{RGB}{252, 251, 248}
+
+% رنگ‌های کادرها
+\definecolor{DefBoxBg}{RGB}{232, 245, 250}
+\definecolor{DefBoxFrame}{RGB}{70, 130, 180}
+
+\definecolor{QuoteBoxBg}{RGB}{235, 250, 240}
+\definecolor{QuoteBoxFrame}{RGB}{60, 140, 90}
+
+\definecolor{HistoryBoxBg}{RGB}{255, 250, 235}
+\definecolor{HistoryBoxFrame}{RGB}{180, 150, 50}
+
+\definecolor{DebateBoxBg}{RGB}{255, 240, 240}
+\definecolor{DebateBoxFrame}{RGB}{180, 50, 50}
+
+\definecolor{CompareBoxBg}{RGB}{245, 240, 255}
+\definecolor{CompareBoxFrame}{RGB}{100, 60, 130}
+
+\definecolor{PersonBoxBg}{RGB}{248, 248, 252}
+\definecolor{PersonBoxFrame}{RGB}{80, 80, 120}
+
+\definecolor{WarningBoxBg}{RGB}{255, 245, 230}
+\definecolor{WarningBoxFrame}{RGB}{200, 120, 40}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📦 تعریف کادرهای رنگی (tcolorbox)
+% ══════════════════════════════════════════════════════════════════════════════
+
+% 🔵 کادر تعریف
+\newtcolorbox{defbox}[1][]{
+    enhanced,
+    breakable,
+    colback=DefBoxBg,
+    colframe=DefBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{#1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=DefBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1pt,
+    shadow={2mm}{-2mm}{0mm}{black!20},
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=1.5em},
+}
+
+% 🟢 کادر نقل‌قول
+\newtcolorbox{quotebox}[1][]{
+    enhanced,
+    breakable,
+    colback=QuoteBoxBg,
+    colframe=QuoteBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{#1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=QuoteBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1pt,
+    borderline west={4pt}{-4pt}{QuoteBoxFrame},
+    left=15pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=0em},
+}
+
+% 🟡 کادر نکته تاریخی
+\newtcolorbox{historybox}[1][]{
+    enhanced,
+    breakable,
+    colback=HistoryBoxBg,
+    colframe=HistoryBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{📜 #1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=HistoryBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1pt,
+    shadow={2mm}{-2mm}{0mm}{black!15},
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=1.5em},
+}
+
+% 🔴 کادر اختلافی / مناقشه
+\newtcolorbox{debatebox}[1][]{
+    enhanced,
+    breakable,
+    colback=DebateBoxBg,
+    colframe=DebateBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{⚔️ #1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=DebateBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1.5pt,
+    borderline={1pt}{-5pt}{DebateBoxFrame, dashed},
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=1.5em},
+}
+
+% 🟣 کادر مقایسه
+\newtcolorbox{comparebox}[1][]{
+    enhanced,
+    breakable,
+    colback=CompareBoxBg,
+    colframe=CompareBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{⚖️ #1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=CompareBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1pt,
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=1.5em},
+}
+
+% 👤 کادر شخصیت
+\newtcolorbox{personbox}[1][]{
+    enhanced,
+    breakable,
+    colback=PersonBoxBg,
+    colframe=PersonBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{👤 #1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=PersonBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1pt,
+    shadow={2mm}{-2mm}{0mm}{black!15},
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=1.5em},
+}
+
+% ⚠️ کادر هشدار
+\newtcolorbox{warningbox}[1][]{
+    enhanced,
+    breakable,
+    colback=WarningBoxBg,
+    colframe=WarningBoxFrame,
+    coltitle=white,
+    fonttitle=\bfseries,
+    title={\rl{⚠️ #1}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=WarningBoxFrame,
+        rounded corners
+    },
+    arc=3mm,
+    boxrule=1.5pt,
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    before upper={\parindent=1.5em},
+}
+
+% 📝 کادر خلاصه فصل
+\newtcolorbox{summarybox}{
+    enhanced,
+    breakable,
+    colback=VeryLightGray,
+    colframe=DarkGray,
+    coltitle=white,
+    fonttitle=\bfseries\large,
+    title={\rl{📝 خلاصه فصل}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=DarkGray,
+        rounded corners
+    },
+    arc=4mm,
+    boxrule=1.5pt,
+    left=12pt, right=12pt, top=12pt, bottom=12pt,
+}
+
+% ❓ کادر پرسش‌های تأملی
+\newtcolorbox{questionbox}{
+    enhanced,
+    breakable,
+    colback=white,
+    colframe=CenterGreen,
+    coltitle=white,
+    fonttitle=\bfseries\large,
+    title={\rl{❓ پرسش‌های تأملی}},
+    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    boxed title style={
+        colback=CenterGreen,
+        rounded corners
+    },
+    arc=4mm,
+    boxrule=1.5pt,
+    borderline west={4pt}{-4pt}{CenterGreen},
+    left=12pt, right=12pt, top=12pt, bottom=12pt,
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   🎨 استایل‌های TikZ
+% ══════════════════════════════════════════════════════════════════════════════
+
+% استایل گره‌های تایم‌لاین
+\tikzstyle{timenode} = [
+    rectangle,
+    rounded corners=3pt,
+    minimum width=2.5cm,
+    minimum height=0.8cm,
+    text centered,
+    font=\small
+]
+
+\tikzstyle{leftevent} = [
+    timenode,
+    fill=LeftRedLight,
+    draw=LeftRed,
+    line width=1pt,
+    text=white
+]
+
+\tikzstyle{rightevent} = [
+    timenode,
+    fill=RightBlueLight,
+    draw=RightBlue,
+    line width=1pt,
+    text=white
+]
+
+\tikzstyle{centerevent} = [
+    timenode,
+    fill=CenterGreenLight,
+    draw=CenterGreen,
+    line width=1pt,
+    text=white
+]
+
+\tikzstyle{neutralevent} = [
+    timenode,
+    fill=LightGray,
+    draw=DarkGray,
+    line width=1pt,
+    text=DarkGray
+]
+
+% استایل نمودارهای مفهومی
+\tikzstyle{concept} = [
+    ellipse,
+    minimum width=2.5cm,
+    minimum height=1.2cm,
+    text centered,
+    font=\small\bfseries
+]
+
+\tikzstyle{leftconcept} = [
+    concept,
+    fill=LeftRedLight!50,
+    draw=LeftRed,
+    line width=1.5pt,
+    text=LeftRedDark
+]
+
+\tikzstyle{rightconcept} = [
+    concept,
+    fill=RightBlueLight!50,
+    draw=RightBlue,
+    line width=1.5pt,
+    text=RightBlueDark
+]
+
+\tikzstyle{centerconcept} = [
+    concept,
+    fill=CenterGreenLight!50,
+    draw=CenterGreen,
+    line width=1.5pt,
+    text=CenterGreenDark
+]
+
+% استایل فلش‌ها
+\tikzstyle{thickarrow} = [
+    -{Stealth[length=8pt, width=6pt]},
+    line width=2pt
+]
+
+\tikzstyle{thinarrow} = [
+    -{Stealth[length=5pt, width=4pt]},
+    line width=1pt
+]
+
+\tikzstyle{dashedarrow} = [
+    -{Stealth[length=5pt, width=4pt]},
+    line width=1pt,
+    dashed
+]
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📐 تنظیمات عناوین فصول و بخش‌ها
+% ══════════════════════════════════════════════════════════════════════════════
+
+% عنوان بخش‌های اصلی (Part)
+\titleformat{\part}[display]
+    {\centering\Huge\bfseries}
+    {\textcolor{GoldAccent}{بخش \thepart}}
+    {20pt}
+    {\textcolor{DarkGray}}
+\titlespacing*{\part}{0pt}{50pt}{40pt}
+
+% عنوان فصل
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries}
+    {\flushright\textcolor{MediumGray}{\Large فصل \thechapter}}
+    {10pt}
+    {\flushright\textcolor{DarkGray}}
+    [\vspace{5pt}\titlerule[2pt]]
+\titlespacing*{\chapter}{0pt}{-20pt}{30pt}
+
+% عنوان بخش
+\titleformat{\section}
+    {\normalfont\Large\bfseries\color{RightBlue}}
+    {\thesection}
+    {10pt}
+    {}
+\titlespacing*{\section}{0pt}{25pt}{15pt}
+
+% عنوان زیربخش
+\titleformat{\subsection}
+    {\normalfont\large\bfseries\color{DarkGray}}
+    {\thesubsection}
+    {8pt}
+    {}
+\titlespacing*{\subsection}{0pt}{20pt}{10pt}
+
+% عنوان زیرزیربخش
+\titleformat{\subsubsection}
+    {\normalfont\normalsize\bfseries\color{MediumGray}}
+    {\thesubsubsection}
+    {6pt}
+    {}
+\titlespacing*{\subsubsection}{0pt}{15pt}{8pt}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📄 تنظیمات هدر و فوتر
+% ══════════════════════════════════════════════════════════════════════════════
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% هدر
+\fancyhead[RO]{\small\leftmark}
+\fancyhead[LE]{\small\rightmark}
+\fancyhead[LO,RE]{\small\thepage}
+
+% خط هدر
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{%
+    \color{MediumGray}\leaders\hrule height \headrulewidth\hfill}}
+
+% فوتر
+\fancyfoot[C]{}
+\renewcommand{\footrulewidth}{0pt}
+
+% صفحات ساده (ابتدای فصل)
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\small\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📋 تنظیمات فهرست مطالب
+% ══════════════════════════════════════════════════════════════════════════════
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
+
+% استایل فهرست
+\titlecontents{part}[0pt]
+    {\addvspace{20pt}\bfseries\large}
+    {بخش \thecontentslabel:\quad}
+    {}
+    {\hfill\contentspage}
+
+\titlecontents{chapter}[15pt]
+    {\addvspace{10pt}\bfseries}
+    {فصل \thecontentslabel:\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
+
+\titlecontents{section}[35pt]
+    {\addvspace{3pt}}
+    {\thecontentslabel\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
+
+\titlecontents{subsection}[55pt]
+    {}
+    {\thecontentslabel\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   🔧 دستورات سفارشی
+% ══════════════════════════════════════════════════════════════════════════════
+
+% برای متن فارسی در TikZ
+\newcommand{\fa}[1]{{\rl{#1}}}
+
+% کلمات کلیدی
+\newcommand{\keyword}[1]{\textbf{\textcolor{RightBlue}{#1}}}
+\newcommand{\leftkw}[1]{\textbf{\textcolor{LeftRed}{#1}}}
+\newcommand{\rightkw}[1]{\textbf{\textcolor{RightBlue}{#1}}}
+\newcommand{\centerkw}[1]{\textbf{\textcolor{CenterGreen}{#1}}}
+
+% اسامی خاص
+\newcommand{\person}[1]{\textbf{#1}}
+\newcommand{\book}[1]{\textit{«#1»}}
+\newcommand{\term}[1]{\textbf{\textcolor{DarkGray}{#1}}}
+
+% تاریخ‌ها
+\newcommand{\yearmark}[1]{\textbf{\textcolor{GoldDark}{#1}}}
+
+% شماره‌گذاری فارسی
+\newcommand{\pmark}{\textcolor{LeftRed}{$\bullet$}}
+\newcommand{\rmark}{\textcolor{RightBlue}{$\blacktriangleright$}}
+
+% فاصله‌ها
+\newcommand{\mediumspace}{\vspace{10pt}}
+\newcommand{\largespace}{\vspace{20pt}}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📚 xepersian باید آخرین پکیج باشد
+% ══════════════════════════════════════════════════════════════════════════════
+
+\usepackage{xepersian}
+\settextfont{Vazirmatn}
+\setdigitfont{Vazirmatn}
+\DefaultMathsDigits
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         شروع سند
+% ══════════════════════════════════════════════════════════════════════════════
+
+\begin{document}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         صفحه عنوان
+% ══════════════════════════════════════════════════════════════════════════════
+
+\begin{titlepage}
+\begin{tikzpicture}[remember picture, overlay]
+
+    % پس‌زمینه
+    \fill[PageBg] (current page.south west) rectangle (current page.north east);
+    
+    % طیف رنگی پس‌زمینه
+    \shade[left color=LeftRed!15, right color=RightBlue!15, middle color=CenterGreen!10]
+        (current page.south west) rectangle (current page.north east);
+    
+    % نوارهای تزئینی بالا
+    \fill[LeftRed] 
+        ([yshift=-1cm]current page.north west) rectangle 
+        ([yshift=-1.3cm, xshift=7cm]current page.north west);
+    \fill[CenterGreen] 
+        ([yshift=-1cm, xshift=7.2cm]current page.north west) rectangle 
+        ([yshift=-1.3cm, xshift=14cm]current page.north west);
+    \fill[RightBlue] 
+        ([yshift=-1cm, xshift=14.2cm]current page.north west) rectangle 
+        ([yshift=-1.3cm]current page.north east);
+    
+    % نوارهای تزئینی پایین
+    \fill[RightBlue] 
+        ([yshift=1cm]current page.south west) rectangle 
+        ([yshift=1.3cm, xshift=7cm]current page.south west);
+    \fill[CenterGreen] 
+        ([yshift=1cm, xshift=7.2cm]current page.south west) rectangle 
+        ([yshift=1.3cm, xshift=14cm]current page.south west);
+    \fill[LeftRed] 
+        ([yshift=1cm, xshift=14.2cm]current page.south west) rectangle 
+        ([yshift=1.3cm]current page.south east);
+    
+    % کادر اصلی
+    \draw[line width=3pt, DarkGray, rounded corners=10pt]
+        ([xshift=1.5cm, yshift=-2.5cm]current page.north west) rectangle
+        ([xshift=-1.5cm, yshift=2.5cm]current page.south east);
+    
+    % کادر داخلی
+    \draw[line width=1pt, MediumGray, rounded corners=8pt]
+        ([xshift=1.8cm, yshift=-2.8cm]current page.north west) rectangle
+        ([xshift=-1.8cm, yshift=2.8cm]current page.south east);
+    
+    % ═══════════════════ گرافیک مرکزی: طیف سیاسی ═══════════════════
+    
+    % محور اصلی
+    \draw[line width=4pt, MediumGray]
+        ([xshift=3cm, yshift=2cm]current page.center) --
+        ([xshift=-3cm, yshift=2cm]current page.center);
+    
+    % دایره چپ
+    \fill[LeftRed, opacity=0.9] 
+        ([xshift=4cm, yshift=2cm]current page.center) circle (1.2cm);
+    \draw[line width=2pt, LeftRedDark] 
+        ([xshift=4cm, yshift=2cm]current page.center) circle (1.2cm);
+    \node[text=white, font=\Large\bfseries] at 
+        ([xshift=4cm, yshift=2cm]current page.center) {\fa{چپ}};
+    
+    % دایره میانه
+    \fill[CenterGreen, opacity=0.9] 
+        ([yshift=2cm]current page.center) circle (1.4cm);
+    \draw[line width=2pt, CenterGreenDark] 
+        ([yshift=2cm]current page.center) circle (1.4cm);
+    \node[text=white, font=\Large\bfseries] at 
+        ([yshift=2.3cm]current page.center) {\fa{میانه}};
+    \node[text=white, font=\small] at 
+        ([yshift=1.7cm]current page.center) {\fa{کجاست؟}};
+    
+    % دایره راست
+    \fill[RightBlue, opacity=0.9] 
+        ([xshift=-4cm, yshift=2cm]current page.center) circle (1.2cm);
+    \draw[line width=2pt, RightBlueDark] 
+        ([xshift=-4cm, yshift=2cm]current page.center) circle (1.2cm);
+    \node[text=white, font=\Large\bfseries] at 
+        ([xshift=-4cm, yshift=2cm]current page.center) {\fa{راست}};
+    
+    % فلش‌های نشانگر
+    \draw[line width=2pt, color=LeftRed, -{Stealth[length=8pt]}]
+        ([xshift=2.5cm, yshift=2cm]current page.center) --
+        ([xshift=1cm, yshift=2cm]current page.center);
+    
+    \draw[line width=2pt, color=RightBlue, -{Stealth[length=8pt]}]
+        ([xshift=-2.5cm, yshift=2cm]current page.center) --
+        ([xshift=-1cm, yshift=2cm]current page.center);
+    
+    % علامت سؤال بزرگ
+    \node[text=GoldAccent, font=\fontsize{60}{70}\selectfont\bfseries, opacity=0.3] at 
+        ([yshift=-1cm]current page.center) {؟};
+    
+    % ═══════════════════ عنوان کتاب ═══════════════════
+    
+    % عنوان اصلی
+    \node[text=DarkGray, font=\fontsize{32}{40}\selectfont\bfseries] at 
+        ([yshift=-3cm]current page.center) {\fa{راست یا چپ}};
+    
+    % زیرعنوان
+    \node[text=CenterGreen, font=\fontsize{28}{35}\selectfont\bfseries] at 
+        ([yshift=-4.5cm]current page.center) {\fa{میانه کجاست؟}};
+    
+    % خط تزئینی زیر عنوان
+    \draw[line width=2pt, GoldAccent]
+        ([xshift=4cm, yshift=-5.5cm]current page.center) --
+        ([xshift=-4cm, yshift=-5.5cm]current page.center);
+    \fill[GoldAccent]
+        ([yshift=-5.5cm]current page.center) circle (4pt);
+    
+    % ═══════════════════ اطلاعات نویسنده ═══════════════════
+    
+    % نام نویسنده
+    \node[text=DarkGray, font=\LARGE\bfseries] at 
+        ([yshift=-7cm]current page.center) {\fa{مهدی سالم}};
+    
+    % شهر
+    \node[text=MediumGray, font=\large] at 
+        ([yshift=-8cm]current page.center) {\fa{ریچموندهیل}};
+    
+    % ═══════════════════ توضیح پایین صفحه ═══════════════════
+    
+    \node[text=MediumGray, font=\small, text width=14cm, align=center] at 
+        ([yshift=4cm]current page.south) {
+        \fa{بررسی جامع طیف سیاسی از انقلاب فرانسه تا امروز}\\[3pt]
+        \fa{سیر تحول اندیشه‌های چپ، راست و میانه در جهان}
+    };
+
+\end{tikzpicture}
+\end{titlepage}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         صفحه حق نشر
+% ══════════════════════════════════════════════════════════════════════════════
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\begin{center}
+
+{\Large\bfseries راست یا چپ؛ میانه کجاست؟}
+
+\vspace{20pt}
+
+\textbf{نویسنده:} مهدی سالم
+
+\vspace{10pt}
+
+\textbf{شهر انتشار:} ریچموندهیل
+
+\vspace{30pt}
+
+\rule{8cm}{0.5pt}
+
+\vspace{20pt}
+
+{\small
+تمامی حقوق این اثر محفوظ است.
+
+بازنشر، کپی‌برداری یا استفاده از مطالب این کتاب
+
+بدون اجازه کتبی نویسنده ممنوع است.
+
+\vspace{20pt}
+
+نسخه اول — ۱۴۰۳
+
+\vspace{20pt}
+
+\textcolor{MediumGray}{حروف‌چینی با \XeLaTeX}
+}
+
+\vspace{30pt}
+
+\rule{8cm}{0.5pt}
+
+\vspace{20pt}
+
+{\footnotesize
+این کتاب با هدف آموزشی و روشنگری تألیف شده است.
+
+دیدگاه‌های مطرح‌شده صرفاً جنبه تحلیلی دارند
+
+و لزوماً بازتاب‌دهنده موضع شخصی نویسنده نیستند.
+}
+
+\end{center}
+
+\vspace*{\fill}
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         تقدیم‌نامه
+% ══════════════════════════════════════════════════════════════════════════════
+
+\thispagestyle{empty}
+\newpage
+
+\vspace*{4cm}
+
+\begin{flushright}
+\begin{minipage}{10cm}
+
+{\Large\bfseries تقدیم به}
+
+\vspace{20pt}
+
+{\large
+همه جویندگان حقیقت،
+
+که در میانه غوغای چپ و راست،
+
+به دنبال فهمی عمیق‌تر از جهان سیاستند؛
+
+\vspace{15pt}
+
+و به آنان که می‌دانند
+
+حقیقت همیشه پیچیده‌تر از شعارهاست.
+}
+
+\vspace{40pt}
+
+\textcolor{CenterGreen}{\rule{5cm}{1pt}}
+
+\end{minipage}
+\end{flushright}
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         پیشگفتار نویسنده
+% ══════════════════════════════════════════════════════════════════════════════
+
+\chapter*{پیشگفتار}
+\addcontentsline{toc}{chapter}{پیشگفتار}
+\markboth{پیشگفتار}{پیشگفتار}
+
+\begin{flushright}
+\textcolor{MediumGray}{\small ریچموندهیل، ۱۴۰۳}
+\end{flushright}
+
+\vspace{10pt}
+
+\lettrine[lines=3, lraise=0.1, nindent=0.5em]{\textcolor{RightBlue}{د}}{ر} 
+سال ۱۷۸۹، در مجلس ملی فرانسه، اتفاقی ساده افتاد که تاریخ اندیشه سیاسی را برای همیشه تغییر داد: نمایندگان هوادار پادشاه در سمت راست رئیس مجلس نشستند و مخالفان در سمت چپ. از آن روز، واژگان «چپ» و «راست» به زبان مشترک بشر برای فهم سیاست تبدیل شدند.
+
+اما آیا این تقسیم‌بندی ساده، هنوز هم برای درک پیچیدگی‌های جهان امروز کافی است؟
+
+\section*{چرا این کتاب؟}
+
+در دوران ما، مرزهای سنتی میان چپ و راست به شدت مخدوش شده‌اند. پوپولیست‌های راست از حمایت دولتی سخن می‌گویند، چپ‌های نوین بر هویت بیش از طبقه تأکید دارند، و میانه‌روها متهم به بی‌اصالتی می‌شوند. در این آشفتگی مفهومی، نیاز به بازاندیشی در مفاهیم بنیادین بیش از هر زمان احساس می‌شود.
+
+این کتاب تلاشی است برای:
+
+\begin{itemize}[nosep, rightmargin=1.5cm]
+    \item روشن‌سازی ریشه‌های تاریخی طیف سیاسی
+    \item معرفی جریان‌های فکری اصلی در چپ، راست و میانه
+    \item بررسی اختلافات درونی هر جناح
+    \item تحلیل تحولات و بازنگری‌های تاریخی
+    \item پاسخ به این پرسش اساسی: میانه کجاست و آیا اصلاً وجود دارد؟
+\end{itemize}
+
+\section*{این کتاب برای کیست؟}
+
+این اثر برای هر خواننده‌ای نوشته شده که می‌خواهد فراتر از شعارها و برچسب‌های سیاسی برود. نه نیازی به تحصیلات تخصصی در علوم سیاسی دارید، نه انتظار می‌رود از پیش موضعی داشته باشید. تنها چیزی که نیاز است، کنجکاوی و آمادگی برای مواجهه با دیدگاه‌های متفاوت است.
+
+\section*{روش‌شناسی}
+
+رویکرد این کتاب بر چند اصل استوار است:
+
+\begin{enumerate}[nosep, rightmargin=1.5cm]
+    \item \textbf{بی‌طرفی تحلیلی:} تلاش شده هر جریان فکری از منظر خودش معرفی شود، نه از دریچه دشمنانش.
+    
+    \item \textbf{تاریخ‌مندی:} اندیشه‌ها در خلأ زاده نمی‌شوند؛ هر فصل با زمینه تاریخی آغاز می‌شود.
+    
+    \item \textbf{توجه به تنوع درونی:} هیچ جناحی یکدست نیست؛ اختلافات درونی به اندازه اختلافات بیرونی اهمیت دارند.
+    
+    \item \textbf{نگاه انتقادی:} هر دیدگاهی نقد می‌شود—هم از بیرون و هم از درون.
+    
+    \item \textbf{جهان‌شمولی:} اگرچه ریشه‌ها اروپایی است، نگاه ما به کل جهان گسترش می‌یابد.
+\end{enumerate}
+
+\section*{ساختار کتاب}
+
+کتاب در پنج بخش اصلی سازماندهی شده است:
+
+\textbf{بخش اول (مبانی و مفاهیم)} به ریشه‌های طیف سیاسی، مبانی فلسفی و اقتصاد سیاسی می‌پردازد.
+
+\textbf{بخش دوم (جهان چپ)} سوسیالیسم، کمونیسم، آنارشیسم، سوسیال‌دموکراسی و چپ نو را بررسی می‌کند.
+
+\textbf{بخش سوم (جهان راست)} محافظه‌کاری، لیبرالیسم، لیبرتارینیسم، ناسیونالیسم و راست نو را کاوش می‌کند.
+
+\textbf{بخش چهارم (میانه و ترکیب)} به میانه‌روی و تجربه‌های ترکیبی چون «راه سوم» اختصاص دارد.
+
+\textbf{بخش پنجم (تحلیل و آینده)} طیف سیاسی در جهان غیرغربی و آینده این مفهوم را بررسی می‌کند.
+
+\section*{سپاسگزاری}
+
+از همه کسانی که در تکوین این اثر نقش داشتند سپاسگزارم: از اساتیدی که راه پرسشگری را نشانم دادند، از دوستانی که با نقدهایشان متن را پخته‌تر کردند، و از خانواده‌ام که صبورانه تحمل کردند.
+
+\vspace{20pt}
+
+این کتاب پاسخ قطعی نمی‌دهد—زیرا در سیاست پاسخ قطعی وجود ندارد. اما امیدوارم ابزارهایی برای اندیشیدن بهتر فراهم کند.
+
+\vspace{30pt}
+
+\begin{flushright}
+\textbf{مهدی سالم}
+
+ریچموندهیل
+\end{flushright}
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         راهنمای خواندن کتاب
+% ══════════════════════════════════════════════════════════════════════════════
+
+\chapter*{راهنمای خواندن کتاب}
+\addcontentsline{toc}{chapter}{راهنمای خواندن کتاب}
+\markboth{راهنمای خواندن کتاب}{راهنمای خواندن کتاب}
+
+این کتاب از عناصر بصری متنوعی برای تسهیل یادگیری استفاده می‌کند. در اینجا با این عناصر آشنا می‌شوید:
+
+\section*{رنگ‌ها و نمادها}
+
+\begin{center}
+\begin{tikzpicture}
+
+% کادر چپ
+\fill[LeftRed, rounded corners=5pt] (0,0) rectangle (4, 1.5);
+\node[text=white, font=\bfseries] at (2, 1) {\fa{چپ}};
+\node[text=white, font=\small] at (2, 0.4) {\fa{سوسیالیسم، کمونیسم، ...}};
+
+% کادر میانه
+\fill[CenterGreen, rounded corners=5pt] (5,0) rectangle (9, 1.5);
+\node[text=white, font=\bfseries] at (7, 1) {\fa{میانه}};
+\node[text=white, font=\small] at (7, 0.4) {\fa{لیبرالیسم، سوسیال‌دموکراسی}};
+
+% کادر راست
+\fill[RightBlue, rounded corners=5pt] (10,0) rectangle (14, 1.5);
+\node[text=white, font=\bfseries] at (12, 1) {\fa{راست}};
+\node[text=white, font=\small] at (12, 0.4) {\fa{محافظه‌کاری، لیبرتارینیسم}};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{انواع کادرها}
+
+در سراسر کتاب با کادرهای رنگی مختلفی مواجه خواهید شد:
+
+\vspace{10pt}
+
+\begin{defbox}[تعریف]
+کادرهای آبی حاوی \textbf{تعاریف کلیدی} و توضیح مفاهیم اساسی هستند.
+\end{defbox}
+
+\vspace{10pt}
+
+\begin{quotebox}[نقل‌قول]
+کادرهای سبز حاوی \textbf{نقل‌قول‌های مهم} از متفکران و شخصیت‌های کلیدی هستند.
+\end{quotebox}
+
+\vspace{10pt}
+
+\begin{historybox}[نکته تاریخی]
+کادرهای طلایی حاوی \textbf{اطلاعات تاریخی} و زمینه‌های تاریخی رویدادها هستند.
+\end{historybox}
+
+\vspace{10pt}
+
+\begin{debatebox}[موضوع اختلافی]
+کادرهای قرمز حاوی \textbf{مباحث مورد مناقشه} و دیدگاه‌های متضاد هستند.
+\end{debatebox}
+
+\vspace{10pt}
+
+\begin{comparebox}[مقایسه]
+کادرهای بنفش برای \textbf{مقایسه دیدگاه‌ها} و مکاتب مختلف به کار می‌روند.
+\end{comparebox}
+
+\vspace{10pt}
+
+\begin{personbox}[شخصیت]
+کادرهای خاکستری برای معرفی \textbf{شخصیت‌های کلیدی} در هر فصل استفاده می‌شوند.
+\end{personbox}
+
+\section*{عناصر گرافیکی}
+
+\begin{itemize}[nosep, rightmargin=1.5cm]
+    \item \textbf{تایم‌لاین‌ها:} برای نمایش سیر تاریخی رویدادها
+    \item \textbf{نمودارهای مفهومی:} برای نشان دادن روابط میان مفاهیم
+    \item \textbf{جداول مقایسه‌ای:} برای مقایسه سیستماتیک دیدگاه‌ها
+    \item \textbf{نقشه‌ها:} برای نمایش گسترش جغرافیایی جنبش‌ها
+\end{itemize}
+
+\section*{پایان هر فصل}
+
+هر فصل با دو بخش ویژه به پایان می‌رسد:
+
+\begin{summarybox}
+\textbf{خلاصه فصل:} مرور فشرده نکات کلیدی فصل
+\end{summarybox}
+
+\vspace{10pt}
+
+\begin{questionbox}
+\textbf{پرسش‌های تأملی:} سؤالاتی برای تعمق بیشتر و بحث
+\end{questionbox}
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         فهرست مطالب
+% ══════════════════════════════════════════════════════════════════════════════
+
+\tableofcontents
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         فهرست نمودارها
+% ══════════════════════════════════════════════════════════════════════════════
+
+\listoffigures
+\addcontentsline{toc}{chapter}{فهرست نمودارها}
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         فهرست جداول
+% ══════════════════════════════════════════════════════════════════════════════
+
+\listoftables
+\addcontentsline{toc}{chapter}{فهرست جداول}
+
+\newpage
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         شروع متن اصلی
+% ══════════════════════════════════════════════════════════════════════════════
+
+\mainmatter
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         بخش اول: مبانی و مفاهیم
+% ══════════════════════════════════════════════════════════════════════════════
+
+\part{مبانی و مفاهیم}
+
+% ═══════════════ جای فصول ═══════════════
+\input{chapters/ch01-Intro}
+\input{chapters/ch02-philosophy}
+\input{chapters/ch03-political-economy}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         بخش دوم: جهان چپ
+% ══════════════════════════════════════════════════════════════════════════════
+
+\part{جهان چپ}
+
+\input{chapters/ch04-socialism}
+\input{chapters/ch05-communism}
+\input{chapters/ch06-anarchism}
+\input{chapters/ch07-social-democracy}
+\input{chapters/ch08-new-left}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         بخش سوم: جهان راست
+% ══════════════════════════════════════════════════════════════════════════════
+
+\part{جهان راست}
+
+\input{chapters/ch09-conservatism}
+\input{chapters/ch10-liberalism}
+\input{chapters/ch11-}
+\input{chapters/ch12-}
+\input{chapters/ch13-}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         بخش چهارم: میانه و ترکیب
+% ══════════════════════════════════════════════════════════════════════════════
+
+\part{میانه و ترکیب}
+
+\input{chapters/ch14-}
+\input{chapters/ch15-}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         بخش پنجم: تحلیل و آینده‌نگری
+% ══════════════════════════════════════════════════════════════════════════════
+
+\part{تحلیل و آینده‌نگری}
+
+\input{chapters/ch16-}
+\input{chapters/ch17-}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         ضمائم
+% ══════════════════════════════════════════════════════════════════════════════
+
+\appendix
+
+\input{appendices/annx01-timeline}
+\input{appendices/annx02-}
+\input{appendices/annx03-}
+\input{appendices/annx04-}
+\input{appendices/annx04-index}
+\input{appendices/annx05-}
+\input{appendices/annx06-}
+\input{appendices/annx07-}
+\input{appendices/annx08-}
+\input{appendices/annx09-}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         نمایه
+% ══════════════════════════════════════════════════════════════════════════════
+
+\backmatter
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         صفحه پایانی
+% ══════════════════════════════════════════════════════════════════════════════
+
+\newpage
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+% لوگوی طیف سیاسی کوچک
+\fill[LeftRed] (-2, 0) circle (0.5);
+\fill[CenterGreen] (0, 0) circle (0.6);
+\fill[RightBlue] (2, 0) circle (0.5);
+
+\draw[line width=2pt, MediumGray] (-1.3, 0) -- (-0.7, 0);
+\draw[line width=2pt, MediumGray] (0.7, 0) -- (1.3, 0);
+
+\end{tikzpicture}
+
+\vspace{20pt}
+
+{\large\bfseries راست یا چپ؛ میانه کجاست؟}
+
+\vspace{10pt}
+
+{\small مهدی سالم}
+
+\vspace{5pt}
+
+{\footnotesize ریچموندهیل — ۱۴۰۳}
+
+\vspace{30pt}
+
+\textcolor{MediumGray}{\small حروف‌چینی شده با \XeLaTeX}
+
+\end{center}
+
+\vspace*{\fill}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                         پایان سند
+% ══════════════════════════════════════════════════════════════════════════════
+
+\end{document}
