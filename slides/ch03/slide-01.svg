@@ -1,0 +1,120 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&amp;display=swap');
+      .root {
+        direction: rtl;
+        font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+      }
+      .header {
+        fill: #1A237E;
+      }
+      .card {
+        fill: #FFFFFF;
+        filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.05));
+      }
+      .title {
+        font-size: 48px;
+        font-weight: bold;
+        fill: #FFFFFF;
+      }
+      .gold {
+        color: #F9A825;
+        font-weight: bold;
+      }
+      .navy {
+        color: #1A237E;
+        font-weight: bold;
+      }
+      .content-text {
+        font-size: 28px;
+        line-height: 1.4;
+        color: #212121;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th {
+        background-color: #1A237E;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+      td {
+        border: 1px solid #ECEFF1;
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#ECEFF1" />
+  
+  <!-- Header bar -->
+  <rect class="header" width="1080" height="150" />
+  
+  <foreignObject x="50" y="40" width="980" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <h1 style="margin: 0; color: white; font-size: 48px; text-align: center;">اقتصاد سیاسی: تقابل مکاتب</h1>
+    </div>
+  </foreignObject>
+  
+  <!-- Main Card -->
+  <rect class="card" x="50" y="200" width="980" height="600" rx="20" />
+  <foreignObject x="80" y="230" width="920" height="540">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <table>
+        <thead>
+          <tr>
+            <th>ویژگی</th>
+            <th>سرمایه‌داری</th>
+            <th>سوسیالیسم</th>
+          </tr>
+        </thead>
+        <tbody class="content-text">
+          <tr>
+            <td class="navy">مالکیت</td>
+            <td>خصوصی</td>
+            <td>دولتی / اجتماعی</td>
+          </tr>
+          <tr>
+            <td class="navy">سازوکار</td>
+            <td>بازار آزاد</td>
+            <td>برنامه‌ریزی متمرکز</td>
+          </tr>
+          <tr>
+            <td class="navy">هدف اصلی</td>
+            <td>سود و رشد</td>
+            <td>برابری و رفاه جمعی</td>
+          </tr>
+          <tr>
+            <td class="navy">نقش دولت</td>
+            <td>حداقلی / ناظر</td>
+            <td>حداکثری / مداخله‌گر</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </foreignObject>
+  
+  <!-- Hero Stat / Quote -->
+  <rect class="card" x="50" y="850" width="980" height="300" rx="20" />
+  <foreignObject x="80" y="880" width="920" height="240">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <p class="content-text" style="font-size: 34px; text-align: center;">
+        بزرگ‌ترین چالش قرن ۲۱: چگونه <span class="navy">کارایی بازار</span> را با <span class="gold">عدالت اجتماعی</span> پیوند دهیم؟
+      </p>
+    </div>
+  </foreignObject>
+  
+  <!-- Footer Info -->
+  <foreignObject x="50" y="1250" width="980" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root" style="text-align: center; color: #1A237E; font-size: 24px; font-weight: bold;">
+      راست یا چپ؛ میانه کجاست؟ | فصل سوم
+    </div>
+  </foreignObject>
+  
+</svg>

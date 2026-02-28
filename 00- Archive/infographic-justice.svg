@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" width="860" height="620"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+  <defs>
+    <filter id="blur-shadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="jHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2C1654"/>
+      <stop offset="100%" stop-color="#6432A0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="620" fill="#F8F6FF" rx="14"/>
+  <rect x="0" y="0" width="860" height="56" rx="14" fill="url(#jHeader)"/>
+  <rect x="0" y="36" width="860" height="20" fill="url(#jHeader)"/>
+  <text x="430" y="36" text-anchor="middle" font-size="18"
+        font-weight="bold" fill="white">
+    عدالت توزیعی، جبرانی و رویه‌ای</text>
+
+  <!-- 3 major columns -->
+  <!-- ── عدالت توزیعی ── -->
+  <rect x="20" y="72" width="260" height="510" rx="10"
+        fill="white" stroke="#6432A0" stroke-width="1.5" filter="url(#blur-shadow)"/>
+  <rect x="20" y="72" width="260" height="55" rx="10" fill="#6432A0"/>
+  <text x="150" y="100" text-anchor="middle" font-size="14"
+        font-weight="bold" fill="white">عدالت توزیعی</text>
+  <text x="150" y="115" text-anchor="middle" font-size="10"
+        fill="#DDD0FF">Distributive Justice</text>
+
+  <text x="150" y="140" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#323237">پرسش: چه کسی چه مقدار دریافت کند؟</text>
+
+  <!-- Three sub-views inside distributive -->
+  <rect x="30" y="150" width="240" height="88" rx="6"
+        fill="#FFF0F0" stroke="#B41E1E" stroke-width="1"/>
+  <text x="150" y="170" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#B41E1E">دیدگاه چپ: برابری نتیجه</text>
+  <text x="150" y="188" text-anchor="middle" font-size="10" fill="#505055">
+    توزیع بر اساس نیاز</text>
+  <text x="150" y="204" text-anchor="middle" font-size="10" fill="#505055">
+    کاهش شکاف طبقاتی</text>
+  <text x="150" y="220" text-anchor="middle" font-size="9" fill="#B41E1E"
+        font-style="italic">رولز: اصل تفاوت · مارکس</text>
+  <text x="150" y="234" text-anchor="middle" font-size="9" fill="#969696">
+    Theory of Justice (Rawls, 1971)</text>
+
+  <rect x="30" y="248" width="240" height="88" rx="6"
+        fill="#F0FFF4" stroke="#32824A" stroke-width="1"/>
+  <text x="150" y="268" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#32824A">دیدگاه میانه: برابری فرصت</text>
+  <text x="150" y="286" text-anchor="middle" font-size="10" fill="#505055">
+    شایسته‌سالاری با شبکه ایمنی</text>
+  <text x="150" y="302" text-anchor="middle" font-size="10" fill="#505055">
+    بازتوزیع محدود</text>
+  <text x="150" y="318" text-anchor="middle" font-size="9" fill="#32824A"
+        font-style="italic">رولز (پرده جهل) · دورکین</text>
+  <text x="150" y="332" text-anchor="middle" font-size="9" fill="#969696">
+    Sovereign Virtue (Dworkin, 2000)</text>
+
+  <rect x="30" y="346" width="240" height="88" rx="6"
+        fill="#EFF4FF" stroke="#1E3C8C" stroke-width="1"/>
+  <text x="150" y="366" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#1E3C8C">دیدگاه راست: استحقاق</text>
+  <text x="150" y="384" text-anchor="middle" font-size="10" fill="#505055">
+    توزیع بر اساس مشارکت</text>
+  <text x="150" y="400" text-anchor="middle" font-size="10" fill="#505055">
+    حق مالکیت اکتسابی</text>
+  <text x="150" y="416" text-anchor="middle" font-size="9" fill="#1E3C8C"
+        font-style="italic">نوزیک: نظریه استحقاق</text>
+  <text x="150" y="430" text-anchor="middle" font-size="9" fill="#969696">
+    Anarchy, State &amp; Utopia (1974)</text>
+
+  <!-- Key concept -->
+  <rect x="30" y="444" width="240" height="60" rx="6"
+        fill="#F8F4FF" stroke="#6432A0" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="150" y="464" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#6432A0">مفهوم کلیدی: پرده جهل رولز</text>
+  <text x="150" y="480" text-anchor="middle" font-size="9.5" fill="#505055">
+    اصول عدالت را از پشت پرده جهل</text>
+  <text x="150" y="494" text-anchor="middle" font-size="9.5" fill="#505055">
+    (بدون دانستن جایگاه خود) انتخاب کن</text>
+
+  <!-- ── عدالت جبرانی ── -->
+  <rect x="300" y="72" width="260" height="510" rx="10"
+        fill="white" stroke="#B47800" stroke-width="1.5" filter="url(#blur-shadow)"/>
+  <rect x="300" y="72" width="260" height="55" rx="10" fill="#B47800"/>
+  <text x="430" y="100" text-anchor="middle" font-size="14"
+        font-weight="bold" fill="white">عدالت جبرانی</text>
+  <text x="430" y="115" text-anchor="middle" font-size="10"
+        fill="#FFF0C0">Compensatory / Corrective Justice</text>
+
+  <text x="430" y="140" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#323237">پرسش: چگونه ستم تاریخی جبران شود؟</text>
+
+  <rect x="310" y="150" width="240" height="88" rx="6"
+        fill="#FFF0F0" stroke="#B41E1E" stroke-width="1"/>
+  <text x="430" y="170" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#B41E1E">چپ: اقدام جبرانی فعال</text>
+  <text x="430" y="188" text-anchor="middle" font-size="10" fill="#505055">
+    Affirmative Action</text>
+  <text x="430" y="204" text-anchor="middle" font-size="10" fill="#505055">
+    سهمیه‌بندی گروه‌های محروم</text>
+  <text x="430" y="220" text-anchor="middle" font-size="9" fill="#B41E1E"
+        font-style="italic">یانگ · فریزر · کرنشاو</text>
+  <text x="430" y="234" text-anchor="middle" font-size="9" fill="#969696">
+    Justice Interruptus (Fraser, 1997)</text>
+
+  <rect x="310" y="248" width="240" height="88" rx="6"
+        fill="#F0FFF4" stroke="#32824A" stroke-width="1"/>
+  <text x="430" y="268" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#32824A">میانه: جبران هدفمند محدود</text>
+  <text x="430" y="286" text-anchor="middle" font-size="10" fill="#505055">
+    برنامه‌های موقت</text>
+  <text x="430" y="302" text-anchor="middle" font-size="10" fill="#505055">
+    بدون سهمیه‌بندی صلب</text>
+  <text x="430" y="318" text-anchor="middle" font-size="9" fill="#32824A"
+        font-style="italic">دورکین · سندل</text>
+  <text x="430" y="332" text-anchor="middle" font-size="9" fill="#969696">
+    Liberalism and the Limits of Justice</text>
+
+  <rect x="310" y="346" width="240" height="88" rx="6"
+        fill="#EFF4FF" stroke="#1E3C8C" stroke-width="1"/>
+  <text x="430" y="366" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#1E3C8C">راست: مخالف با سهمیه‌بندی</text>
+  <text x="430" y="384" text-anchor="middle" font-size="10" fill="#505055">
+    «تبعیض معکوس»</text>
+  <text x="430" y="400" text-anchor="middle" font-size="10" fill="#505055">
+    برابری رویه‌ای کافی است</text>
+  <text x="430" y="416" text-anchor="middle" font-size="9"         fill="#1E3C8C" font-style="italic">نوزیک · سووِل · استیل</text>
+  <text x="430" y="430" text-anchor="middle" font-size="9" fill="#969696">
+    Civil Rights Rhetoric (Sowell, 2004)</text>
+
+  <!-- Key concept -->
+  <rect x="310" y="444" width="240" height="60" rx="6"
+        fill="#FFFAF0" stroke="#B47800" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="430" y="464" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#B47800">مفهوم کلیدی: بار اثبات</text>
+  <text x="430" y="480" text-anchor="middle" font-size="9.5" fill="#505055">
+    آیا نسل امروز مسئول ستم</text>
+  <text x="430" y="494" text-anchor="middle" font-size="9.5" fill="#505055">
+    نسل‌های پیشین است؟</text>
+
+  <!-- ── عدالت رویه‌ای ── -->
+  <rect x="580" y="72" width="260" height="510" rx="10"
+        fill="white" stroke="#32824A" stroke-width="1.5" filter="url(#blur-shadow)"/>
+  <rect x="580" y="72" width="260" height="55" rx="10" fill="#32824A"/>
+  <text x="710" y="100" text-anchor="middle" font-size="14"
+        font-weight="bold" fill="white">عدالت رویه‌ای</text>
+  <text x="710" y="115" text-anchor="middle" font-size="10"
+        fill="#C0FFD8">Procedural Justice</text>
+
+  <text x="710" y="140" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#323237">پرسش: چه فرآیندی عادلانه است؟</text>
+
+  <rect x="590" y="150" width="240" height="88" rx="6"
+        fill="#FFF0F0" stroke="#B41E1E" stroke-width="1"/>
+  <text x="710" y="170" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#B41E1E">چپ: فرآیند + نتیجه مهم‌اند</text>
+  <text x="710" y="188" text-anchor="middle" font-size="10" fill="#505055">
+    نمایندگی در نهادها</text>
+  <text x="710" y="204" text-anchor="middle" font-size="10" fill="#505055">
+    صدای گروه‌های حاشیه‌ای</text>
+  <text x="710" y="220" text-anchor="middle" font-size="9" fill="#B41E1E"
+        font-style="italic">هابرماس · یانگ · فریزر</text>
+  <text x="710" y="234" text-anchor="middle" font-size="9" fill="#969696">
+    Inclusion and Democracy (Young, 2000)</text>
+
+  <rect x="590" y="248" width="240" height="88" rx="6"
+        fill="#F0FFF4" stroke="#32824A" stroke-width="1"/>
+  <text x="710" y="268" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#32824A">میانه: رویه منصفانه کافی</text>
+  <text x="710" y="286" text-anchor="middle" font-size="10" fill="#505055">
+    قوانین شفاف و بی‌طرف</text>
+  <text x="710" y="302" text-anchor="middle" font-size="10" fill="#505055">
+    قضاوت مستقل</text>
+  <text x="710" y="318" text-anchor="middle" font-size="9" fill="#32824A"
+        font-style="italic">رولز · دال · فولر</text>
+  <text x="710" y="332" text-anchor="middle" font-size="9" fill="#969696">
+    The Morality of Law (Fuller, 1964)</text>
+
+  <rect x="590" y="346" width="240" height="88" rx="6"
+        fill="#EFF4FF" stroke="#1E3C8C" stroke-width="1"/>
+  <text x="710" y="366" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#1E3C8C">راست: رویه صحیح = نتیجه عادلانه</text>
+  <text x="710" y="384" text-anchor="middle" font-size="10" fill="#505055">
+    دادگاه مستقل کافی است</text>
+  <text x="710" y="400" text-anchor="middle" font-size="10" fill="#505055">
+    بازار آزاد = رویه عادلانه</text>
+  <text x="710" y="416" text-anchor="middle" font-size="9" fill="#1E3C8C"
+        font-style="italic">هایک · نوزیک · پوزنر</text>
+  <text x="710" y="430" text-anchor="middle" font-size="9" fill="#969696">
+    Law, Legislation &amp; Liberty (Hayek)</text>
+
+  <rect x="590" y="444" width="240" height="60" rx="6"
+        fill="#F0FFF4" stroke="#32824A" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="710" y="464" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#32824A">مفهوم کلیدی: قانون به‌مثابه رویه</text>
+  <text x="710" y="480" text-anchor="middle" font-size="9.5" fill="#505055">
+    آیا عدالت در فرآیند است</text>
+  <text x="710" y="494" text-anchor="middle" font-size="9.5" fill="#505055">
+    یا در نتیجه؟</text>
+
+  <!-- footer -->
+  <text x="430" y="596" text-anchor="middle" font-size="10" fill="#646469">
+    منابع: Rawls (1971) · Nozick (1974) · Fraser (1997) ·
+    Young (2000) · Dworkin (2000) · Cohen (1995)
+  </text>
+</svg>

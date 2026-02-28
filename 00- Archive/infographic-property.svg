@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+  <defs>
+    <linearGradient id="propGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1E3C8C"/>
+      <stop offset="50%"  stop-color="#32824A"/>
+      <stop offset="100%" stop-color="#B41E1E"/>
+    </linearGradient>
+    <filter id="sh">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="500" fill="#FAFAF8" rx="12"/>
+  <rect x="0" y="0" width="900" height="52" rx="12" fill="#1C1C24"/>
+  <text x="450" y="34" text-anchor="middle" font-size="18"
+        font-weight="bold" fill="#E8C840">مالکیت: از خصوصی مطلق تا عمومی مطلق</text>
+
+  <!-- Gradient bar -->
+  <rect x="40" y="68" width="820" height="22" rx="11" fill="url(#propGrad)"/>
+
+  <!-- 5 columns -->
+  <!-- آنارکو–کاپیتالیسم -->
+  <rect x="40"  y="100" width="152" height="320" rx="8"
+        fill="#EFF4FF" stroke="#1E3C8C" stroke-width="1.5" filter="url(#sh)"/>
+  <rect x="40"  y="100" width="152" height="38" rx="8" fill="#1E3C8C"/>
+  <text x="116" y="124" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="white">آنارکو–کاپیتالیسم</text>
+  <circle cx="116" cy="156" r="16" fill="#1E3C8C" opacity="0.15"/>
+  <text x="116" y="160" text-anchor="middle" font-size="22" fill="#1E3C8C">🏛️</text>
+  <text x="116" y="192" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#1E3C8C">مالکیت خصوصی مطلق</text>
+  <line x1="60" y1="204" x2="172" y2="204" stroke="#1E3C8C" stroke-width="0.5"
+        stroke-dasharray="3,2"/>
+  <text x="116" y="220" text-anchor="middle" font-size="9.5" fill="#505055">جاده‌ها خصوصی</text>
+  <text x="116" y="235" text-anchor="middle" font-size="9.5" fill="#505055">پلیس خصوصی</text>
+  <text x="116" y="250" text-anchor="middle" font-size="9.5" fill="#505055">دادگاه خصوصی</text>
+  <text x="116" y="265" text-anchor="middle" font-size="9.5" fill="#505055">هیچ مالیاتی نیست</text>
+  <line x1="60" y1="278" x2="172" y2="278" stroke="#1E3C8C" stroke-width="0.5"
+        stroke-dasharray="3,2"/>
+  <text x="116" y="294" text-anchor="middle" font-size="9" fill="#1E3C8C"
+        font-style="italic">نوزیک، روتبارد</text>
+  <text x="116" y="310" text-anchor="middle" font-size="9" fill="#969696">
+    Anarchy, State &amp; Utopia</text>
+  <text x="116" y="326" text-anchor="middle" font-size="9" fill="#969696">
+    (Nozick, 1974)</text>
+  <text x="116" y="350" text-anchor="middle" font-size="9.5"
+        fill="#C83232" font-weight="bold">نقد: ناامنی عمومی</text>
+  <text x="116" y="365" text-anchor="middle" font-size="9" fill="#C83232">
+    نابرابری افراطی</text>
+  <text x="116" y="380" text-anchor="middle" font-size="9" fill="#C83232">
+    فقدان کالاهای عمومی</text>
+
+  <!-- لیبرالیسم کلاسیک -->
+  <rect x="202" y="100" width="152" height="320" rx="8"
+        fill="#F0F4FF" stroke="#4664B4" stroke-width="1.5" filter="url(#sh)"/>
+  <rect x="202" y="100" width="152" height="38" rx="8" fill="#4664B4"/>
+  <text x="278" y="124" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="white">لیبرالیسم کلاسیک</text>
+  <text x="278" y="160" text-anchor="middle" font-size="22">🏪</text>
+  <text x="278" y="192" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#4664B4">خصوصی + دولت حداقلی</text>
+  <line x1="222" y1="204" x2="334" y2="204" stroke="#4664B4" stroke-width="0.5"
+        stroke-dasharray="3,2"/>
+  <text x="278" y="220" text-anchor="middle" font-size="9.5" fill="#505055">
+    بازار آزاد</text>
+  <text x="278" y="235" text-anchor="middle" font-size="9.5" fill="#505055">
+    تنظیم حداقلی</text>
+  <text x="278" y="250" text-anchor="middle" font-size="9.5" fill="#505055">
+    حاکمیت قانون</text>
+  <text x="278" y="265" text-anchor="middle" font-size="9.5" fill="#505055">
+    حق مالکیت مقدس</text>
+  <text x="278" y="294" text-anchor="middle" font-size="9" fill="#4664B4"
+        font-style="italic">لاک، هایک، فریدمن</text>
+  <text x="278" y="310" text-anchor="middle" font-size="9" fill="#969696">
+    The Road to Serfdom</text>
+  <text x="278" y="326" text-anchor="middle" font-size="9" fill="#969696">
+    (Hayek, 1944)</text>
+  <text x="278" y="350" text-anchor="middle" font-size="9.5"
+        fill="#C83232" font-weight="bold">نقد: شکست بازار</text>
+  <text x="278" y="365" text-anchor="middle" font-size="9" fill="#C83232">
+    بی‌توجهی به کالای عمومی</text>
+
+  <!-- سوسیال دموکراسی / اقتصاد مختلط -->
+  <rect x="364" y="100" width="172" height="320" rx="8"
+        fill="#F0FFF4" stroke="#32824A" stroke-width="2" filter="url(#sh)"/>
+  <rect x="364" y="100" width="172" height="38" rx="8" fill="#32824A"/>
+  <text x="450" y="124" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="white">سوسیال‌دموکراسی</text>
+  <text x="450" y="160" text-anchor="middle" font-size="22">⚖️</text>
+  <text x="450" y="192" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#32824A">اقتصاد مختلط</text>
+  <line x1="384" y1="204" x2="516" y2="204" stroke="#32824A" stroke-width="0.5"
+        stroke-dasharray="3,2"/>
+  <text x="450" y="220" text-anchor="middle" font-size="9.5" fill="#505055">
+    بخش خصوصی + دولتی</text>
+  <text x="450" y="235" text-anchor="middle" font-size="9.5" fill="#505055">
+    تنظیم‌گری قوی</text>
+  <text x="450" y="250" text-anchor="middle" font-size="9.5" fill="#505055">
+    خدمات عمومی</text>
+  <text x="450" y="265" text-anchor="middle" font-size="9.5" fill="#505055">
+    بازتوزیع مالیاتی</text>
+  <text x="450" y="280" text-anchor="middle" font-size="9.5" fill="#505055">
+    دولت رفاه</text>
+  <text x="450" y="294" text-anchor="middle" font-size="9" fill="#32824A"
+        font-style="italic">کینز، رولز، پیکتی</text>
+  <text x="450" y="310" text-anchor="middle" font-size="9" fill="#969696">
+    A Theory of Justice (Rawls)</text>
+  <text x="450" y="326" text-anchor="middle" font-size="9" fill="#969696">
+    Capital in 21st Century</text>
+  <text x="450" y="350" text-anchor="middle" font-size="9.5"
+        fill="#B47800" font-weight="bold">★ الگوی اسکاندیناوی</text>
+  <text x="450" y="365" text-anchor="middle" font-size="9" fill="#B47800">
+    سوئد، دانمارک، نروژ</text>
+  <text x="450" y="380" text-anchor="middle" font-size="9" fill="#B47800">
+    بالاترین شاخص رفاه</text>
+
+  <!-- سوسیالیسم -->
+  <rect x="546" y="100" width="152" height="320" rx="8"
+        fill="#FFF4F4" stroke="#C83232" stroke-width="1.5" filter="url(#sh)"/>
+  <rect x="546" y="100" width="152" height="38" rx="8" fill="#C83232"/>
+  <text x="622" y="124" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="white">سوسیالیسم</text>
+  <text x="622" y="160" text-anchor="middle" font-size="22">🏭</text>
+  <text x="622" y="192" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#C83232">عمومی غالب</text>
+  <line x1="566" y1="204" x2="678" y2="204" stroke="#C83232" stroke-width="0.5"
+        stroke-dasharray="3,2"/>
+  <text x="622" y="220" text-anchor="middle" font-size="9.5" fill="#505055">
+    ملی‌سازی صنایع کلیدی</text>
+  <text x="622" y="235" text-anchor="middle" font-size="9.5" fill="#505055">
+    برنامه‌ریزی مرکزی</text>
+  <text x="622" y="250" text-anchor="middle" font-size="9.5" fill="#505055">
+    مالکیت کارگری</text>
+  <text x="622" y="265" text-anchor="middle" font-size="9.5" fill="#505055">
+    کالاهای اساسی رایگان</text>
+  <text x="622" y="294" text-anchor="middle" font-size="9" fill="#C83232"
+        font-style="italic">مارکس، انگلس، وبلن</text>
+  <text x="622" y="310" text-anchor="middle" font-size="9" fill="#969696">
+    Das Kapital (Marx, 1867)</text>
+  <text x="622" y="350" text-anchor="middle" font-size="9.5"
+        fill="#1E3C8C" font-weight="bold">نقد: ناکارآمدی</text>
+  <text x="622" y="365" text-anchor="middle" font-size="9" fill="#1E3C8C">
+    مشکل اطلاعاتی هایک</text>
+  <text x="622" y="380" text-anchor="middle" font-size="9" fill="#1E3C8C">
+    کاهش انگیزه</text>
+
+  <!-- کمونیسم -->
+  <rect x="708" y="100" width="152" height="320" rx="8"
+        fill="#FFF0F0" stroke="#8C1414" stroke-width="1.5" filter="url(#sh)"/>
+  <rect x="708" y="100" width="152" height="38" rx="8" fill="#8C1414"/>
+  <text x="784" y="124" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="white">کمونیسم</text>
+  <text x="784" y="160" text-anchor="middle" font-size="22">⭐</text>
+  <text x="784" y="192" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#8C1414">مالکیت عمومی مطلق</text>
+  <line x1="728" y1="204" x2="840" y2="204" stroke="#8C1414" stroke-width="0.5"
+        stroke-dasharray="3,2"/>
+  <text x="784" y="220" text-anchor="middle" font-size="9.5" fill="#505055">
+    لغو مالکیت خصوصی</text>
+  <text x="784" y="235" text-anchor="middle" font-size="9.5" fill="#505055">
+    «هر کس به اندازه توانش»</text>
+  <text x="784" y="250" text-anchor="middle" font-size="9.5" fill="#505055">
+    «هر کس به اندازه نیازش»</text>
+  <text x="784" y="265" text-anchor="middle" font-size="9.5" fill="#505055">
+    دولت افول می‌کند</text>
+  <text x="784" y="294" text-anchor="middle" font-size="9" fill="#8C1414"
+        font-style="italic">مارکس، لنین، مائو</text>
+  <text x="784" y="310" text-anchor="middle" font-size="9" fill="#969696">
+    The Communist Manifesto</text>
+  <text x="784" y="326" text-anchor="middle" font-size="9" fill="#969696">
+    (Marx &amp; Engels, 1848)</text>
+  <text x="784" y="350" text-anchor="middle" font-size="9.5"
+        fill="#1E3C8C" font-weight="bold">نقد: آزمون شوروی</text>
+  <text x="784" y="365" text-anchor="middle" font-size="9" fill="#1E3C8C">
+    دیکتاتوری پرولتاریا</text>
+  <text x="784" y="380" text-anchor="middle" font-size="9" fill="#1E3C8C">
+    سرکوب آزادی‌ها</text>
+
+  <!-- bottom bar -->
+  <text x="450" y="460" text-anchor="middle" font-size="11" fill="#323237"
+        font-weight="bold">میزان مالکیت خصوصی</text>
+  <line x1="60" y1="472" x2="840" y2="472" stroke="#323237"
+        stroke-width="2" marker-end="url(#ah)"/>
+  <text x="60"  y="490" font-size="10" fill="#1E3C8C">بیشترین ←</text>
+  <text x="800" y="490" text-anchor="end" font-size="10" fill="#8C1414">→ کمترین</text>
+
+  <text x="450" y="490" text-anchor="middle" font-size="9" fill="#646469">
+    منبع: Rawls (1971) · Nozick (1974) · Cohen (1995) · Piketty (2013)
+  </text>
+</svg>

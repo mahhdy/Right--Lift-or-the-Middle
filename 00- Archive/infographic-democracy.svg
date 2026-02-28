@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" width="860" height="580"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+  <defs>
+    <filter id="shadow2">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#1E3C8C"/>
+      <stop offset="50%" stop-color="#32824A"/>
+      <stop offset="100%" stop-color="#B41E1E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="580" fill="#F8F8F6" rx="14"/>
+  <rect x="8" y="8" width="844" height="564" fill="none"
+        stroke="#B4960A" stroke-width="1.2" rx="10" stroke-dasharray="4,3"/>
+
+  <!-- Header band -->
+  <rect x="0" y="0" width="860" height="60" rx="14" fill="url(#headerGrad)"/>
+  <rect x="0" y="40" width="860" height="20" fill="url(#headerGrad)"/>
+  <text x="430" y="38" text-anchor="middle" font-size="20" font-weight="bold"
+        fill="white">رویکرد چپ، راست و میانه به دموکراسی</text>
+
+  <!-- ── Column headers ── -->
+  <!-- چپ -->
+  <rect x="30"  y="75" width="240" height="40" rx="8"
+        fill="#B41E1E" filter="url(#shadow2)"/>
+  <text x="150" y="100" text-anchor="middle" font-size="15"
+        font-weight="bold" fill="white">چپ</text>
+
+  <!-- میانه -->
+  <rect x="310" y="75" width="240" height="40" rx="8"
+        fill="#32824A" filter="url(#shadow2)"/>
+  <text x="430" y="100" text-anchor="middle" font-size="15"
+        font-weight="bold" fill="white">میانه / لیبرال</text>
+
+  <!-- راست -->
+  <rect x="590" y="75" width="240" height="40" rx="8"
+        fill="#1E3C8C" filter="url(#shadow2)"/>
+  <text x="710" y="100" text-anchor="middle" font-size="15"
+        font-weight="bold" fill="white">راست</text>
+
+  <!-- ── Row 1: نوع مطلوب دموکراسی ── -->
+  <rect x="20" y="130" width="820" height="28" rx="4" fill="#E8E8E4" opacity="0.8"/>
+  <text x="430" y="149" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">نوع مطلوب دموکراسی</text>
+
+  <rect x="30"  y="160" width="240" height="75" rx="6" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="150" y="180" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#B41E1E">دموکراسی مشارکتی</text>
+  <text x="150" y="198" text-anchor="middle" font-size="10" fill="#323237">
+    Participatory Democracy</text>
+  <text x="150" y="215" text-anchor="middle" font-size="10" fill="#505055">
+    مشارکت مستقیم توده‌ها</text>
+  <text x="150" y="228" text-anchor="middle" font-size="10" fill="#505055">
+    دموکراسی اقتصادی</text>
+
+  <rect x="310" y="160" width="240" height="75" rx="6" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="430" y="180" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#32824A">دموکراسی لیبرال نمایندگی</text>
+  <text x="430" y="198" text-anchor="middle" font-size="10" fill="#323237">
+    Liberal Representative Democracy</text>
+  <text x="430" y="215" text-anchor="middle" font-size="10" fill="#505055">
+    انتخابات آزاد و رقابتی</text>
+  <text x="430" y="228" text-anchor="middle" font-size="10" fill="#505055">
+    حاکمیت قانون · تفکیک قوا</text>
+
+  <rect x="590" y="160" width="240" height="75" rx="6" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="710" y="180" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#1E3C8C">دموکراسی نمایندگی محدود</text>
+  <text x="710" y="198" text-anchor="middle" font-size="10" fill="#323237">
+    Constitutional Democracy</text>
+  <text x="710" y="215" text-anchor="middle" font-size="10" fill="#505055">
+    تمرکز بر حقوق اقلیت</text>
+  <text x="710" y="228" text-anchor="middle" font-size="10" fill="#505055">
+    برابری در برابر قانون</text>
+
+  <!-- ── Row 2: رأی و مشارکت ── -->
+  <rect x="20" y="248" width="820" height="28" rx="4" fill="#E8E8E4" opacity="0.8"/>
+  <text x="430" y="267" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">مشارکت سیاسی</text>
+
+  <rect x="30"  y="278" width="240" height="75" rx="6" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="150" y="298" text-anchor="middle" font-size="10" fill="#505055">
+    گسترش مشارکت همگانی</text>
+  <text x="150" y="314" text-anchor="middle" font-size="10" fill="#505055">
+    رأی اجباری</text>
+  <text x="150" y="330" text-anchor="middle" font-size="10" fill="#505055">
+    دموکراسی در محل کار</text>
+  <text x="150" y="346" text-anchor="middle" font-size="10" fill="#B41E1E"
+        font-weight="bold">روسو · هابرماس</text>
+
+  <rect x="310" y="278" width="240" height="75" rx="6" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="430" y="298" text-anchor="middle" font-size="10" fill="#505055">
+    انتخابات آزاد · تناوب قدرت</text>
+  <text x="430" y="314" text-anchor="middle" font-size="10" fill="#505055">
+    جامعه مدنی مستقل</text>
+  <text x="430" y="330" text-anchor="middle" font-size="10" fill="#505055">
+    رسانه آزاد</text>
+  <text x="430" y="346" text-anchor="middle" font-size="10" fill="#32824A"
+        font-weight="bold">لاک · میل · دال</text>
+
+  <rect x="590" y="278" width="240" height="75" rx="6" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="710" y="298" text-anchor="middle" font-size="10" fill="#505055">
+    حراست از نهادها</text>
+  <text x="710" y="314" text-anchor="middle" font-size="10" fill="#505055">
+    حاکمیت قانون اساسی</text>
+  <text x="710" y="330" text-anchor="middle" font-size="10" fill="#505055">
+    بی‌طرفی قضایی</text>
+  <text x="710" y="346" text-anchor="middle" font-size="10" fill="#1E3C8C"
+        font-weight="bold">برک · هایک · میلتون فریدمن</text>
+
+  <!-- ── Row 3: خطرات دموکراسی از دید هر مکتب ── -->
+  <rect x="20" y="366" width="820" height="28" rx="4" fill="#E8E8E4" opacity="0.8"/>
+  <text x="430" y="385" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">بزرگ‌ترین تهدید دموکراسی از دیدگاه هر مکتب</text>
+
+  <rect x="30"  y="396" width="240" height="80" rx="6" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="150" y="416" text-anchor="middle" font-size="10" fill="#B41E1E"
+        font-weight="bold">تمرکز ثروت = تمرکز قدرت</text>
+  <text x="150" y="433" text-anchor="middle" font-size="10" fill="#505055">
+    الیگارشی اقتصادی</text>
+  <text x="150" y="449" text-anchor="middle" font-size="10" fill="#505055">
+    رسانه‌های کنترل‌شده</text>
+  <text x="150" y="465" text-anchor="middle" font-size="10" fill="#505055">
+    لابی شرکت‌های بزرگ</text>
+
+  <rect x="310" y="396" width="240" height="80" rx="6" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="430" y="416" text-anchor="middle" font-size="10" fill="#32824A"
+        font-weight="bold">استبداد اکثریت</text>
+  <text x="430" y="433" text-anchor="middle" font-size="10" fill="#505055">
+    پوپولیسم</text>
+  <text x="430" y="449" text-anchor="middle" font-size="10" fill="#505055">
+    تضعیف نهادها</text>
+  <text x="430" y="465" text-anchor="middle" font-size="10" fill="#505055">
+    قطبی‌شدن</text>
+
+  <rect x="590" y="396" width="240" height="80" rx="6" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="710" y="416" text-anchor="middle" font-size="10" fill="#1E3C8C"
+        font-weight="bold">توسعه بیش از حد دولت</text>
+  <text x="710" y="433" text-anchor="middle" font-size="10" fill="#505055">
+    بوروکراسی ناکارآمد</text>
+  <text x="710" y="449" text-anchor="middle" font-size="10" fill="#505055">
+    وابستگی به دولت</text>
+  <text x="710" y="465" text-anchor="middle" font-size="10" fill="#505055">
+    تضعیف نهادهای مدنی</text>
+
+  <!-- Footer -->
+  <text x="430" y="555" text-anchor="middle" font-size="10" fill="#969696">
+    منابع: Dahl, R. (1989) Democracy and Its Critics · Habermas (1996)
+    Between Facts and Norms · Hayek (1960) The Constitution of Liberty
+  </text>
+</svg>

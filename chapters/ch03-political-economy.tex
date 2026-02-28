@@ -662,31 +662,30 @@
 \section{جدول جامع: مکاتب اقتصادی و مواضع}
 % ══════════════════════════════════════════════════════════════════════════════
 
-\begin{landscape}
+% FIXED: Converted landscape table to portrait using tabularx for better integration
 \begin{table}[htbp]
 \centering
 \caption{مقایسه مکاتب اقتصادی اصلی}
 \label{tab:economic-schools}
-\small
-\begin{tabular}{r|c|c|c|c|c|c}
+\footnotesize % Reduced font size to fit 7 columns in portrait
+\begin{tabularx}{\linewidth}{r|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|c}
 \toprule
-\textbf{مکتب} & \textbf{بازار} & \textbf{دولت} & \textbf{مالکیت} & \textbf{پول} & \textbf{نابرابری} & \textbf{طیف سیاسی} \\
+\textbf{مکتب} & \textbf{بازار} & \textbf{دولت} & \textbf{مالکیت} & \textbf{پول} & \textbf{نابرابری} & \textbf{طیف} \\
 \midrule
-مارکسی & نقد بنیادین & گذار/زوال & اشتراکی & زوال پول & باید محو شود & چپ رادیکال \\
+مارکسی & نقد & گذار & اشتراکی & زوال & محو & چپ \\
 \midrule
-پساکینزی & شکست‌های جدی & بسیار فعال & مختلط & مدیریت‌شده & باید کاهش یابد & چپ میانه \\
+پساکینزی & شکست جدی & بسیار فعال & مختلط & مدیریت & کاهش & چپ میانه \\
 \midrule
-کینزی & کارآمد با مشکلات & فعال تثبیتی & خصوصی عمدتاً & بانک مرکزی & مدیریت‌شده & میانه \\
+کینزی & کارآمد & فعال & خصوصی & مدیریت & کنترل & میانه \\
 \midrule
-نئوکلاسیک & کارآمد & محدود & خصوصی & بانک مرکزی & نتیجه طبیعی & راست میانه \\
+نئوکلاسیک & کارآمد & محدود & خصوصی & بانک مرکزی & نُرم & راست میانه \\
 \midrule
 شیکاگو & بسیار کارآمد & حداقل & خصوصی & قاعده‌مند & پذیرفتنی & راست \\
 \midrule
-اتریشی & تنها راه‌حل & ضرر & خصوصی مطلق & طلا/بازار & کاملاً پذیرفتنی & لیبرتارین \\
+اتریشی & تنها راه & ضرر & خصوصی & بازار & پذیرفتنی & لیبرتارین \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
-\end{landscape}
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                         خلاصه و پرسش‌ها

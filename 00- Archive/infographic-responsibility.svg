@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560"
+     width="860" height="560"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+  <defs>
+    <filter id="s1">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="rGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1E3C8C"/>
+      <stop offset="100%" stop-color="#B41E1E"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="8" markerHeight="6"
+            refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#646469"/>
+    </marker>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="560" fill="#FAFAF8" rx="14"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="860" height="58" rx="14" fill="#1C1C24"/>
+  <rect x="0" y="38" width="860" height="20" fill="#1C1C24"/>
+  <text x="430" y="38" text-anchor="middle" font-size="18"
+        font-weight="bold" fill="white">
+    مسئولیت فردی در برابر مسئولیت اجتماعی</text>
+
+  <!-- Central Scale SVG illustration -->
+  <!-- Scale beam -->
+  <line x1="430" y1="90" x2="430" y2="130"
+        stroke="#B4960A" stroke-width="3"/>
+  <rect x="390" y="82" width="80" height="12" rx="4"
+        fill="#B4960A"/>
+  <!-- left pan wire -->
+  <line x1="200" y1="130" x2="430" y2="130"
+        stroke="#B4960A" stroke-width="2"/>
+  <line x1="200" y1="130" x2="160" y2="170"
+        stroke="#B4960A" stroke-width="1.5"/>
+  <line x1="200" y1="130" x2="240" y2="170"
+        stroke="#B4960A" stroke-width="1.5"/>
+  <!-- right pan wire -->
+  <line x1="660" y1="130" x2="430" y2="130"
+        stroke="#B4960A" stroke-width="2"/>
+  <line x1="660" y1="130" x2="620" y2="170"
+        stroke="#B4960A" stroke-width="1.5"/>
+  <line x1="660" y1="130" x2="700" y2="170"
+        stroke="#B4960A" stroke-width="1.5"/>
+  <!-- pans -->
+  <ellipse cx="200" cy="172" rx="80" ry="12"
+           fill="#1E3C8C" opacity="0.6"/>
+  <text x="200" y="176" text-anchor="middle" font-size="11"
+        fill="white" font-weight="bold">مسئولیت فردی</text>
+  <ellipse cx="660" cy="172" rx="80" ry="12"
+           fill="#B41E1E" opacity="0.6"/>
+  <text x="660" y="176" text-anchor="middle" font-size="11"
+        fill="white" font-weight="bold">مسئولیت اجتماعی</text>
+
+  <!-- Spectrum bar -->
+  <rect x="40" y="196" width="780" height="18" rx="9"
+        fill="url(#rGrad)" opacity="0.85"/>
+  <text x="65"  y="228" font-size="10" fill="#1E3C8C" font-weight="bold">
+    فرد مسئول ←</text>
+  <text x="780" y="228" text-anchor="end" font-size="10"
+        fill="#B41E1E" font-weight="bold">→ جامعه مسئول</text>
+
+  <!-- 3 main boxes -->
+  <!-- راست -->
+  <rect x="20" y="236" width="258" height="268" rx="10"
+        fill="white" stroke="#1E3C8C" stroke-width="1.5"
+        filter="url(#s1)"/>
+  <rect x="20" y="236" width="258" height="50" rx="10" fill="#1E3C8C"/>
+  <text x="149" y="261" text-anchor="middle" font-size="14"
+        font-weight="bold" fill="white">دیدگاه راست</text>
+  <text x="149" y="276" text-anchor="middle" font-size="10"
+        fill="#C0D0FF">مسئولیت فردی محور</text>
+
+  <text x="149" y="300" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#1E3C8C">باور بنیادین:</text>
+  <text x="149" y="316" text-anchor="middle" font-size="10" fill="#505055">
+    هر فرد نتیجه تصمیم‌های خویش است</text>
+  <text x="149" y="332" text-anchor="middle" font-size="10" fill="#505055">
+    فقر نشانه کم‌کاری، ثروت پاداش تلاش</text>
+
+  <line x1="35" y1="346" x2="263" y2="346"
+        stroke="#1E3C8C" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <text x="149" y="362" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#1E3C8C">سیاست‌های برآمده:</text>
+  <text x="149" y="378" text-anchor="middle" font-size="10" fill="#505055">
+    • کاهش مالیات</text>
+  <text x="149" y="394" text-anchor="middle" font-size="10" fill="#505055">
+    • دولت رفاه حداقلی</text>
+  <text x="149" y="410" text-anchor="middle" font-size="10" fill="#505055">
+    • انتخاب فردی در بهداشت/آموزش</text>
+
+  <line x1="35" y1="424" x2="263" y2="424"
+        stroke="#1E3C8C" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <text x="149" y="440" text-anchor="middle" font-size="9"
+        font-style="italic" fill="#1E3C8C">هایک · فریدمن · نوزیک · اوکشات</text>
+  <text x="149" y="458" text-anchor="middle" font-size="9" fill="#969696">
+    The Mirage of Social Justice (Hayek)</text>
+  <text x="149" y="476" text-anchor="middle" font-size="9" fill="#969696">
+    Capitalism and Freedom (Friedman, 1962)</text>
+  <text x="149" y="494" text-anchor="middle" font-size="9.5"
+        fill="#C83232">نقد چپ: ساختارها نادیده گرفته می‌شوند</text>
+
+  <!-- میانه -->
+  <rect x="301" y="236" width="258" height="268" rx="10"
+        fill="white" stroke="#32824A" stroke-width="2"
+        filter="url(#s1)"/>
+  <rect x="301" y="236" width="258" height="50" rx="10" fill="#32824A"/>
+  <text x="430" y="261" text-anchor="middle" font-size="14"
+        font-weight="bold" fill="white">دیدگاه میانه</text>
+  <text x="430" y="276" text-anchor="middle" font-size="10"
+        fill="#C0FFD8">توازن فرد و ساختار</text>
+
+  <text x="430" y="300" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#32824A">باور بنیادین:</text>
+  <text x="430" y="316" text-anchor="middle" font-size="10" fill="#505055">
+    فرد و ساختار هر دو مسئول‌اند</text>
+  <text x="430" y="332" text-anchor="middle" font-size="10" fill="#505055">
+    شبکه ایمنی + انگیزه فردی</text>
+
+  <line x1="316" y1="346" x2="544" y2="346"
+        stroke="#32824A" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <text x="430" y="362" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#32824A">سیاست‌های برآمده:</text>
+  <text x="430" y="378" text-anchor="middle" font-size="10" fill="#505055">
+    • آموزش عمومی باکیفیت</text>
+  <text x="430" y="394" text-anchor="middle" font-size="10" fill="#505055">
+    • بیمه بیکاری با شرط فعالیت</text>
+  <text x="430" y="410" text-anchor="middle" font-size="10" fill="#505055">
+    • کمک‌های هدفمند موقت</text>
+
+  <line x1="316" y1="424" x2="544" y2="424"
+        stroke="#32824A" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <text x="430" y="440" text-anchor="middle" font-size="9"
+        font-style="italic" fill="#32824A">رولز · کینز · گیدنز · سندل</text>
+  <text x="430" y="458" text-anchor="middle" font-size="9" fill="#969696">
+    The Third Way (Giddens, 1998)</text>
+  <text x="430" y="476" text-anchor="middle" font-size="9" fill="#969696">
+    Justice: What's the Right Thing? (Sandel)</text>
+  <text x="430" y="494" text-anchor="middle" font-size="9.5"
+        fill="#B47800">★ الگوی عملی: اسکاندیناوی</text>
+
+  <!-- چپ -->
+  <rect x="582" y="236" width="258" height="268" rx="10"
+        fill="white" stroke="#B41E1E" stroke-width="1.5"
+        filter="url(#s1)"/>
+  <rect x="582" y="236" width="258" height="50" rx="10" fill="#B41E1E"/>
+  <text x="711" y="261" text-anchor="middle" font-size="14"
+        font-weight="bold" fill="white">دیدگاه چپ</text>
+  <text x="711" y="276" text-anchor="middle" font-size="10"
+        fill="#FFD0D0">مسئولیت ساختاری محور</text>
+
+  <text x="711" y="300" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#B41E1E">باور بنیادین:</text>
+  <text x="711" y="316" text-anchor="middle" font-size="10" fill="#505055">
+    ساختارهای اجتماعی سرنوشت را رقم می‌زنند</text>
+  <text x="711" y="332" text-anchor="middle" font-size="10" fill="#505055">
+    فقر محصول نظام، نه تنبلی فرد</text>
+
+  <line x1="597" y1="346" x2="825" y2="346"
+        stroke="#B41E1E" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <text x="711" y="362" text-anchor="middle" font-size="10"
+        font-weight="bold" fill="#B41E1E">سیاست‌های برآمده:</text>
+  <text x="711" y="378" text-anchor="middle" font-size="10" fill="#505055">
+    • دولت رفاه جامع</text>
+  <text x="711" y="394" text-anchor="middle" font-size="10" fill="#505055">
+    • درآمد پایه همگانی (UBI)</text>
+  <text x="711" y="410" text-anchor="middle" font-size="10" fill="#505055">
+    • اقدام جبرانی سیستماتیک</text>
+
+  <line x1="597" y1="424" x2="825" y2="424"
+        stroke="#B41E1E" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <text x="711" y="440" text-anchor="middle" font-size="9"
+        font-style="italic" fill="#B41E1E">مارکس · گرامشی · فریر · یانگ</text>
+  <text x="711" y="458" text-anchor="middle" font-size="9" fill="#969696">
+    Pedagogy of the Oppressed (Freire, 1968)</text>
+  <text x="711" y="476" text-anchor="middle" font-size="9" fill="#969696">
+    Justice and the Politics of Difference (Young)</text>
+  <text x="711" y="494" text-anchor="middle" font-size="9.5"
+        fill="#1E3C8C">نقد راست: کاهش انگیزه فردی</text>
+
+  <!-- Footer -->
+  <text x="430" y="540" text-anchor="middle" font-size="10" fill="#646469">
+    منابع: Hayek (1976) Law, Legislation &amp; Liberty Vol.2 ·
+    Rawls (1971) · Sandel (2009) · Freire (1968) · Giddens (1998)
+  </text>
+</svg>

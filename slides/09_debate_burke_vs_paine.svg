@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <rect width="1080" height="1350" fill="#FAF8F5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1080" height="180" fill="#1A237E"/>
+    <foreignObject x="40" y="30" width="1000" height="140">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; color:#F9A825; margin-bottom:10px;">⚔️ مناظره‌ای که جهان را شکل داد</div>
+            <div style="font-size:42px; font-weight:900;">برک در برابر پین</div>
+            <div style="font-size:20px; opacity:0.8; margin-top:10px;">۱۷۹۰-۱۷۹۲ | انقلاب فرانسه</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Context Box -->
+    <rect x="60" y="210" width="960" height="100" rx="12" fill="#F9A825" opacity="0.15"/>
+    <foreignObject x="80" y="230" width="920" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#3C3C3C; font-size:20px; line-height:1.6;">
+            وقتی انقلاب فرانسه شعله‌ور شد، دو دوست قدیمی به دو دشمن فکری تبدیل شدند.<br/>
+            این مناظره، تولد رسمی <span style="color:#1A237E; font-weight:700;">محافظه‌کاری</span> و <span style="color:#C81E1E; font-weight:700;">رادیکالیسم</span> مدرن بود.
+        </div>
+    </foreignObject>
+    
+    <!-- Burke Side -->
+    <rect x="60" y="340" width="460" height="520" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="60" y="340" width="460" height="8" rx="4" fill="#1A237E"/>
+    
+    <foreignObject x="80" y="370" width="420" height="480">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center; margin-bottom:20px;">
+                <div style="font-size:50px;">🎩</div>
+                <div style="color:#1A237E; font-size:28px; font-weight:800;">ادموند برک</div>
+                <div style="color:#666; font-size:16px;">محافظه‌کار</div>
+            </div>
+            
+            <div style="background:#E8EAF6; padding:15px; border-radius:10px; margin-bottom:15px;">
+                <div style="color:#1A237E; font-weight:700; font-size:18px; margin-bottom:10px;">📖 تأملاتی درباره انقلاب فرانسه (۱۷۹۰)</div>
+            </div>
+            
+            <div style="color:#333; font-size:17px; line-height:1.8;">
+                <div style="margin-bottom:12px;">✦ سنت خرد انباشته نسل‌هاست</div>
+                <div style="margin-bottom:12px;">✦ تغییر باید تدریجی باشد</div>
+                <div style="margin-bottom:12px;">✦ انقلاب به ترور می‌انجامد</div>
+                <div style="margin-bottom:12px;">✦ نهادها را نباید ویران کرد</div>
+            </div>
+            
+            <div style="background:#1A237E; color:white; padding:15px; border-radius:10px; margin-top:15px; font-style:italic; font-size:16px; text-align:center;">
+                «مردم هرگز حق ندارند آنچه را که دریافت کرده‌اند ویران کنند»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- VS Connector -->
+    <rect x="490" y="580" width="100" height="60" rx="30" fill="#F9A825"/>
+    <foreignObject x="490" y="580" width="100" height="60">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#1A237E; font-size:24px; font-weight:900; line-height:60px;">
+            VS
+        </div>
+    </foreignObject>
+    
+    <!-- Paine Side -->
+    <rect x="560" y="340" width="460" height="520" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="560" y="340" width="460" height="8" rx="4" fill="#C81E1E"/>
+    
+    <foreignObject x="580" y="370" width="420" height="480">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center; margin-bottom:20px;">
+                <div style="font-size:50px;">✊</div>
+                <div style="color:#C81E1E; font-size:28px; font-weight:800;">توماس پین</div>
+                <div style="color:#666; font-size:16px;">رادیکال</div>
+            </div>
+            
+            <div style="background:#FFEBEE; padding:15px; border-radius:10px; margin-bottom:15px;">
+                <div style="color:#C81E1E; font-weight:700; font-size:18px; margin-bottom:10px;">📖 حقوق انسان (۱۷۹۱)</div>
+            </div>
+            
+            <div style="color:#333; font-size:17px; line-height:1.8;">
+                <div style="margin-bottom:12px;">✦ هر نسل حق تعیین سرنوشت دارد</div>
+                <div style="margin-bottom:12px;">✦ سنت توجیه ظلم نیست</div>
+                <div style="margin-bottom:12px;">✦ حقوق طبیعی مقدم است</div>
+                <div style="margin-bottom:12px;">✦ جمهوری بر سلطنت برتر است</div>
+            </div>
+            
+            <div style="background:#C81E1E; color:white; padding:15px; border-radius:10px; margin-top:15px; font-style:italic; font-size:16px; text-align:center;">
+                «حکومت مردگان بر زندگان مشروع نیست»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Legacy Box -->
+    <rect x="60" y="890" width="960" height="130" rx="12" fill="#2E7D32" opacity="0.1"/>
+    <foreignObject x="80" y="910" width="920" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#2E7D32; font-size:20px; font-weight:700; margin-bottom:10px;">🌍 میراث این مناظره</div>
+            <div style="color:#333; font-size:17px; line-height:1.6;">
+                این دو کتاب هنوز مرجع اصلی بحث بین محافظه‌کاران و رادیکال‌هاست.<br/>
+                هر دو حق داشتند: انقلاب به ترور انجامید، اما نهایتاً دموکراسی پیروز شد.
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="1050" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#999; font-size:18px;">
+            فصل ۱: زایش طیف سیاسی | فصل ۹: محافظه‌کاری
+        </div>
+    </foreignObject>
+</svg>

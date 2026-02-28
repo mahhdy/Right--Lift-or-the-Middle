@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <defs>
+        <linearGradient id="econDebate" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1B5E20;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <rect width="1080" height="1350" fill="url(#econDebate)"/>
+    
+    <!-- Decorative Elements -->
+    <text x="540" y="700" text-anchor="middle" font-size="500" font-weight="900" fill="white" opacity="0.03">💰</text>
+    
+    <!-- Header -->
+    <foreignObject x="40" y="50" width="1000" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; color:#FFD54F;">⚔️ نبرد قرن در اقتصاد</div>
+            <div style="font-size:46px; font-weight:900; margin-top:10px;">کینز در برابر هایک</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Timeline Bar -->
+    <rect x="100" y="190" width="880" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="200" cy="194" r="12" fill="#F9A825"/>
+    <circle cx="540" cy="194" r="12" fill="#F9A825"/>
+    <circle cx="880" cy="194" r="12" fill="#F9A825"/>
+    
+    <foreignObject x="140" y="210" width="120" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:white; font-size:14px;">۱۹۳۰</div>
+    </foreignObject>
+    <foreignObject x="480" y="210" width="120" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:white; font-size:14px;">۱۹۴۵</div>
+    </foreignObject>
+    <foreignObject x="820" y="210" width="120" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:white; font-size:14px;">۱۹۸۰</div>
+    </foreignObject>
+    
+    <!-- Main Cards -->
+    <!-- Keynes -->
+    <rect x="60" y="270" width="460" height="420" rx="20" fill="white" opacity="0.95"/>
+    <foreignObject x="80" y="290" width="420" height="390">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center;">
+                <div style="font-size:50px;">🎓</div>
+                <div style="color:#2E7D32; font-size:26px; font-weight:800;">جان مینارد کینز</div>
+                <div style="color:#666; font-size:15px;">۱۸۸۳-۱۹۴۶</div>
+            </div>
+            
+            <div style="margin-top:20px; color:#333; font-size:17px; line-height:1.8;">
+                <div style="font-weight:700; color:#2E7D32; margin-bottom:10px;">💡 ایده اصلی:</div>
+                <div style="margin-bottom:8px;">✦ بازار می‌تواند شکست بخورد</div>
+                <div style="margin-bottom:8px;">✦ دولت باید تقاضا را مدیریت کند</div>
+                <div style="margin-bottom:8px;">✦ در بحران، خرج کنید!</div>
+                <div style="margin-bottom:8px;">✦ بیکاری قابل درمان است</div>
+            </div>
+            
+            <div style="background:#E8F5E9; padding:12px; border-radius:10px; margin-top:15px;">
+                <div style="color:#2E7D32; font-size:15px; font-weight:600;">📈 دوره سلطه: ۱۹۴۵-۱۹۷۵</div>
+                <div style="color:#666; font-size:14px; margin-top:5px;">عصر طلایی سرمایه‌داری</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- VS -->
+    <circle cx="540" cy="480" r="40" fill="#F9A825" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.3))"/>
+    <text x="540" y="492" text-anchor="middle" font-size="24" font-weight="900" fill="#1A237E">VS</text>
+    
+    <!-- Hayek -->
+    <rect x="560" y="270" width="460" height="420" rx="20" fill="white" opacity="0.95"/>
+    <foreignObject x="580" y="290" width="420" height="390">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center;">
+                <div style="font-size:50px;">📊</div>
+                <div style="color:#1A237E; font-size:26px; font-weight:800;">فردریش هایک</div>
+                <div style="color:#666; font-size:15px;">۱۸۹۹-۱۹۹۲</div>
+            </div>
+            
+            <div style="margin-top:20px; color:#333; font-size:17px; line-height:1.8;">
+                <div style="font-weight:700; color:#1A237E; margin-bottom:10px;">💡 ایده اصلی:</div>
+                <div style="margin-bottom:8px;">✦ بازار خودتنظیم است</div>
+                <div style="margin-bottom:8px;">✦ دخالت دولت بدتر می‌کند</div>
+                <div style="margin-bottom:8px;">✦ دانش در بازار پراکنده است</div>
+                <div style="margin-bottom:8px;">✦ آزادی اقتصادی = آزادی سیاسی</div>
+            </div>
+            
+            <div style="background:#E8EAF6; padding:12px; border-radius:10px; margin-top:15px;">
+                <div style="color:#1A237E; font-size:15px; font-weight:600;">📈 دوره سلطه: ۱۹۸۰-۲۰۰۸</div>
+                <div style="color:#666; font-size:14px; margin-top:5px;">عصر نئولیبرالیسم</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Scoreboard -->
+    <rect x="60" y="720" width="960" height="200" rx="16" fill="rgba(255,255,255,0.1)" stroke="white" stroke-width="2"/>
+    <foreignObject x="80" y="740" width="920" height="170">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn; color:white;">
+            <div style="text-align:center; font-size:22px; font-weight:700; color:#FFD54F; margin-bottom:15px;">
+                🏆 چه کسی پیروز شد؟
+            </div>
+            <div style="display:flex; justify-content:space-around; text-align:center;">
+                <div style="flex:1;">
+                    <div style="font-size:36px; font-weight:800;">#2E7D32</div>
+                    <div style="font-size:18px;">کینز</div>
+                    <div style="font-size:14px; opacity:0.8;">۱۹۴۵-۱۹۷۵</div>
+                </div>
+                <div style="flex:1;">
+                    <div style="font-size:36px; font-weight:800;">⚖️</div>
+                    <div style="font-size:18px;">امروز</div>
+                    <div style="font-size:14px; opacity:0.8;">ترکیب هر دو</div>
+                </div>
+                <div style="flex:1;">
+                    <div style="font-size:36px; font-weight:800;">#1A237E</div>
+                    <div style="font-size:18px;">هایک</div>
+                    <div style="font-size:14px; opacity:0.8;">۱۹۸۰-۲۰۰۸</div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:15px; font-size:16px; opacity:0.9;">
+                بحران ۲۰۰۸ نشان داد: نه بازار کامل است، نه دولت!
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="950" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:rgba(255,255,255,0.6); font-size:18px;">
+            فصل ۳: اقتصاد سیاسی | فصل ۱۰: لیبرالیسم و نئولیبرالیسم
+        </div>
+    </foreignObject>
+</svg>

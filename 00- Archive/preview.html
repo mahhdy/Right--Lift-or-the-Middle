@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 پیش‌نمایش اسلایدها | راست یا چپ؛ میانه کجاست؟</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;800;900&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background: #1a1a2e;
+            color: white;
+            padding: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #F9A825;
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 40px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #F9A825;
+        }
+        
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        
+        .card-info {
+            padding: 15px;
+        }
+        
+        .card-info .number {
+            color: #F9A825;
+            font-weight: 800;
+            font-size: 14px;
+        }
+        
+        .card-info .name {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .card-info .desc {
+            font-size: 14px;
+            opacity: 0.6;
+            margin-top: 5px;
+        }
+        
+        .footer-info {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 16px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .footer-info p {
+            margin: 8px 0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 راست یا چپ؛ میانه کجاست؟</h1>
+    <div class="subtitle">پیش‌نمایش اسلایدهای اینستاگرام | ۱۰۸۰×۱۳۵۰ پیکسل</div>
+    
+    <div class="grid">
+        <div class="card">
+            <img src="01_cover_book_intro.svg" alt="جلد و معرفی کتاب" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 1</div>
+                <div class="name">01_cover_book_intro</div>
+                <div class="desc">جلد و معرفی کتاب</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="02_key_question_origin.svg" alt="سؤال کلیدی: مفهوم از کجا آمد؟" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 2</div>
+                <div class="name">02_key_question_origin</div>
+                <div class="desc">سؤال کلیدی: مفهوم از کجا آمد؟</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="03_historical_timeline.svg" alt="تایم‌لاین تاریخی" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 3</div>
+                <div class="name">03_historical_timeline</div>
+                <div class="desc">تایم‌لاین تاریخی</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="04_left_spectrum_overview.svg" alt="جهان چپ" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 4</div>
+                <div class="name">04_left_spectrum_overview</div>
+                <div class="desc">جهان چپ</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="05_right_spectrum_overview.svg" alt="جهان راست" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 5</div>
+                <div class="name">05_right_spectrum_overview</div>
+                <div class="desc">جهان راست</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="06_key_philosophers.svg" alt="متفکران کلیدی" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 6</div>
+                <div class="name">06_key_philosophers</div>
+                <div class="desc">متفکران کلیدی</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="07_economic_spectrum.svg" alt="طیف اقتصادی" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 7</div>
+                <div class="name">07_economic_spectrum</div>
+                <div class="desc">طیف اقتصادی</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="08_debate_marx_vs_bakunin.svg" alt="مناظره: مارکس در برابر باکونین" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 8</div>
+                <div class="name">08_debate_marx_vs_bakunin</div>
+                <div class="desc">مناظره: مارکس در برابر باکونین</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="09_debate_burke_vs_paine.svg" alt="مناظره: برک در برابر پین" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 9</div>
+                <div class="name">09_debate_burke_vs_paine</div>
+                <div class="desc">مناظره: برک در برابر پین</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="10_debate_keynes_vs_hayek.svg" alt="مناظره: کینز در برابر هایک" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 10</div>
+                <div class="name">10_debate_keynes_vs_hayek</div>
+                <div class="desc">مناظره: کینز در برابر هایک</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="11_intellectual_converts.svg" alt="روشنفکرانی که طرف عوض کردند" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 11</div>
+                <div class="name">11_intellectual_converts</div>
+                <div class="desc">روشنفکرانی که طرف عوض کردند</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="12_left_to_right_stories.svg" alt="سفر از چپ به راست" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 12</div>
+                <div class="name">12_left_to_right_stories</div>
+                <div class="desc">سفر از چپ به راست</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="13_right_to_left_stories.svg" alt="سفر از راست به چپ" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 13</div>
+                <div class="name">13_right_to_left_stories</div>
+                <div class="desc">سفر از راست به چپ</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="14_overton_window.svg" alt="پنجره اورتون" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 14</div>
+                <div class="name">14_overton_window</div>
+                <div class="desc">پنجره اورتون</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="15_horseshoe_theory.svg" alt="نظریه نعل اسب" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 15</div>
+                <div class="name">15_horseshoe_theory</div>
+                <div class="desc">نظریه نعل اسب</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="16_debate_trotsky_vs_stalin.svg" alt="مناظره: تروتسکی در برابر استالین" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 16</div>
+                <div class="name">16_debate_trotsky_vs_stalin</div>
+                <div class="desc">مناظره: تروتسکی در برابر استالین</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="17_debate_rawls_vs_nozick.svg" alt="مناظره: رالز در برابر نوزیک" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 17</div>
+                <div class="name">17_debate_rawls_vs_nozick</div>
+                <div class="desc">مناظره: رالز در برابر نوزیک</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="18_shocking_facts.svg" alt="حقایق شگفت‌انگیز" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 18</div>
+                <div class="name">18_shocking_facts</div>
+                <div class="desc">حقایق شگفت‌انگیز</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="19_book_structure.svg" alt="ساختار کتاب" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 19</div>
+                <div class="name">19_book_structure</div>
+                <div class="desc">ساختار کتاب</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="20_cta_final.svg" alt="اسلاید نهایی و فراخوان" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 20</div>
+                <div class="name">20_cta_final</div>
+                <div class="desc">اسلاید نهایی و فراخوان</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="21_debate_rosa_vs_lenin.svg" alt="مناظره: رزا لوکزامبورگ در برابر لنین" loading="lazy"/>
+            <div class="card-info">
+                <div class="number">اسلاید 21</div>
+                <div class="name">21_debate_rosa_vs_lenin</div>
+                <div class="desc">مناظره: رزا لوکزامبورگ در برابر لنین</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-info">
+        <h3>💡 راهنمای استفاده</h3>
+        <p>فایل‌های SVG را می‌توانید در مرورگر، Inkscape یا Figma باز کنید</p>
+        <p>برای تبدیل به PNG از Inkscape استفاده کنید:</p>
+        <code style="background:rgba(255,255,255,0.1); padding:10px; border-radius:8px; display:block; margin:10px 0; direction:ltr; text-align:left;">
+            inkscape input.svg -o output.png -w 1080 -h 1350
+        </code>
+        <p>یا از ابزار آنلاین svgtopng.com استفاده کنید</p>
+        <p style="margin-top:20px; color:#F9A825;">✍️ نویسنده: مهدی سالم | ریچموندهیل</p>
+    </div>
+</body>
+</html>

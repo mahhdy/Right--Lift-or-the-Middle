@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <rect width="1080" height="1350" fill="#FAF8F5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1080" height="170" fill="#1A237E"/>
+    <foreignObject x="40" y="30" width="1000" height="130">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; color:#F9A825;">فصل ۱۴: میانه‌روی</div>
+            <div style="font-size:42px; font-weight:900; margin-top:10px;">پنجره اورتون</div>
+            <div style="font-size:20px; opacity:0.8; margin-top:8px;">چگونه «میانه» جابه‌جا می‌شود؟</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Overton Window Diagram -->
+    <!-- Full Spectrum Bar -->
+    <rect x="60" y="230" width="960" height="60" rx="8" fill="#E0E0E0"/>
+    
+    <!-- Zones -->
+    <rect x="60" y="230" width="120" height="60" rx="8" fill="#B71C1C" opacity="0.8"/>
+    <rect x="180" y="230" width="140" height="60" fill="#E53935" opacity="0.7"/>
+    <rect x="320" y="230" width="160" height="60" fill="#FF8A65" opacity="0.6"/>
+    <rect x="480" y="230" width="200" height="60" fill="#2E7D32" opacity="0.7"/>
+    <rect x="680" y="230" width="140" height="60" fill="#42A5F5" opacity="0.6"/>
+    <rect x="820" y="230" width="120" height="60" fill="#3949AB" opacity="0.7"/>
+    <rect x="940" y="230" width="80" height="60" rx="8" fill="#1A237E" opacity="0.8"/>
+    
+    <!-- Labels -->
+    <foreignObject x="60" y="300" width="120" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#B71C1C; font-size:11px; font-weight:700;">غیرقابل تصور</div>
+    </foreignObject>
+    <foreignObject x="180" y="300" width="140" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#E53935; font-size:11px; font-weight:700;">رادیکال</div>
+    </foreignObject>
+    <foreignObject x="320" y="300" width="160" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#E64A19; font-size:11px; font-weight:700;">قابل قبول</div>
+    </foreignObject>
+    <foreignObject x="480" y="300" width="200" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#2E7D32; font-size:13px; font-weight:800;">محبوب / سیاست‌گذاری</div>
+    </foreignObject>
+    <foreignObject x="680" y="300" width="140" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#1565C0; font-size:11px; font-weight:700;">قابل قبول</div>
+    </foreignObject>
+    <foreignObject x="820" y="300" width="120" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#3949AB; font-size:11px; font-weight:700;">رادیکال</div>
+    </foreignObject>
+    <foreignObject x="940" y="300" width="80" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#1A237E; font-size:11px; font-weight:700;">غیرقابل تصور</div>
+    </foreignObject>
+    
+    <!-- Window Bracket -->
+    <rect x="320" y="220" width="500" height="80" rx="8" fill="none" stroke="#F9A825" stroke-width="4" stroke-dasharray="none"/>
+    <foreignObject x="420" y="190" width="240" height="35">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; background:#F9A825; color:#1A237E; font-size:16px; font-weight:800; padding:5px; border-radius:5px;">
+            🪟 پنجره اورتون
+        </div>
+    </foreignObject>
+    
+    <!-- Example Section -->
+    <foreignObject x="60" y="370" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#1A237E; font-size:22px; font-weight:700;">
+            📌 مثال: حداقل دستمزد در آمریکا
+        </div>
+    </foreignObject>
+    
+    <!-- 1950s Window -->
+    <rect x="60" y="440" width="960" height="150" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <foreignObject x="80" y="460" width="920" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="color:#1A237E; font-size:20px; font-weight:700; margin-bottom:10px;">🕐 دهه ۱۹۵۰ (دوره کینزی)</div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+                <span style="background:#FFEBEE; padding:8px 15px; border-radius:20px; font-size:14px; color:#B71C1C;">لغو مالکیت خصوصی ❌</span>
+                <span style="background:#FFF3E0; padding:8px 15px; border-radius:20px; font-size:14px; color:#E65100;">مالیات ۹۰٪ ⚠️</span>
+                <span style="background:#E8F5E9; padding:8px 15px; border-radius:20px; font-size:14px; color:#2E7D32; font-weight:700;">حداقل دستمزد بالا ✅</span>
+                <span style="background:#E8F5E9; padding:8px 15px; border-radius:20px; font-size:14px; color:#2E7D32; font-weight:700;">دولت رفاه ✅</span>
+                <span style="background:#FFF3E0; padding:8px 15px; border-radius:20px; font-size:14px; color:#E65100;">لغو حداقل دستمزد ⚠️</span>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Arrow Down -->
+    <foreignObject x="480" y="600" width="120" height="40">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-size:30px;">⬇️</div>
+    </foreignObject>
+    
+    <!-- 2020s Window -->
+    <rect x="60" y="650" width="960" height="150" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <foreignObject x="80" y="670" width="920" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="color:#E65100; font-size:20px; font-weight:700; margin-bottom:10px;">🕐 دهه ۲۰۲۰ (دوره پسانئولیبرال)</div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+                <span style="background:#FFEBEE; padding:8px 15px; border-radius:20px; font-size:14px; color:#B71C1C;">مالیات ۹۰٪ ❌</span>
+                <span style="background:#FFF3E0; padding:8px 15px; border-radius:20px; font-size:14px; color:#E65100;">$۱۵ حداقل دستمزد ⚠️</span>
+                <span style="background:#E8F5E9; padding:8px 15px; border-radius:20px; font-size:14px; color:#2E7D32; font-weight:700;">مقررات‌زدایی ✅</span>
+                <span style="background:#E8F5E9; padding:8px 15px; border-radius:20px; font-size:14px; color:#2E7D32; font-weight:700;">کاهش مالیات ✅</span>
+                <span style="background:#FFF3E0; padding:8px 15px; border-radius:20px; font-size:14px; color:#E65100;">دولت رفاه جامع ⚠️</span>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Key Insight -->
+    <rect x="60" y="840" width="960" height="150" rx="16" fill="#F9A825" opacity="0.15"/>
+    <foreignObject x="80" y="860" width="920" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#1A237E; font-size:26px; font-weight:800; margin-bottom:10px;">💡 نتیجه‌گیری کلیدی</div>
+            <div style="color:#3C3C3C; font-size:19px; line-height:1.6;">
+                «میانه» یک نقطه ثابت نیست!<br/>
+                میانه ۱۹۵۰ امروز <span style="color:#C81E1E; font-weight:700;">چپ رادیکال</span> محسوب می‌شود<br/>
+                و میانه ۲۰۲۰ در ۱۹۵۰ <span style="color:#1A237E; font-weight:700;">راست افراطی</span> به نظر می‌رسید.
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="1020" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#999; font-size:18px;">
+            فصل ۱۴: میانه‌روی - هنر یا بی‌اصالتی؟
+        </div>
+    </foreignObject>
+</svg>

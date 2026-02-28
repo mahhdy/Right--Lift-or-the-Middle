@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <defs>
+        <linearGradient id="rosaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#4A0000;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#800000;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <rect width="1080" height="1350" fill="url(#rosaGrad)"/>
+    
+    <!-- Header -->
+    <foreignObject x="40" y="40" width="1000" height="130">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; color:#F9A825;">⚔️ نبرد درون چپ انقلابی</div>
+            <div style="font-size:42px; font-weight:900; margin-top:8px;">رزا لوکزامبورگ در برابر لنین</div>
+            <div style="font-size:18px; opacity:0.7; margin-top:5px;">آزادی یا انضباط حزبی؟</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Rosa Card -->
+    <rect x="60" y="210" width="460" height="440" rx="20" fill="rgba(255,255,255,0.95)"/>
+    <rect x="60" y="210" width="460" height="8" rx="4" fill="#E91E63"/>
+    
+    <foreignObject x="80" y="230" width="420" height="410">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center; margin-bottom:15px;">
+                <div style="font-size:50px;">🌹</div>
+                <div style="color:#C2185B; font-size:26px; font-weight:800;">رزا لوکزامبورگ</div>
+                <div style="color:#666; font-size:15px;">۱۸۷۱-۱۹۱۹ | لهستان/آلمان</div>
+            </div>
+            
+            <div style="color:#333; font-size:16px; line-height:1.8; margin-top:15px;">
+                <div style="font-weight:700; color:#C2185B; margin-bottom:10px;">💡 مواضع:</div>
+                <div style="margin-bottom:8px;">✦ انقلاب باید خودجوش و توده‌ای باشد</div>
+                <div style="margin-bottom:8px;">✦ دموکراسی در انقلاب ضروری است</div>
+                <div style="margin-bottom:8px;">✦ حزب نباید جایگزین طبقه شود</div>
+                <div style="margin-bottom:8px;">✦ آزادی = آزادی دگراندیشان</div>
+            </div>
+            
+            <div style="background:#FCE4EC; padding:12px; border-radius:10px; margin-top:15px;">
+                <div style="color:#C2185B; font-size:14px; font-style:italic; text-align:center;">
+                    «آزادی فقط برای هواداران دولت، آزادی نیست.<br/>
+                    آزادی همیشه آزادی دگراندیش است.»
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- VS -->
+    <circle cx="540" cy="430" r="40" fill="#F9A825" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.4))"/>
+    <text x="540" y="442" text-anchor="middle" font-size="24" font-weight="900" fill="#4A0000">VS</text>
+    
+    <!-- Lenin Card -->
+    <rect x="560" y="210" width="460" height="440" rx="20" fill="rgba(255,255,255,0.95)"/>
+    <rect x="560" y="210" width="460" height="8" rx="4" fill="#C81E1E"/>
+    
+    <foreignObject x="580" y="230" width="420" height="410">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center; margin-bottom:15px;">
+                <div style="font-size:50px;">⭐</div>
+                <div style="color:#C81E1E; font-size:26px; font-weight:800;">ولادیمیر لنین</div>
+                <div style="color:#666; font-size:15px;">۱۸۷۰-۱۹۲۴ | روسیه</div>
+            </div>
+            
+            <div style="color:#333; font-size:16px; line-height:1.8; margin-top:15px;">
+                <div style="font-weight:700; color:#C81E1E; margin-bottom:10px;">💡 مواضع:</div>
+                <div style="margin-bottom:8px;">✦ حزب پیشاهنگ انقلابیون حرفه‌ای</div>
+                <div style="margin-bottom:8px;">✦ سانترالیسم دموکراتیک</div>
+                <div style="margin-bottom:8px;">✦ انضباط آهنین حزبی</div>
+                <div style="margin-bottom:8px;">✦ «چه باید کرد؟» — رهبری از بالا</div>
+            </div>
+            
+            <div style="background:#FFEBEE; padding:12px; border-radius:10px; margin-top:15px;">
+                <div style="color:#C81E1E; font-size:14px; font-style:italic; text-align:center;">
+                    «بدون حزب پیشاهنگ، طبقه کارگر<br/>
+                    فراتر از آگاهی صنفی نمی‌رود.»
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Outcome -->
+    <rect x="60" y="690" width="960" height="200" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+    <foreignObject x="80" y="710" width="920" height="170">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; font-weight:700; color:#F9A825; margin-bottom:12px;">📜 پیامد تاریخی</div>
+            <div style="font-size:17px; line-height:1.7;">
+                لنین انقلاب را رهبری کرد و رزا ترور شد.<br/>
+                اما هشدارهای رزا محقق شد: حزب جای طبقه نشست،<br/>
+                و «دیکتاتوری پرولتاریا» به <span style="color:#F9A825;">دیکتاتوری بر پرولتاریا</span> تبدیل شد.<br/><br/>
+                <span style="font-size:15px; opacity:0.8;">
+                    این مناظره هنوز در چپ معاصر زنده است:
+                    <span style="color:#F9A825;">دموکراسی مشارکتی یا رهبری متمرکز؟</span>
+                </span>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="920" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:rgba(255,255,255,0.4); font-size:16px;">
+            فصل ۴: سوسیالیسم | فصل ۵: کمونیسم
+        </div>
+    </foreignObject>
+</svg>

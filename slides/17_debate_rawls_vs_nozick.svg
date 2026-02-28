@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <rect width="1080" height="1350" fill="#FAF8F5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1080" height="170" fill="#6A1B9A"/>
+    <foreignObject x="40" y="30" width="1000" height="130">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; color:#FFD54F;">⚔️ مناظره فلسفی قرن</div>
+            <div style="font-size:42px; font-weight:900; margin-top:8px;">رالز در برابر نوزیک</div>
+            <div style="font-size:18px; opacity:0.8; margin-top:5px;">عدالت توزیعی یا حقوق مالکیت؟ | هاروارد ۱۹۷۱-۱۹۷۴</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Rawls Card -->
+    <rect x="60" y="210" width="460" height="480" rx="20" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="60" y="210" width="460" height="8" rx="4" fill="#2E7D32"/>
+    
+    <foreignObject x="80" y="230" width="420" height="450">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center; margin-bottom:15px;">
+                <div style="font-size:50px;">⚖️</div>
+                <div style="color:#2E7D32; font-size:26px; font-weight:800;">جان رالز</div>
+                <div style="color:#666; font-size:15px;">نظریه عدالت (۱۹۷۱)</div>
+            </div>
+            
+            <div style="background:#E8F5E9; padding:12px; border-radius:10px; margin-bottom:15px;">
+                <div style="color:#2E7D32; font-weight:700; font-size:16px;">🧪 آزمایش فکری: پرده جهل</div>
+                <div style="color:#333; font-size:14px; margin-top:5px;">اگر نمی‌دانستید ثروتمند یا فقیر به دنیا می‌آیید، چه قوانینی می‌خواستید؟</div>
+            </div>
+            
+            <div style="color:#333; font-size:16px; line-height:1.8;">
+                <div style="margin-bottom:8px;">✦ آزادی‌های پایه برابر برای همه</div>
+                <div style="margin-bottom:8px;">✦ نابرابری فقط اگر به نفع ضعیف‌ترین‌ها باشد</div>
+                <div style="margin-bottom:8px;">✦ فرصت‌های برابر واقعی</div>
+                <div style="margin-bottom:8px;">✦ بازتوزیع ثروت مشروع است</div>
+            </div>
+            
+            <div style="background:#2E7D32; color:white; padding:12px; border-radius:10px; margin-top:12px; text-align:center; font-style:italic; font-size:15px;">
+                «عدالت، نخستین فضیلت نهادهای اجتماعی است»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- VS -->
+    <rect x="490" y="420" width="100" height="60" rx="30" fill="#F9A825"/>
+    <foreignObject x="490" y="420" width="100" height="60">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center; font-family:Vazirmatn; color:#1A237E; font-size:24px; font-weight:900; line-height:60px;">VS</div>
+    </foreignObject>
+    
+    <!-- Nozick Card -->
+    <rect x="560" y="210" width="460" height="480" rx="20" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="560" y="210" width="460" height="8" rx="4" fill="#F9A825"/>
+    
+    <foreignObject x="580" y="230" width="420" height="450">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="text-align:center; margin-bottom:15px;">
+                <div style="font-size:50px;">🏛️</div>
+                <div style="color:#B8860B; font-size:26px; font-weight:800;">رابرت نوزیک</div>
+                <div style="color:#666; font-size:15px;">آنارشی، دولت و آرمان‌شهر (۱۹۷۴)</div>
+            </div>
+            
+            <div style="background:#FFF8E1; padding:12px; border-radius:10px; margin-bottom:15px;">
+                <div style="color:#B8860B; font-weight:700; font-size:16px;">🧪 آزمایش فکری: ویلت چمبرلین</div>
+                <div style="color:#333; font-size:14px; margin-top:5px;">اگر مردم داوطلبانه پولشان را به کسی بدهند، دولت حق مصادره ندارد</div>
+            </div>
+            
+            <div style="color:#333; font-size:16px; line-height:1.8;">
+                <div style="margin-bottom:8px;">✦ حقوق مالکیت مقدم بر عدالت توزیعی</div>
+                <div style="margin-bottom:8px;">✦ دولت حداقلی (فقط حفاظت)</div>
+                <div style="margin-bottom:8px;">✦ مالیات = کار اجباری</div>
+                <div style="margin-bottom:8px;">✦ عدالت در فرآیند، نه نتیجه</div>
+            </div>
+            
+            <div style="background:#B8860B; color:white; padding:12px; border-radius:10px; margin-top:12px; text-align:center; font-style:italic; font-size:15px;">
+                «افراد حقوقی دارند و هیچ‌کس حق تجاوز به آن‌ها را ندارد»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Key Difference Box -->
+    <rect x="60" y="720" width="960" height="160" rx="16" fill="#6A1B9A" opacity="0.08"/>
+    <foreignObject x="80" y="740" width="920" height="130">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn; text-align:center;">
+            <div style="color:#6A1B9A; font-size:22px; font-weight:700; margin-bottom:12px;">🎯 تفاوت بنیادین</div>
+            <div style="display:flex; justify-content:space-around;">
+                <div style="flex:1; padding:10px;">
+                    <div style="color:#2E7D32; font-weight:700; font-size:17px;">رالز (چپ لیبرال)</div>
+                    <div style="color:#555; font-size:15px; margin-top:5px;">عدالت = نتیجه منصفانه</div>
+                    <div style="color:#555; font-size:15px;">فقر ناعادلانه است حتی اگر کسی مقصر نباشد</div>
+                </div>
+                <div style="width:2px; background:#6A1B9A; opacity:0.3;"></div>
+                <div style="flex:1; padding:10px;">
+                    <div style="color:#B8860B; font-weight:700; font-size:17px;">نوزیک (لیبرتارین)</div>
+                    <div style="color:#555; font-size:15px; margin-top:5px;">عدالت = فرآیند منصفانه</div>
+                    <div style="color:#555; font-size:15px;">اگر کسب قانونی بود، نتیجه عادلانه است</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Fun Fact -->
+    <rect x="60" y="910" width="960" height="100" rx="12" fill="#F9A825" opacity="0.15"/>
+    <foreignObject x="80" y="925" width="920" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#3C3C3C; font-size:18px; line-height:1.6;">
+                🤝 <span style="font-weight:700;">نکته جالب:</span> رالز و نوزیک هر دو استاد هاروارد بودند و دفتر کارشان کنار هم بود!<br/>
+                با وجود اختلافات فکری عمیق، دوستان صمیمی باقی ماندند.
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="1040" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#999; font-size:18px;">
+            فصل ۲: فلسفه و معرفت‌شناسی | فصل ۱۱: لیبرتارینیسم
+        </div>
+    </foreignObject>
+</svg>

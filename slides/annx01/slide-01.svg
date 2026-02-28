@@ -1,0 +1,117 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&amp;display=swap');
+      .root {
+        direction: rtl;
+        font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+      }
+      .header {
+        fill: #1A237E;
+      }
+      .card {
+        fill: #FFFFFF;
+        filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.05));
+      }
+      .timeline-node {
+        fill: #FFFFFF;
+        stroke: #1A237E;
+        stroke-width: 3;
+      }
+      .timeline-line {
+        stroke: #MediumGray;
+        stroke-width: 4;
+      }
+      .label-year {
+        font-size: 24px;
+        font-weight: bold;
+        fill: #F9A825;
+      }
+      .label-event {
+        font-size: 22px;
+        fill: #212121;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#ECEFF1" />
+  
+  <!-- Header bar -->
+  <rect class="header" width="1080" height="150" />
+  
+  <foreignObject x="50" y="40" width="980" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <h1 style="margin: 0; color: white; font-size: 48px; text-align: center;">تایم‌لاین اندیشه‌های سیاسی</h1>
+    </div>
+  </foreignObject>
+  
+  <!-- Main Timeline Card -->
+  <rect class="card" x="50" y="200" width="980" height="1000" rx="20" />
+  
+  <!-- Timeline Vertical Line -->
+  <line x1="540" y1="250" x2="540" y2="1150" stroke="#1A237E" stroke-width="4" stroke-dasharray="8,8" />
+  
+  <!-- Timeline Nodes -->
+  <!-- 1789 -->
+  <circle cx="540" cy="300" r="15" fill="#B71C1C" />
+  <foreignObject x="80" y="250" width="400" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <div class="label-year">۱۷۸۹</div>
+      <div class="label-event">انقلاب فرانسه:<br/>تولد چپ و راست</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 1848 -->
+  <circle cx="540" cy="450" r="15" fill="#2E7D32" />
+  <foreignObject x="600" y="400" width="400" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root" style="direction: ltr; text-align: left;">
+      <div class="label-year">۱۸۴۸</div>
+      <div class="label-event">بهار ملت‌ها:<br/>ظهور سوسیالیسم</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 1917 -->
+  <circle cx="540" cy="600" r="15" fill="#B71C1C" />
+  <foreignObject x="80" y="550" width="400" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <div class="label-year">۱۹۱۷</div>
+      <div class="label-event">انقلاب روسیه:<br/>شکاف کمونیسم و سوسیال‌دموکراسی</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 1945 -->
+  <circle cx="540" cy="750" r="15" fill="#1A237E" />
+  <foreignObject x="600" y="700" width="400" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root" style="direction: ltr; text-align: left;">
+      <div class="label-year">۱۹۴۵</div>
+      <div class="label-event">پایان جنگ جهانی:<br/>عصر دولت رفاه</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 1989 -->
+  <circle cx="540" cy="900" r="15" fill="#F9A825" />
+  <foreignObject x="80" y="850" width="400" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <div class="label-year">۱۹۸۹</div>
+      <div class="label-event">سقوط دیوار برلین:<br/>پیروزی نئولیبرالیسم؟</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 2008 -->
+  <circle cx="540" cy="1050" r="15" fill="#6A1B9A" />
+  <foreignObject x="600" y="1000" width="400" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root" style="direction: ltr; text-align: left;">
+      <div class="label-year">۲۰۰۸</div>
+      <div class="label-event">بحران مالی:<br/>بازگشت پوپولیسم</div>
+    </div>
+  </foreignObject>
+  
+  <!-- Footer Info -->
+  <foreignObject x="50" y="1250" width="980" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root" style="text-align: center; color: #1A237E; font-size: 24px; font-weight: bold;">
+      راست یا چپ؛ میانه کجاست؟ | ضمیمه اول
+    </div>
+  </foreignObject>
+  
+</svg>

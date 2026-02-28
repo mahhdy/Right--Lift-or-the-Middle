@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+
+  <defs>
+    <linearGradient id="spectrumGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1E3C8C"/>
+      <stop offset="25%"  stop-color="#4664B4"/>
+      <stop offset="50%"  stop-color="#32824A"/>
+      <stop offset="75%"  stop-color="#DC5050"/>
+      <stop offset="100%" stop-color="#B41E1E"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="#FAFAF8" rx="12"/>
+  <rect x="10" y="10" width="880" height="200" fill="none"
+        stroke="#B4960A" stroke-width="1.5" rx="10" stroke-dasharray="6,3"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="16" font-weight="bold"
+        fill="#323237">طیف سیاسی: از چپ تا راست</text>
+
+  <!-- Spectrum bar -->
+  <rect x="60" y="55" width="780" height="28" rx="14" fill="url(#spectrumGrad)"
+        filter="url(#shadow)"/>
+
+  <!-- Node positions: x coords -->
+  <!-- آنارکو-کاپیتالیسم=80, لیبرتارینیسم=190, محافظه‌کاری=300,
+       لیبرالیسم=450, سوسیال‌دموکراسی=600, سوسیالیسم=720, کمونیسم=820 -->
+
+  <!-- Markers and labels -->
+  <g font-size="11" text-anchor="middle">
+    <!-- marker helper: circle on bar -->
+    <circle cx="80"  cy="69" r="8" fill="white" stroke="#1E3C8C" stroke-width="2"/>
+    <circle cx="190" cy="69" r="8" fill="white" stroke="#4664B4" stroke-width="2"/>
+    <circle cx="300" cy="69" r="8" fill="white" stroke="#7A9A50" stroke-width="2"/>
+    <circle cx="450" cy="69" r="10" fill="#B4960A" stroke="white" stroke-width="2"/>
+    <circle cx="600" cy="69" r="8" fill="white" stroke="#DC5050" stroke-width="2"/>
+    <circle cx="720" cy="69" r="8" fill="white" stroke="#C83232" stroke-width="2"/>
+    <circle cx="820" cy="69" r="8" fill="white" stroke="#B41E1E" stroke-width="2"/>
+
+    <!-- top labels -->
+    <text x="80"  y="50" fill="#1E3C8C" font-weight="bold">آنارکو‌کاپیتالیسم</text>
+    <text x="190" y="50" fill="#1E3C8C">لیبرتارینیسم</text>
+    <text x="300" y="50" fill="#3C5A1E">محافظه‌کاری</text>
+    <text x="450" y="46" fill="#B4960A" font-weight="bold" font-size="13">لیبرالیسم</text>
+    <text x="600" y="50" fill="#B41E1E">سوسیال‌دموکراسی</text>
+    <text x="720" y="50" fill="#B41E1E">سوسیالیسم</text>
+    <text x="820" y="50" fill="#8C1414" font-weight="bold">کمونیسم</text>
+
+    <!-- bottom labels -->
+    <text x="80"  y="105" fill="#1E3C8C" font-size="10">فرد مطلق</text>
+    <text x="820" y="105" fill="#8C1414" font-size="10">جمع مطلق</text>
+    <text x="450" y="105" fill="#32824A" font-size="10">توازن</text>
+  </g>
+
+  <!-- Arrows for poles -->
+  <line x1="130" y1="115" x2="60"  y2="115" stroke="#1E3C8C" stroke-width="1.5"
+        marker-end="url(#arrowBlue)"/>
+  <line x1="770" y1="115" x2="840" y2="115" stroke="#B41E1E" stroke-width="1.5"/>
+
+  <!-- Legend boxes -->
+  <rect x="30"  y="130" width="180" height="70" rx="8"
+        fill="#EFF4FF" stroke="#1E3C8C" stroke-width="1"/>
+  <text x="120" y="150" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#1E3C8C">راست: تأکید بر فرد</text>
+  <text x="120" y="167" text-anchor="middle" font-size="10" fill="#323237">آزادی اقتصادی · بازار آزاد</text>
+  <text x="120" y="182" text-anchor="middle" font-size="10" fill="#323237">مالکیت خصوصی · سنت</text>
+  <text x="120" y="195" text-anchor="middle" font-size="10" fill="#323237">مسئولیت فردی</text>
+
+  <rect x="690" y="130" width="180" height="70" rx="8"
+        fill="#FFF0F0" stroke="#B41E1E" stroke-width="1"/>
+  <text x="780" y="150" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#B41E1E">چپ: تأکید بر جمع</text>
+  <text x="780" y="167" text-anchor="middle" font-size="10" fill="#323237">برابری · عدالت توزیعی</text>
+  <text x="780" y="182" text-anchor="middle" font-size="10" fill="#323237">مالکیت اجتماعی · همبستگی</text>
+  <text x="780" y="195" text-anchor="middle" font-size="10" fill="#323237">مسئولیت جمعی</text>
+
+  <rect x="355" y="130" width="190" height="70" rx="8"
+        fill="#F0FFF4" stroke="#32824A" stroke-width="1"/>
+  <text x="450" y="150" text-anchor="middle" font-size="11"
+        font-weight="bold" fill="#32824A">میانه: توازن</text>
+  <text x="450" y="167" text-anchor="middle" font-size="10" fill="#323237">اقتصاد مختلط · دولت رفاه</text>
+  <text x="450" y="182" text-anchor="middle" font-size="10" fill="#323237">آزادی + برابری فرصت</text>
+  <text x="450" y="195" text-anchor="middle" font-size="10" fill="#323237">اصلاح تدریجی</text>
+</svg>

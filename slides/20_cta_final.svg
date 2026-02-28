@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <defs>
+        <linearGradient id="finalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1A237E;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#283593;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#6A1B9A;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="spectrumFinal" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#C81E1E;stop-opacity:1" />
+            <stop offset="25%" style="stop-color:#E65100;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#F9A825;stop-opacity:1" />
+            <stop offset="75%" style="stop-color:#2E7D32;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#3949AB;stop-opacity:1" />
+        </linearGradient>
+        <filter id="bigGlow">
+            <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+    <rect width="1080" height="1350" fill="url(#finalGrad)"/>
+    
+    <!-- Decorative Elements -->
+    <circle cx="100" cy="150" r="200" fill="white" opacity="0.03"/>
+    <circle cx="980" cy="200" r="250" fill="white" opacity="0.03"/>
+    <circle cx="540" cy="1300" r="350" fill="#F9A825" opacity="0.05"/>
+    
+    <!-- Top Quote -->
+    <foreignObject x="80" y="60" width="920" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:rgba(255,255,255,0.6); font-size:22px; font-style:italic; line-height:1.6;">
+            «برای فهم جهان، ابتدا باید زبان آن را آموخت»
+        </div>
+    </foreignObject>
+    
+    <!-- Spectrum Line -->
+    <rect x="100" y="200" width="880" height="16" rx="8" fill="url(#spectrumFinal)" filter="url(#bigGlow)"/>
+    
+    <!-- Main Title -->
+    <foreignObject x="40" y="280" width="1000" height="240">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:72px; font-weight:900; line-height:1.2; text-shadow: 0 4px 30px rgba(0,0,0,0.3);">
+                راست یا چپ؛<br/>میانه کجاست؟
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Subtitle -->
+    <foreignObject x="80" y="540" width="920" height="80">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#FFD54F; font-size:26px; font-weight:500; line-height:1.5;">
+            جامع‌ترین راهنمای فارسی‌زبان برای فهم<br/>
+            طیف سیاسی، ایدئولوژی‌ها و جهان معاصر
+        </div>
+    </foreignObject>
+    
+    <!-- Feature Boxes -->
+    <foreignObject x="60" y="660" width="960" height="180">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn; display:flex; gap:15px; justify-content:center; flex-wrap:wrap;">
+            <div style="background:rgba(255,255,255,0.1); padding:15px 25px; border-radius:15px; text-align:center; color:white;">
+                <div style="font-size:28px; margin-bottom:5px;">📖</div>
+                <div style="font-size:16px; font-weight:600;">۱۷ فصل</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.1); padding:15px 25px; border-radius:15px; text-align:center; color:white;">
+                <div style="font-size:28px; margin-bottom:5px;">👤</div>
+                <div style="font-size:16px; font-weight:600;">۱۰۰ شخصیت</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.1); padding:15px 25px; border-radius:15px; text-align:center; color:white;">
+                <div style="font-size:28px; margin-bottom:5px;">📊</div>
+                <div style="font-size:16px; font-weight:600;">نمودار و تایم‌لاین</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.1); padding:15px 25px; border-radius:15px; text-align:center; color:white;">
+                <div style="font-size:28px; margin-bottom:5px;">🌍</div>
+                <div style="font-size:16px; font-weight:600;">دید جهانی</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.1); padding:15px 25px; border-radius:15px; text-align:center; color:white;">
+                <div style="font-size:28px; margin-bottom:5px;">⚖️</div>
+                <div style="font-size:16px; font-weight:600;">بی‌طرفانه</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Author -->
+    <foreignObject x="80" y="870" width="920" height="80">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:28px; font-weight:700;">✍️ مهدی سالم</div>
+            <div style="font-size:18px; opacity:0.7; margin-top:5px;">ریچموندهیل</div>
+        </div>
+    </foreignObject>
+    
+    <!-- CTA Buttons -->
+    <rect x="290" y="990" width="500" height="70" rx="35" fill="#F9A825" filter="url(#bigGlow)"/>
+    <foreignObject x="290" y="990" width="500" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#1A237E; font-size:26px; font-weight:800; line-height:70px;">
+            📖 همین حالا بخوانید
+        </div>
+    </foreignObject>
+    
+    <!-- Link Placeholder -->
+    <rect x="340" y="1090" width="400" height="50" rx="25" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <foreignObject x="340" y="1090" width="400" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white; font-size:18px; line-height:50px; opacity:0.8;">
+            🔗 لینک در بیو
+        </div>
+    </foreignObject>
+    
+    <!-- Social -->
+    <foreignObject x="60" y="1170" width="960" height="80">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:rgba(255,255,255,0.5); font-size:16px; line-height:1.6;">
+            ذخیره کنید 🔖 | به اشتراک بگذارید 📤 | نظرتان را بگویید 💬<br/>
+            برای محتوای بیشتر فالو کنید ✨
+        </div>
+    </foreignObject>
+</svg>

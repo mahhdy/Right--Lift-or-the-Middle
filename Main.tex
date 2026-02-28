@@ -22,8 +22,7 @@
     headheight=15pt,
     headsep=1cm,
     footskip=1.5cm,
-    bindingoffset=0.5cm
-]{geometry}
+    bindingoffset=0.5cm]{geometry}
 
 % ریاضی و نمادها
 \usepackage{amsmath, amssymb, amsfonts}
@@ -97,6 +96,9 @@
     linkcolor=RoyalBlue4,
     citecolor=ForestGreen,
     urlcolor=Maroon,
+    pdfencoding=unicode, % FIXED: ensure unicode PDF encoding for bookmarks and links
+    unicode=true,        % Persian PDF bookmarks
+    pdflang={fa-IR},        % PDF language set to Persian
     bookmarks=true,
     bookmarksopen=true,
     pdfauthor={مهدی سالم},
@@ -118,7 +120,7 @@
 
 % سایر
 \usepackage{enumitem}
-\usepackage{microtype}
+%\usepackage{microtype} % FIXED: Removed as per system instruction (XeLaTeX incompatibility)
 \usepackage{lettrine}
 \usepackage{lipsum}
 \usepackage{setspace}
@@ -126,17 +128,7 @@
 \usepackage{wrapfig}
 \usepackage{caption}
 \usepackage{subcaption}
-
-% فونت و زبان فارسی
-\usepackage{fontspec}
-\setmainfont{Vazirmatn}[
-    Path = ./fonts/,
-    Extension = .ttf,
-    UprightFont = *-Regular,
-    BoldFont = *-Bold,
-    Script = Arabic,
-    Scale = 1.0
-]
+\usepackage{needspace} % FIXED: Added for orphan prevention
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                   🎨 پالت رنگی اختصاصی کتاب
@@ -195,6 +187,16 @@
 \definecolor{WarningBoxBg}{RGB}{255, 245, 230}
 \definecolor{WarningBoxFrame}{RGB}{200, 120, 40}
 
+% Color aliases (lowercase) to support older file references
+\colorlet{leftred}{LeftRed}
+\colorlet{rightblue}{RightBlue}
+\colorlet{centergreen}{CenterGreen}
+\colorlet{goldaccent}{GoldAccent}
+\colorlet{violet}{PurpleAccent}
+\colorlet{darkgray}{DarkGray}
+\colorlet{lightgray}{LightGray}
+\colorlet{verylightgray}{VeryLightGray}
+
 % ══════════════════════════════════════════════════════════════════════════════
 %                   📦 تعریف کادرهای رنگی (tcolorbox)
 % ══════════════════════════════════════════════════════════════════════════════
@@ -208,19 +210,20 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{#1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=DefBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1pt,
-    shadow={2mm}{-2mm}{0mm}{black!20},
-    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    arc=2mm,
+    boxrule=0.8pt,
+    shadow={1.5mm}{-1.5mm}{0mm}{black!20},
+    left=6pt, right=6pt, top=6pt, bottom=6pt,
     before upper={\parindent=1.5em},
-}
+    after skip=6pt, before skip=6pt, % explicit compact spacing
 
-% 🟢 کادر نقل‌قول
+}
+% 🟢 کادر نقل‌قول - COMPACT
 \newtcolorbox{quotebox}[1][]{
     enhanced,
     breakable,
@@ -229,19 +232,20 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{#1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=QuoteBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1pt,
-    borderline west={4pt}{-4pt}{QuoteBoxFrame},
-    left=15pt, right=10pt, top=10pt, bottom=10pt,
+    arc=2mm,
+    boxrule=0.8pt,
+    borderline west={3pt}{-3pt}{QuoteBoxFrame}, % reduced from 4pt
+    left=10pt, right=6pt, top=6pt, bottom=6pt, % left kept for visual style
     before upper={\parindent=0em},
+    after skip=6pt, before skip=6pt,
 }
 
-% 🟡 کادر نکته تاریخی
+% 🟡 کادر نکته تاریخی - COMPACT
 \newtcolorbox{historybox}[1][]{
     enhanced,
     breakable,
@@ -250,19 +254,19 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{📜 #1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=HistoryBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1pt,
-    shadow={2mm}{-2mm}{0mm}{black!15},
-    left=10pt, right=10pt, top=10pt, bottom=10pt,
-    before upper={\parindent=1.5em},
+    arc=2mm,
+    boxrule=0.8pt,
+    shadow={1.5mm}{-1.5mm}{0mm}{black!15},
+    left=6pt, right=6pt, top=6pt, bottom=6pt,
+    after skip=6pt, before skip=6pt,
 }
 
-% 🔴 کادر اختلافی / مناقشه
+% 🔴 کادر اختلافی - COMPACT
 \newtcolorbox{debatebox}[1][]{
     enhanced,
     breakable,
@@ -271,19 +275,19 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{⚔️ #1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=DebateBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1.5pt,
-    borderline={1pt}{-5pt}{DebateBoxFrame, dashed},
-    left=10pt, right=10pt, top=10pt, bottom=10pt,
-    before upper={\parindent=1.5em},
+    arc=2mm,
+    boxrule=1pt,
+    borderline={0.8pt}{-4pt}{DebateBoxFrame, dashed},
+    left=6pt, right=6pt, top=6pt, bottom=6pt,
+    after skip=6pt, before skip=6pt,
 }
 
-% 🟣 کادر مقایسه
+% 🟣 کادر مقایسه - COMPACT
 \newtcolorbox{comparebox}[1][]{
     enhanced,
     breakable,
@@ -292,18 +296,18 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{⚖️ #1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=CompareBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1pt,
-    left=10pt, right=10pt, top=10pt, bottom=10pt,
-    before upper={\parindent=1.5em},
+    arc=2mm,
+    boxrule=0.8pt,
+    left=6pt, right=6pt, top=6pt, bottom=6pt,
+    after skip=6pt, before skip=6pt,
 }
 
-% 👤 کادر شخصیت
+% 👤 کادر شخصیت - COMPACT (reduced mediumspace inside content)
 \newtcolorbox{personbox}[1][]{
     enhanced,
     breakable,
@@ -312,19 +316,20 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{👤 #1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=PersonBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1pt,
-    shadow={2mm}{-2mm}{0mm}{black!15},
-    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    arc=2mm,
+    boxrule=0.8pt,
+    shadow={1.5mm}{-1.5mm}{0mm}{black!15},
+    left=6pt, right=6pt, top=6pt, bottom=6pt,
     before upper={\parindent=1.5em},
+    after skip=6pt, before skip=6pt,
 }
 
-% ⚠️ کادر هشدار
+% ⚠️ کادر هشدار - COMPACT
 \newtcolorbox{warningbox}[1][]{
     enhanced,
     breakable,
@@ -333,18 +338,18 @@
     coltitle=white,
     fonttitle=\bfseries,
     title={\rl{⚠️ #1}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=WarningBoxFrame,
         rounded corners
     },
-    arc=3mm,
-    boxrule=1.5pt,
-    left=10pt, right=10pt, top=10pt, bottom=10pt,
-    before upper={\parindent=1.5em},
+    arc=2mm,
+    boxrule=1pt,
+    left=6pt, right=6pt, top=6pt, bottom=6pt,
+    after skip=6pt, before skip=6pt,
 }
 
-% 📝 کادر خلاصه فصل
+% 📝 کادر خلاصه فصل - COMPACT
 \newtcolorbox{summarybox}{
     enhanced,
     breakable,
@@ -353,17 +358,18 @@
     coltitle=white,
     fonttitle=\bfseries\large,
     title={\rl{📝 خلاصه فصل}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=DarkGray,
         rounded corners
     },
-    arc=4mm,
-    boxrule=1.5pt,
-    left=12pt, right=12pt, top=12pt, bottom=12pt,
+    arc=3mm,
+    boxrule=1.2pt,
+    left=8pt, right=8pt, top=8pt, bottom=8pt, % reduced from 12pt
+    after skip=6pt, before skip=0pt,
 }
 
-% ❓ کادر پرسش‌های تأملی
+% ❓ کادر پرسش‌های تأملی - COMPACT
 \newtcolorbox{questionbox}{
     enhanced,
     breakable,
@@ -372,15 +378,16 @@
     coltitle=white,
     fonttitle=\bfseries\large,
     title={\rl{❓ پرسش‌های تأملی}},
-    attach boxed title to top right={yshift=-3mm, xshift=-5mm},
+    attach boxed title to top right={yshift=-2mm, xshift=-4mm},
     boxed title style={
         colback=CenterGreen,
         rounded corners
     },
-    arc=4mm,
-    boxrule=1.5pt,
-    borderline west={4pt}{-4pt}{CenterGreen},
-    left=12pt, right=12pt, top=12pt, bottom=12pt,
+    arc=3mm,
+    boxrule=1.2pt,
+    borderline west={3pt}{-3pt}{CenterGreen},
+    left=8pt, right=8pt, top=8pt, bottom=8pt,
+    after skip=0pt, before skip=6pt,
 }
 
 % ══════════════════════════════════════════════════════════════════════════════
@@ -493,12 +500,12 @@
 
 % عنوان فصل
 \titleformat{\chapter}[display]
-    {\normalfont\huge\bfseries}
-    {\flushright\textcolor{MediumGray}{\Large فصل \thechapter}}
+    {\normalfont\huge\bfseries\raggedleft}           % ← raggedleft here as a switch
+    {\textcolor{MediumGray}{\Large فصل \thechapter}}  % ← removed \flushright
     {10pt}
-    {\flushright\textcolor{DarkGray}}
-    [\vspace{5pt}\titlerule[2pt]]
-\titlespacing*{\chapter}{0pt}{-20pt}{30pt}
+    {\textcolor{DarkGray}}                             % ← removed \flushright
+    [{\vspace{5pt}\titlerule[2pt]}]
+    \titlespacing*{\chapter}{0pt}{-20pt}{30pt}
 
 % عنوان بخش
 \titleformat{\section}
@@ -610,8 +617,13 @@
 \newcommand{\rmark}{\textcolor{RightBlue}{$\blacktriangleright$}}
 
 % فاصله‌ها
-\newcommand{\mediumspace}{\vspace{10pt}}
-\newcommand{\largespace}{\vspace{20pt}}
+\newcommand{\mediumspace}{\vspace{6pt}}
+\newcommand{\largespace}{\vspace{12pt}}
+
+% زبان و جهت متن (FIXED: Helper commands for bilingual content)
+\newcommand{\en}[1]{\lr{#1}}
+\newcommand{\enfootnote}[1]{\footnote{\lr{#1}}}
+\newcommand{\enref}[1]{\lr{\cite{#1}}}
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                   📚 xepersian باید آخرین پکیج باشد
@@ -620,13 +632,15 @@
 \usepackage{xepersian}
 \settextfont{Vazirmatn}
 \setdigitfont{Vazirmatn}
-\DefaultMathsDigits
+\PersianFootnotes % FIXED: Ensure Persian numbering/direction for footnotes
+%\DefaultMathsDigits
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                         شروع سند
 % ══════════════════════════════════════════════════════════════════════════════
 
 \begin{document}
+\onehalfspacing
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                         صفحه عنوان
@@ -758,6 +772,8 @@
 \end{tikzpicture}
 \end{titlepage}
 
+\frontmatter
+
 % ══════════════════════════════════════════════════════════════════════════════
 %                         صفحه حق نشر
 % ══════════════════════════════════════════════════════════════════════════════
@@ -818,14 +834,13 @@
 
 \vspace*{\fill}
 
-\newpage
+\cleardoublepage
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                         تقدیم‌نامه
 % ══════════════════════════════════════════════════════════════════════════════
 
 \thispagestyle{empty}
-\newpage
 
 \vspace*{4cm}
 
@@ -1043,28 +1058,38 @@
 \newpage
 
 % ══════════════════════════════════════════════════════════════════════════════
-%                         فهرست مطالب
+%                          فهرست مطالب
 % ══════════════════════════════════════════════════════════════════════════════
 
+\cleardoublepage
+\phantomsection
+\pdfbookmark[0]{فهرست مطالب}{toc}  % PDF bookmark (TOC clickable)
 \tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}}  % No page numbers
 
 \newpage
 
-% ══════════════════════════════════════════════════════════════════════════════
-%                         فهرست نمودارها
-% ══════════════════════════════════════════════════════════════════════════════
+% ═════════════════════════════════════════════════════════════════════════════=
+%                          فهرست نمودارها
+% ═════════════════════════════════════════════════════════════════════════════=
 
-\listoffigures
+\cleardoublepage
+\phantomsection
+\pdfbookmark[0]{فهرست نمودارها}{lof}
 \addcontentsline{toc}{chapter}{فهرست نمودارها}
+\listoffigures
 
 \newpage
 
-% ══════════════════════════════════════════════════════════════════════════════
-%                         فهرست جداول
-% ══════════════════════════════════════════════════════════════════════════════
+% ═════════════════════════════════════════════════════════════════════════════=
+%                          فهرست جداول
+% ═════════════════════════════════════════════════════════════════════════════=
 
-\listoftables
+\cleardoublepage
+\phantomsection
+\pdfbookmark[0]{فهرست جداول}{lot}
 \addcontentsline{toc}{chapter}{فهرست جداول}
+\listoftables
 
 \newpage
 
@@ -1143,6 +1168,7 @@
 \input{appendices/annx07-}
 \input{appendices/annx08-}
 \input{appendices/annx09-}
+\input{appendices/annx10-bib}
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                         نمایه

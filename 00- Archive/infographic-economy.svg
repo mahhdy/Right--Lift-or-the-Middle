@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 680"
+     width="920" height="680"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+  <defs>
+    <filter id="ec-sh">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.14"/>
+    </filter>
+    <linearGradient id="ecHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0A2860"/>
+      <stop offset="50%"  stop-color="#1E5050"/>
+      <stop offset="100%" stop-color="#640A14"/>
+    </linearGradient>
+    <linearGradient id="barL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B41E1E"/>
+      <stop offset="100%" stop-color="#DC5050" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="barR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3C8C" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1E3C8C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="920" height="680" fill="#F8F8F6" rx="14"/>
+  <rect x="0" y="0" width="920" height="58" rx="14" fill="url(#ecHeader)"/>
+  <rect x="0" y="38" width="920" height="20" fill="url(#ecHeader)"/>
+  <text x="460" y="37" text-anchor="middle" font-size="18"
+        font-weight="bold" fill="white">
+    تقابل‌های اقتصادی: چپ، میانه و راست</text>
+
+  <!-- === HORIZONTAL COMPARISON BARS === -->
+  <!-- Each row: topic label center, left bar grows right→center, right bar grows left→center -->
+
+  <!-- Row headers -->
+  <text x="460" y="76" text-anchor="middle" font-size="11"
+        fill="#C8D8FF" font-weight="bold">◄ چپ</text>
+  <text x="700" y="76" text-anchor="middle" font-size="11"
+        fill="#C8FFD8">میانه</text>
+  <text x="800" y="76" text-anchor="middle" font-size="11"
+        fill="#FFD0A0">راست ►</text>
+
+  <!-- ── Row 1: مالیات ── -->
+  <rect x="10" y="84" width="900" height="68" rx="6"
+        fill="white" stroke="#E0E0DC" stroke-width="1" filter="url(#ec-sh)"/>
+  <text x="460" y="102" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">مالیات و بازتوزیع</text>
+  <!-- Left position label -->
+  <rect x="20"  y="108" width="190" height="36" rx="5" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="124" text-anchor="middle" font-size="10"
+        fill="#B41E1E" font-weight="bold">مالیات تصاعدی شدید</text>
+  <text x="115" y="138" text-anchor="middle" font-size="9.5" fill="#505055">
+    تا ۷۰٪ برای ثروتمندان (پیکتی)</text>
+  <!-- Center -->
+  <rect x="360" y="108" width="200" height="36" rx="5" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="124" text-anchor="middle" font-size="10"
+        fill="#32824A" font-weight="bold">مالیات تصاعدی معتدل</text>
+  <text x="460" y="138" text-anchor="middle" font-size="9.5" fill="#505055">
+    با کارآمدی ادارهٔ مالی</text>
+  <!-- Right -->
+  <rect x="710" y="108" width="200" height="36" rx="5" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="124" text-anchor="middle" font-size="10"
+        fill="#1E3C8C" font-weight="bold">مالیات مسطح / حداقل</text>
+  <text x="810" y="138" text-anchor="middle" font-size="9.5" fill="#505055">
+    هر کس ۱۵٪ مساوی (فریدمن)</text>
+
+  <!-- ── Row 2: دستمزد ── -->
+  <rect x="10" y="162" width="900" height="68" rx="6"
+        fill="white" stroke="#E0E0DC" stroke-width="1" filter="url(#ec-sh)"/>
+  <text x="460" y="180" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">دستمزد و حداقل دستمزد</text>
+  <rect x="20"  y="186" width="190" height="36" rx="5" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="202" text-anchor="middle" font-size="10"
+        fill="#B41E1E" font-weight="bold">حداقل دستمزد زیستی بالا</text>
+  <text x="115" y="216" text-anchor="middle" font-size="9.5" fill="#505055">
+    Living Wage · اتحادیه‌های قوی</text>
+  <rect x="360" y="186" width="200" height="36" rx="5" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="202" text-anchor="middle" font-size="10"
+        fill="#32824A" font-weight="bold">حداقل دستمزد ملی تنظیم‌شده</text>
+  <text x="460" y="216" text-anchor="middle" font-size="9.5" fill="#505055">
+    با بررسی دوره‌ای</text>
+  <rect x="710" y="186" width="200" height="36" rx="5" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="202" text-anchor="middle" font-size="10"
+        fill="#1E3C8C" font-weight="bold">بازار دستمزد تعیین کند</text>
+  <text x="810" y="216" text-anchor="middle" font-size="9.5" fill="#505055">
+    حداقل دستمزد = بیکاری</text>
+
+  <!-- ── Row 3: محیط زیست ── -->
+  <rect x="10" y="240" width="900" height="68" rx="6"
+        fill="white" stroke="#E0E0DC" stroke-width="1" filter="url(#ec-sh)"/>
+  <text x="460" y="258" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">محیط زیست و سرمایه‌داری سبز</text>
+  <rect x="20"  y="264" width="190" height="36" rx="5" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="280" text-anchor="middle" font-size="10"
+        fill="#B41E1E" font-weight="bold">مقررات زیست‌محیطی سخت</text>
+  <text x="115" y="294" text-anchor="middle" font-size="9.5" fill="#505055">
+    Green New Deal · مالیات کربن بالا</text>
+  <rect x="360" y="264" width="200" height="36" rx="5" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="280" text-anchor="middle" font-size="10"
+        fill="#32824A" font-weight="bold">مالیات کربن + بازار تخصیص</text>
+  <text x="460" y="294" text-anchor="middle" font-size="9.5" fill="#505055">
+    Pigou Tax · Emission Trading</text>
+  <rect x="710" y="264" width="200" height="36" rx="5" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="280" text-anchor="middle" font-size="10"
+        fill="#1E3C8C" font-weight="bold">نوآوری بازار حل می‌کند</text>
+  <text x="810" y="294" text-anchor="middle" font-size="9.5" fill="#505055">
+    مقررات = کُندی رشد</text>
+
+  <!-- ── Row 4: بهداشت ── -->
+  <rect x="10" y="318" width="900" height="68" rx="6"
+        fill="white" stroke="#E0E0DC" stroke-width="1" filter="url(#ec-sh)"/>
+  <text x="460" y="336" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">بهداشت و درمان</text>
+  <rect x="20"  y="342" width="190" height="36" rx="5" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="358" text-anchor="middle" font-size="10"
+        fill="#B41E1E" font-weight="bold">بهداشت عمومی جهانی (NHS)</text>
+  <text x="115" y="372" text-anchor="middle" font-size="9.5" fill="#505055">
+    تأمین مالی از مالیات</text>
+  <rect x="360" y="342" width="200" height="36" rx="5" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="358" text-anchor="middle" font-size="10"
+        fill="#32824A" font-weight="bold">ترکیب دولتی-خصوصی</text>
+  <text x="460" y="372" text-anchor="middle" font-size="9.5" fill="#505055">
+    بیمه اجباری + انتخاب</text>
+  <rect x="710" y="342" width="200" height="36" rx="5" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="358" text-anchor="middle" font-size="10"
+        fill="#1E3C8C" font-weight="bold">بازار رقابتی بهداشت</text>
+  <text x="810" y="372" text-anchor="middle" font-size="9.5" fill="#505055">
+    هزینه را پایین می‌آورد</text>
+
+  <!-- ── Row 5: تجارت ── -->
+  <rect x="10" y="396" width="900" height="68" rx="6"
+        fill="white" stroke="#E0E0DC" stroke-width="1" filter="url(#ec-sh)"/>
+  <text x="460" y="414" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">تجارت بین‌الملل</text>
+  <rect x="20"  y="420" width="190" height="36" rx="5" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="436" text-anchor="middle" font-size="10"
+        fill="#B41E1E" font-weight="bold">حمایت از صنایع داخلی</text>
+  <text x="115" y="450" text-anchor="middle" font-size="9.5" fill="#505055">
+    تعرفه + محدودیت واردات</text>
+  <rect x="360" y="420" width="200" height="36" rx="5" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="436" text-anchor="middle" font-size="10"
+        fill="#32824A" font-weight="bold">تجارت آزاد با استانداردها</text>
+  <text x="460" y="450" text-anchor="middle" font-size="9.5" fill="#505055">
+    WTO + حقوق کارگری</text>
+  <rect x="710" y="420" width="200" height="36" rx="5" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="436" text-anchor="middle" font-size="10"
+        fill="#1E3C8C" font-weight="bold">تجارت آزاد بدون قید</text>
+  <text x="810" y="450" text-anchor="middle" font-size="9.5" fill="#505055">
+    مزیت نسبی ریکاردو</text>
+
+  <!-- ── Row 6: نابرابری ── -->
+  <rect x="10" y="474" width="900" height="68" rx="6"
+        fill="white" stroke="#E0E0DC" stroke-width="1" filter="url(#ec-sh)"/>
+  <text x="460" y="492" text-anchor="middle" font-size="12"
+        font-weight="bold" fill="#323237">نابرابری اقتصادی</text>
+  <rect x="20"  y="498" width="190" height="36" rx="5" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="514" text-anchor="middle" font-size="10"
+        fill="#B41E1E" font-weight="bold">نابرابری ناعادلانه و مضر</text>
+  <text x="115" y="528" text-anchor="middle" font-size="9.5" fill="#505055">
+    Piketty: r &gt; g → تمرکز ثروت</text>
+  <rect x="360" y="498" width="200" height="36" rx="5" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="514" text-anchor="middle" font-size="10"
+        fill="#32824A" font-weight="bold">نابرابری اگر فرصت برابر باشد</text>
+  <text x="460" y="528" text-anchor="middle" font-size="9.5" fill="#505055">
+    شاخص ضریب جینی معتدل</text>
+  <rect x="710" y="498" width="200" height="36" rx="5" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="514" text-anchor="middle" font-size="10"
+        fill="#1E3C8C" font-weight="bold">نابرابری انگیزه‌بخش است</text>
+  <text x="810" y="528" text-anchor="middle" font-size="9.5" fill="#505055">
+    Trickle-down effect</text>
+
+  <!-- Footer -->
+  <text x="460" y="598" text-anchor="middle" font-size="10" fill="#646469">
+    منابع اقتصادی: Piketty (2013) Capital · Keynes (1936) General Theory ·
+    Friedman (1962) · Ricardo (1817) · Pigou (1920) · Rawls (1971)
+  </text>
+
+  <!-- Column header labels repeated at bottom -->
+  <rect x="20"  y="610" width="190" height="28" rx="6" fill="#FFF0F0"
+        stroke="#B41E1E" stroke-width="1"/>
+  <text x="115" y="629" text-anchor="middle" font-size="11"
+        fill="#B41E1E" font-weight="bold">◄ چپ</text>
+  <rect x="360" y="610" width="200" height="28" rx="6" fill="#F0FFF4"
+        stroke="#32824A" stroke-width="1"/>
+  <text x="460" y="629" text-anchor="middle" font-size="11"
+        fill="#32824A" font-weight="bold">میانه</text>
+  <rect x="710" y="610" width="200" height="28" rx="6" fill="#EFF4FF"
+        stroke="#1E3C8C" stroke-width="1"/>
+  <text x="810" y="629" text-anchor="middle" font-size="11"
+        fill="#1E3C8C" font-weight="bold">راست ►</text>
+</svg>

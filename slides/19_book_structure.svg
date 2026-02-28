@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <rect width="1080" height="1350" fill="#FAF8F5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1080" height="150" fill="#1A237E"/>
+    <foreignObject x="40" y="40" width="1000" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:40px; font-weight:900;">📚 ساختار کتاب</div>
+            <div style="font-size:20px; opacity:0.8; margin-top:8px;">یک سفر جامع در ۵ بخش و ۱۷ فصل</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Part 1 -->
+    <rect x="60" y="185" width="960" height="130" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <rect x="60" y="185" width="12" height="130" rx="6" fill="#F9A825"/>
+    <foreignObject x="90" y="195" width="910" height="110">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px;">
+                <div style="background:#F9A825; color:#1A237E; width:50px; height:50px; border-radius:25px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900;">۱</div>
+                <div>
+                    <div style="color:#1A237E; font-size:22px; font-weight:800;">مبانی و مفاهیم</div>
+                    <div style="color:#666; font-size:15px; margin-top:5px;">فصل ۱-۳ | زایش طیف سیاسی • فلسفه چپ و راست • اقتصاد سیاسی</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Part 2 -->
+    <rect x="60" y="340" width="960" height="130" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <rect x="60" y="340" width="12" height="130" rx="6" fill="#C81E1E"/>
+    <foreignObject x="90" y="350" width="910" height="110">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px;">
+                <div style="background:#C81E1E; color:white; width:50px; height:50px; border-radius:25px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900;">۲</div>
+                <div>
+                    <div style="color:#C81E1E; font-size:22px; font-weight:800;">جهان چپ</div>
+                    <div style="color:#666; font-size:15px; margin-top:5px;">فصل ۴-۸ | سوسیالیسم • کمونیسم • آنارشیسم • سوسیال دموکراسی • چپ نو</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Part 3 -->
+    <rect x="60" y="495" width="960" height="130" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <rect x="60" y="495" width="12" height="130" rx="6" fill="#1A237E"/>
+    <foreignObject x="90" y="505" width="910" height="110">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px;">
+                <div style="background:#1A237E; color:white; width:50px; height:50px; border-radius:25px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900;">۳</div>
+                <div>
+                    <div style="color:#1A237E; font-size:22px; font-weight:800;">جهان راست</div>
+                    <div style="color:#666; font-size:15px; margin-top:5px;">فصل ۹-۱۳ | محافظه‌کاری • لیبرالیسم • لیبرتارینیسم • ناسیونالیسم • راست نو</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Part 4 -->
+    <rect x="60" y="650" width="960" height="130" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <rect x="60" y="650" width="12" height="130" rx="6" fill="#2E7D32"/>
+    <foreignObject x="90" y="660" width="910" height="110">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px;">
+                <div style="background:#2E7D32; color:white; width:50px; height:50px; border-radius:25px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900;">۴</div>
+                <div>
+                    <div style="color:#2E7D32; font-size:22px; font-weight:800;">میانه و ترکیب</div>
+                    <div style="color:#666; font-size:15px; margin-top:5px;">فصل ۱۴-۱۵ | میانه‌روی: هنر یا بی‌اصالتی؟ • راه سوم</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Part 5 -->
+    <rect x="60" y="805" width="960" height="130" rx="12" fill="white" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+    <rect x="60" y="805" width="12" height="130" rx="6" fill="#6A1B9A"/>
+    <foreignObject x="90" y="815" width="910" height="110">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px;">
+                <div style="background:#6A1B9A; color:white; width:50px; height:50px; border-radius:25px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900;">۵</div>
+                <div>
+                    <div style="color:#6A1B9A; font-size:22px; font-weight:800;">تحلیل و آینده‌نگری</div>
+                    <div style="color:#666; font-size:15px; margin-top:5px;">فصل ۱۶-۱۷ | طیف در جهان غیرغربی • آینده طیف سیاسی • جمع‌بندی</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Appendix -->
+    <rect x="60" y="960" width="960" height="100" rx="12" fill="#1A237E" opacity="0.05"/>
+    <foreignObject x="80" y="975" width="920" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#1A237E;">
+            <div style="font-size:18px; font-weight:600;">📎 ضمائم: تایم‌لاین جامع • ۱۰۰ چهره کلیدی • واژه‌نامه تخصصی • کتاب‌شناسی</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="1080" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#999; font-size:16px;">
+            نویسنده: مهدی سالم | ریچموندهیل
+        </div>
+    </foreignObject>
+</svg>

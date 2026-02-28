@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700"
+     font-family="Vazirmatn, Tahoma, Arial" direction="rtl">
+  <defs>
+    <linearGradient id="q1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF4FF"/>
+      <stop offset="100%" stop-color="#D0DCFF"/>
+    </linearGradient>
+    <linearGradient id="q2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FFF4"/>
+      <stop offset="100%" stop-color="#C8F0D8"/>
+    </linearGradient>
+    <linearGradient id="q3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E8"/>
+      <stop offset="100%" stop-color="#F0E0C0"/>
+    </linearGradient>
+    <linearGradient id="q4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F0"/>
+      <stop offset="100%" stop-color="#FFD0D0"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#323237"/>
+    </marker>
+    <filter id="dropshadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    <filter id="textshadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="1" dy="1" stdDeviation="1" flood-color="black" flood-opacity="0.8"/>
+    <feDropShadow dx="-1" dy="-1" stdDeviation="1" flood-color="black" flood-opacity="0.8"/>
+  </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="700" fill="#FAFAF8" rx="16"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold"
+        fill="#323237">نقشه دوبُعدی ایدئولوژی‌ها</text>
+  <text x="350" y="55" text-anchor="middle" font-size="12" fill="#646469">
+    محور افقی: اقتصاد (چپ–راست) | محور عمودی: سیاست (آزاد–اقتدارگرا)
+  </text>
+
+  <!-- Quadrant backgrounds -->
+  <!-- Q1: top-left = اقتدارگرا-چپ -->
+  <rect x="80"  y="70"  width="260" height="260" rx="4" fill="url(#q4)" opacity="0.7"/>
+  <!-- Q2: top-right = اقتدارگرا-راست -->
+  <rect x="340" y="70"  width="260" height="260" rx="4" fill="url(#q3)" opacity="0.7"/>
+  <!-- Q3: bottom-left = آزادی‌خواه-چپ -->
+  <rect x="80"  y="330" width="260" height="260" rx="4" fill="url(#q2)" opacity="0.7"/>
+  <!-- Q4: bottom-right = آزادی‌خواه-راست -->
+  <rect x="340" y="330" width="260" height="260" rx="4" fill="url(#q1)" opacity="0.7"/>
+
+  <!-- Quadrant labels -->
+  <text x="155" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#B41E1E">
+    اقتدارگرا–چپ</text>
+  <text x="155" y="116" text-anchor="middle" font-size="10" fill="#B41E1E">
+    کمونیسم · فاشیسم چپ</text>
+
+  <text x="465" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#6B4A1E">
+    اقتدارگرا–راست</text>
+  <text x="465" y="116" text-anchor="middle" font-size="10" fill="#6B4A1E">
+    فاشیسم · ناسیونالیسم افراطی</text>
+
+  <text x="155" y="560" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E6432">
+    آزادی‌خواه–چپ</text>
+  <text x="155" y="576" text-anchor="middle" font-size="10" fill="#1E6432">
+    آنارکو–کمونیسم · سوسیالیسم آزاد</text>
+
+  <text x="465" y="560" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E3C8C">
+    آزادی‌خواه–راست</text>
+  <text x="465" y="576" text-anchor="middle" font-size="10" fill="#1E3C8C">
+    لیبرتارینیسم · آنارکو–کاپیتالیسم</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="330" x2="600" y2="330" stroke="#323237" stroke-width="2.5"
+        marker-end="url(#arrowhead)"/>
+  <line x1="80" y1="600" x2="80" y2="70" stroke="#323237" stroke-width="2.5"
+        marker-end="url(#arrowhead)"/>
+  <!-- second arrow directions -->
+  <line x1="600" y1="330" x2="80" y2="330" stroke="#323237" stroke-width="2.5"
+        marker-end="url(#arrowhead)" opacity="0.3"/>
+
+  <!-- Axis labels -->
+  <text x="650" y="335" font-size="12" fill="#1E3C8C" font-weight="bold">راست</text>
+  <text x="30"  y="335" font-size="12" fill="#B41E1E" font-weight="bold">چپ</text>
+  <text x="75"  y="60"  font-size="12" fill="#323237" font-weight="bold"
+        text-anchor="middle">اقتدار</text>
+  <text x="75"  y="618" font-size="12" fill="#323237" font-weight="bold"
+        text-anchor="middle">آزادی</text>
+
+  <!-- Center cross tick marks -->
+  <line x1="340" y1="325" x2="340" y2="335" stroke="#323237" stroke-width="1.5"/>
+  <line x1="80"  y1="200" x2="90"  y2="200" stroke="#323237" stroke-width="1.5"/>
+  <line x1="80"  y1="460" x2="90"  y2="460" stroke="#323237" stroke-width="1.5"/>
+
+  <!-- ── Ideology Dots ── -->
+
+  
+  <!-- استالینیسم -->
+  <circle cx="170" cy="130" r="14" fill="#8C1414" filter="url(#dropshadow)"/>
+  <text x="170" y="134" text-anchor="middle" font-size="9" fill="black" font-weight="bold">
+    استالینیسم</text>
+  <!-- مائوئیسم -->
+  <circle cx="130" cy="160" r="12" fill="#B41E1E" filter="url(#dropshadow)"/>
+  <text x="130" y="164" text-anchor="middle" font-size="9" fill="black">مائوئیسم</text>
+
+  <!-- فاشیسم -->
+  <circle cx="430" cy="145" r="14" fill="#6B3A00" filter="url(#dropshadow)"/>
+  <text x="430" y="149" text-anchor="middle" font-size="9" fill="black" font-weight="bold">
+    فاشیسم</text>
+
+  <!-- ناسیونالیسم محافظه‌کار -->
+  <circle cx="500" cy="200" r="12" fill="#8C5A1E" filter="url(#dropshadow)"/>
+  <text x="500" y="204" text-anchor="middle" font-size="9" fill="black">محافظه‌کار اقتدارگرا</text>
+
+  <!-- سوسیالیسم دموکراتیک -->
+  <circle cx="160" cy="370" r="14" fill="#C83232" filter="url(#dropshadow)"/>
+  <text x="160" y="374" text-anchor="middle" font-size="9" fill="black" font-weight="bold">
+    سوسیالیسم</text>
+
+  <!-- سوسیال دموکراسی -->
+  <circle cx="200" cy="420" r="14" fill="#DC5050" filter="url(#dropshadow)"/>
+  <text x="200" y="424" text-anchor="middle" font-size="9" fill="black">سوسیال دموکراسی</text>
+
+  <!-- لیبرالیسم اجتماعی -->
+  <circle cx="340" cy="380" r="16" fill="#32824A" filter="url(#dropshadow)"/>
+  <text x="340" y="384" text-anchor="middle" font-size="9" fill="black" font-weight="bold">
+    لیبرالیسم اجتماعی</text>
+
+  <!-- لیبرالیسم کلاسیک -->
+  <circle cx="440" cy="400" r="14" fill="#1E5096" filter="url(#dropshadow)"/>
+  <text x="440" y="404" text-anchor="middle" font-size="9" fill="black">لیبرالیسم</text>
+
+  <!-- محافظه‌کاری -->
+  <circle cx="500" cy="350" r="14" fill="#4664B4" filter="url(#dropshadow)"/>
+  <text x="500" y="354" text-anchor="middle" font-size="9" fill="black">محافظه‌کاری</text>
+
+  <!-- لیبرتارینیسم -->
+  <circle cx="520" cy="500" r="14" fill="#1E3C8C" filter="url(#dropshadow)"/>
+  <text x="520" y="504" text-anchor="middle" font-size="9" fill="black" font-weight="bold">
+    لیبرتارینیسم</text>
+
+  <!-- آنارکو-کاپیتالیسم -->
+  <circle cx="560" cy="560" r="12" fill="#0A2860" filter="url(#dropshadow)"/>
+  <text x="560" y="564" text-anchor="middle" font-size="9" fill="black">آنارکو–کاپیتالیسم</text>
+
+  <!-- آنارکو-کمونیسم -->
+  <circle cx="120" cy="530" r="12" fill="#1E6432" filter="url(#dropshadow)"/>
+  <text x="120" y="534" text-anchor="middle" font-size="9" fill="black">آنارکو–کمونیسم</text>
+
+  <!-- Green Politics -->
+  <circle cx="270" cy="450" r="12" fill="#3AAA5E" filter="url(#dropshadow)"/>
+  <text x="270" y="454" text-anchor="middle" font-size="9" fill="black">سیاست سبز</text>
+
+  <!-- نقطه آرمانی -->
+  <circle cx="340" cy="430" r="18" fill="none" stroke="#B4960A" stroke-width="2.5"
+          stroke-dasharray="5,3"/>
+  <text x="340" y="434" text-anchor="middle" font-size="9" fill="#B4960A" font-weight="bold">
+    آرمان؟</text>
+
+  <!-- Source note -->
+  <text x="350" y="688" text-anchor="middle" font-size="10" fill="#969696">
+    برگرفته از: Political Compass · Nolan Chart · مدل دوبُعدی هاینلاین–فریدمن
+  </text>
+</svg>

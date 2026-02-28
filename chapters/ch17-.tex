@@ -2,14 +2,14 @@
 
 \begin{tcolorbox}[
     enhanced,
-    colback=lightbg,
-    colframe=darkgray,
+    colback=VeryLightGray, % FIXED: use defined color name
+    colframe=DarkGray, % FIXED: use defined color name
     boxrule=2pt,
     arc=8pt,
     fonttitle=\bfseries\large,
-    title={\rl{نقل‌قول آغازین}},
+    title={\rl{نقل\'قول آغازین}},
     attach boxed title to top center={yshift=-3mm},
-    boxed title style={colback=darkgray, colframe=darkgray}
+    boxed title style={colback=DarkGray, colframe=DarkGray} % FIXED: use defined color name
 ]
 \begin{center}
 \Large\textit{«آینده قبلاً اینجاست، فقط به طور مساوی توزیع نشده.»}
@@ -36,12 +36,12 @@
 
 \begin{tcolorbox}[
     enhanced,
-    colback=leftred!8,
-    colframe=leftred,
+    colback=LeftRed!8, % FIXED: use defined color name
+    colframe=LeftRed, % FIXED: use defined color name
     boxrule=1.5pt,
     arc=5pt,
     fonttitle=\bfseries,
-    title={\rl{🔴 مناظره: پایان چپ و راست؟}}
+    title={\rl{(!) مناظره: پایان چپ و راست؟}} % FIXED: replaced emoji with text indicator
 ]
 \begin{multicols}{2}
 \textbf{چپ و راست منسوخ شده چون:}
@@ -112,7 +112,7 @@
 };
 
 % Center
-\node[draw=centergreen, fill=centergreen!20, circle, minimum size=1.5cm] at (5,5) {\rl{میانه}};
+\node[draw=CenterGreen, fill=CenterGreen!20, circle, minimum size=1.5cm] at (5,5) {\rl{میانه}};
 
 % Title
 \node[above, font=\bfseries\large] at (5,10.5) {\rl{نمودار نولان: مدل دوبعدی}};

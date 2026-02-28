@@ -1,0 +1,97 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&amp;display=swap');
+      .root {
+        direction: rtl;
+        font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+      }
+      .header {
+        fill: #1A237E;
+      }
+      .card {
+        fill: #FFFFFF;
+        filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.05));
+      }
+      .title {
+        font-size: 48px;
+        font-weight: bold;
+        fill: #FFFFFF;
+      }
+      .gold {
+        color: #F9A825;
+        font-weight: bold;
+      }
+      .emerald {
+        color: #2E7D32;
+        font-weight: bold;
+      }
+      .content-text {
+        font-size: 30px;
+        line-height: 1.5;
+        color: #212121;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1350" fill="#ECEFF1" />
+  
+  <!-- Header bar -->
+  <rect class="header" width="1080" height="150" />
+  
+  <foreignObject x="50" y="40" width="980" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <h1 style="margin: 0; color: white; font-size: 48px; text-align: center;">جناح‌های انقلابی</h1>
+    </div>
+  </foreignObject>
+  
+  <!-- Girondins Card -->
+  <rect class="card" x="50" y="200" width="460" height="500" rx="20" />
+  <foreignObject x="70" y="230" width="420" height="440">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <h2 style="color: #1A237E; border-bottom: 2px solid #1A237E;">ژیروندن‌ها</h2>
+      <p class="content-text">
+        <span class="emerald">میانه‌روها:</span><br/>
+        - طرفدار جمهوری فدرالی<br/>
+        - بورژوازی شهرستانی<br/>
+        - مخالف اعدام شاه<br/>
+        - طرفدار جنگ با اروپا برای صدور انقلاب
+      </p>
+    </div>
+  </foreignObject>
+  
+  <!-- Jacobins Card -->
+  <rect class="card" x="570" y="200" width="460" height="500" rx="20" />
+  <foreignObject x="590" y="230" width="420" height="440">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <h2 style="color: #B71C1C; border-bottom: 2px solid #B71C1C;">ژاکوبن‌ها</h2>
+      <p class="content-text">
+        <span class="gold">رادیکال‌ها:</span><br/>
+        - طرفدار مرکزگرایی شدید<br/>
+        - توده‌های پاریس<br/>
+        - طرفدار دوران ترور<br/>
+        - اصلاحات اجتماعی عمیق و رادیکال
+      </p>
+    </div>
+  </foreignObject>
+  
+  <!-- Critical Insight -->
+  <rect class="card" x="50" y="750" width="980" height="400" rx="20" />
+  <foreignObject x="80" y="780" width="920" height="340">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root">
+      <h3 style="color: #F9A825;">درس تاریخ:</h3>
+      <p class="content-text" style="font-size: 34px;">
+        رادیکالی‌شدن انقلاب نشان داد که «چپ» همیشه یک کل واحد نیست. تضاد بین <span class="gold">آزادی‌خواهی</span> ژیروندن‌ها و <span class="gold">مساوات‌طلبی</span> خشن ژاکوبن‌ها، پارادوکس همیشگی چپ را رقم زد.
+      </p>
+    </div>
+  </foreignObject>
+  
+  <!-- Footer Info -->
+  <foreignObject x="50" y="1250" width="980" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="root" style="text-align: center; color: #1A237E; font-size: 24px; font-weight: bold;">
+      راست یا چپ؛ میانه کجاست؟ | فصل اول
+    </div>
+  </foreignObject>
+  
+</svg>

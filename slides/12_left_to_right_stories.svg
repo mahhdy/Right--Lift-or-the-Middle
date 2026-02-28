@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <defs>
+        <linearGradient id="convGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#C81E1E;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1A237E;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <rect width="1080" height="1350" fill="#1a1a2e"/>
+    
+    <!-- Header -->
+    <foreignObject x="40" y="50" width="1000" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:40px; font-weight:900;">🔄 سفر از چپ به راست</div>
+            <div style="font-size:20px; color:#F9A825; margin-top:10px;">داستان‌های واقعی تغییر ایدئولوژیک</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Arrow -->
+    <rect x="100" y="180" width="880" height="20" rx="10" fill="url(#convGrad)"/>
+    <polygon points="980,190 950,170 950,210" fill="#1A237E"/>
+    
+    <!-- Mussolini Card -->
+    <rect x="60" y="240" width="470" height="280" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="80" y="260" width="430" height="250">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:15px;">
+                <div style="font-size:45px;">⚡</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">بنیتو موسولینی</div>
+                    <div style="font-size:14px; color:#666;">۱۸۸۳-۱۹۴۵</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:15px;">
+                <span style="background:#C81E1E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">سوسیالیست</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#212121; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">فاشیست</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                سردبیر روزنامه سوسیالیست‌ها بود، اما جنگ جهانی اول او را متحول کرد. ملی‌گرایی جای طبقه‌گرایی را گرفت.
+            </div>
+            <div style="background:#FFEBEE; padding:10px; border-radius:8px; margin-top:12px;">
+                <div style="color:#C81E1E; font-size:13px; font-style:italic;">«فاشیسم، سوسیالیسمی است که به ملت رسیده»</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Chambers Card -->
+    <rect x="550" y="240" width="470" height="280" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="570" y="260" width="430" height="250">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:15px;">
+                <div style="font-size:45px;">🕵️</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">ویتیکر چمبرز</div>
+                    <div style="font-size:14px; color:#666;">۱۹۰۱-۱۹۶۱</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:15px;">
+                <span style="background:#C81E1E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">جاسوس شوروی</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#1A237E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">ضدکمونیست</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                جاسوس شوروی که توبه کرد. کتابش «شاهد» انجیل محافظه‌کاری آمریکایی شد.
+            </div>
+            <div style="background:#E8EAF6; padding:10px; border-radius:8px; margin-top:12px;">
+                <div style="color:#1A237E; font-size:13px; font-style:italic;">«از طرف بازنده به طرف برنده گذشتم... نه، از برنده به بازنده»</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Orwell Card -->
+    <rect x="60" y="550" width="470" height="280" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="80" y="570" width="430" height="250">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:15px;">
+                <div style="font-size:45px;">✍️</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">جورج اورول</div>
+                    <div style="font-size:14px; color:#666;">۱۹۰۳-۱۹۵۰</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:15px;">
+                <span style="background:#C81E1E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">سوسیالیست</span>
+                <span style="font-size:18px;">⚠️</span>
+                <span style="background:#2E7D32; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">منتقد چپ اقتدارگرا</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                تا آخر سوسیالیست ماند، اما تجربه جنگ اسپانیا و استالینیسم او را به منتقد سرسخت توتالیتاریسم چپ تبدیل کرد.
+            </div>
+            <div style="background:#E8F5E9; padding:10px; border-radius:8px; margin-top:12px;">
+                <div style="color:#2E7D32; font-size:13px; font-style:italic;">«همه حیوانات برابرند، اما بعضی برابرترند»</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Hayek Card -->
+    <rect x="550" y="550" width="470" height="280" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="570" y="570" width="430" height="250">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:15px;">
+                <div style="font-size:45px;">📊</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">فردریش هایک</div>
+                    <div style="font-size:14px; color:#666;">۱۸۹۹-۱۹۹۲</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:15px;">
+                <span style="background:#2E7D32; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">سوسیالیست فابیان</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#F9A825; color:#1A237E; padding:4px 12px; border-radius:12px; font-size:13px;">لیبرال کلاسیک</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                در جوانی سوسیالیست بود، اما تأثیر میزس و مطالعه اقتصاد اتریشی او را به مدافع سرسخت بازار آزاد تبدیل کرد.
+            </div>
+            <div style="background:#FFF8E1; padding:10px; border-radius:8px; margin-top:12px;">
+                <div style="color:#B8860B; font-size:13px; font-style:italic;">«کسی که در ۲۰ سالگی سوسیالیست نباشد، قلب ندارد...»</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Bottom Insight -->
+    <rect x="60" y="870" width="960" height="130" rx="16" fill="rgba(249,168,37,0.15)" stroke="#F9A825" stroke-width="2"/>
+    <foreignObject x="80" y="890" width="920" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#F9A825; font-size:22px; font-weight:700;">🧠 بینش کلیدی</div>
+            <div style="color:white; font-size:17px; line-height:1.6; margin-top:10px;">
+                تجربه عملی ایدئولوژی‌ها — نه فقط نظریه‌ها — عامل اصلی تغییر فکری روشنفکران بوده است.
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="1030" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:rgba(255,255,255,0.5); font-size:16px;">
+            📖 ادامه در اسلاید بعدی...
+        </div>
+    </foreignObject>
+</svg>

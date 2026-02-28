@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <defs>
+        <linearGradient id="convGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#1A237E;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#C81E1E;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <rect width="1080" height="1350" fill="#0d1b2a"/>
+    
+    <!-- Header -->
+    <foreignObject x="40" y="50" width="1000" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:40px; font-weight:900;">🔄 سفر از راست به چپ</div>
+            <div style="font-size:20px; color:#F9A825; margin-top:10px;">و کسانی که در هیچ طیفی نگنجیدند</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Reverse Arrow -->
+    <rect x="100" y="180" width="880" height="20" rx="10" fill="url(#convGrad2)"/>
+    <polygon points="100,190 130,170 130,210" fill="#C81E1E"/>
+    
+    <!-- Engels Card -->
+    <rect x="60" y="240" width="470" height="250" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="80" y="260" width="430" height="220">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:12px;">
+                <div style="font-size:45px;">🏭</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">فردریش انگلس</div>
+                    <div style="font-size:14px; color:#666;">۱۸۲۰-۱۸۹۵</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:12px;">
+                <span style="background:#1A237E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">وارث کارخانه‌دار</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#C81E1E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">کمونیست</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                پسر یک صنعتگر ثروتمند که با دیدن فقر کارگران منچستر، به مبارز انقلابی تبدیل شد و با پول خانواده، مارکس را تأمین مالی کرد.
+            </div>
+            <div style="background:#FFEBEE; padding:8px; border-radius:8px; margin-top:10px;">
+                <div style="color:#C81E1E; font-size:13px; font-style:italic;">«وضعیت طبقه کارگر در انگلستان» - ۱۸۴۵</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Kropotkin Card -->
+    <rect x="550" y="240" width="470" height="250" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="570" y="260" width="430" height="220">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:12px;">
+                <div style="font-size:45px;">👑</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">پیوتر کروپوتکین</div>
+                    <div style="font-size:14px; color:#666;">۱۸۴۲-۱۹۲۱</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:12px;">
+                <span style="background:#1A237E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">شاهزاده روس</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#212121; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">آنارشیست</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                شاهزاده‌ای که عنوان اشرافیت را رد کرد و زندگی خود را وقف مبارزه با دولت و سرمایه‌داری نمود. نظریه «کمک متقابل» را در برابر داروینیسم اجتماعی مطرح کرد.
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Noam Chomsky Card -->
+    <rect x="60" y="520" width="470" height="250" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="80" y="540" width="430" height="220">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:12px;">
+                <div style="font-size:45px;">🎤</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">نائومی کلاین</div>
+                    <div style="font-size:14px; color:#666;">متولد ۱۹۷۰</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:12px;">
+                <span style="background:#F9A825; color:#1A237E; padding:4px 12px; border-radius:12px; font-size:13px;">لیبرال</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#C81E1E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">چپ رادیکال</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                تحقیق درباره سیاست‌های نئولیبرال و «دکترین شوک» او را از لیبرالیسم به سمت سوسیالیسم دموکراتیک و اکوسوسیالیسم سوق داد.
+            </div>
+            <div style="background:#FFEBEE; padding:8px; border-radius:8px; margin-top:8px;">
+                <div style="color:#C81E1E; font-size:13px; font-style:italic;">«سرمایه‌داری با بقای سیاره سازگار نیست»</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Francis Fukuyama Card -->
+    <rect x="550" y="520" width="470" height="250" rx="16" fill="rgba(255,255,255,0.95)"/>
+    <foreignObject x="570" y="540" width="430" height="220">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; font-family:Vazirmatn;">
+            <div style="display:flex; align-items:center; gap:15px; margin-bottom:12px;">
+                <div style="font-size:45px;">📖</div>
+                <div>
+                    <div style="font-size:22px; font-weight:800; color:#3C3C3C;">فرانسیس فوکویاما</div>
+                    <div style="font-size:14px; color:#666;">متولد ۱۹۵۲</div>
+                </div>
+            </div>
+            <div style="display:flex; gap:10px; margin-bottom:12px;">
+                <span style="background:#1A237E; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">نومحافظه‌کار</span>
+                <span style="font-size:18px;">→</span>
+                <span style="background:#2E7D32; color:white; padding:4px 12px; border-radius:12px; font-size:13px;">لیبرال میانه</span>
+            </div>
+            <div style="color:#333; font-size:15px; line-height:1.7;">
+                نویسنده «پایان تاریخ» که نومحافظه‌کار بود، اما پس از فاجعه جنگ عراق از جنبش نومحافظه‌کاری فاصله گرفت و به لیبرالیسم بازگشت.
+            </div>
+            <div style="background:#E8F5E9; padding:8px; border-radius:8px; margin-top:8px;">
+                <div style="color:#2E7D32; font-size:13px; font-style:italic;">«نومحافظه‌کاری به لنینیسم راست تبدیل شد»</div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Analysis Box -->
+    <rect x="60" y="810" width="960" height="170" rx="16" fill="rgba(255,255,255,0.08)" stroke="#F9A825" stroke-width="2"/>
+    <foreignObject x="80" y="830" width="920" height="140">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:22px; font-weight:700; color:#F9A825; margin-bottom:12px;">📊 چرا مردم طرف عوض می‌کنند؟</div>
+            <div style="display:flex; justify-content:space-around; font-size:16px; margin-top:10px;">
+                <div style="flex:1; padding:10px;">
+                    <div style="font-size:30px; margin-bottom:5px;">😤</div>
+                    <div style="color:#FFD54F; font-weight:600;">سرخوردگی</div>
+                    <div style="opacity:0.8; font-size:14px; margin-top:5px;">از شکست آرمان‌ها</div>
+                </div>
+                <div style="flex:1; padding:10px;">
+                    <div style="font-size:30px; margin-bottom:5px;">🌍</div>
+                    <div style="color:#FFD54F; font-weight:600;">تجربه واقعی</div>
+                    <div style="opacity:0.8; font-size:14px; margin-top:5px;">دیدن نتایج عملی</div>
+                </div>
+                <div style="flex:1; padding:10px;">
+                    <div style="font-size:30px; margin-bottom:5px;">🔬</div>
+                    <div style="color:#FFD54F; font-weight:600;">بازاندیشی</div>
+                    <div style="opacity:0.8; font-size:14px; margin-top:5px;">تکامل فکری صادقانه</div>
+                </div>
+                <div style="flex:1; padding:10px;">
+                    <div style="font-size:30px; margin-bottom:5px;">⚡</div>
+                    <div style="color:#FFD54F; font-weight:600;">رویداد تاریخی</div>
+                    <div style="opacity:0.8; font-size:14px; margin-top:5px;">جنگ، انقلاب، بحران</div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Footer -->
+    <foreignObject x="60" y="1010" width="960" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:rgba(255,255,255,0.5); font-size:16px;">
+            📖 بیشتر بخوانید در فصل‌های ۸ و ۱۳ کتاب
+        </div>
+    </foreignObject>
+</svg>

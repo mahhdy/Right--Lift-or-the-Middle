@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&amp;display=swap');
+        
+        * {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+        
+        .title {
+            font-size: 52px;
+            font-weight: 800;
+            fill: white;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            font-weight: 600;
+            fill: white;
+        }
+        
+        .body-text {
+            font-size: 28px;
+            font-weight: 400;
+            fill: #3C3C3C;
+        }
+        
+        .highlight {
+            font-weight: 700;
+        }
+        
+        .gold-text {
+            fill: #F9A825;
+        }
+        
+        .small-text {
+            font-size: 22px;
+            fill: #666666;
+        }
+        
+        .card {
+            fill: white;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+        }
+        
+        .stat-number {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        
+        .quote-text {
+            font-size: 34px;
+            font-weight: 500;
+            font-style: italic;
+        }
+    </style>
+    
+    
+    <rect width="1080" height="1350" fill="#FAF8F5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1080" height="160" fill="#6A1B9A"/>
+    <foreignObject x="40" y="50" width="1000" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:white;">
+            <div style="font-size:42px; font-weight:900;">🎓 متفکران کلیدی</div>
+            <div style="font-size:22px; opacity:0.9; margin-top:10px;">فیلسوفانی که طیف سیاسی را شکل دادند</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Philosopher Cards - Row 1 -->
+    <!-- Burke -->
+    <rect x="60" y="200" width="300" height="340" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="60" y="200" width="300" height="80" rx="16" fill="#1A237E"/>
+    <rect x="60" y="265" width="300" height="15" fill="#1A237E"/>
+    <circle cx="210" cy="240" r="50" fill="white" stroke="#F9A825" stroke-width="3"/>
+    <text x="210" y="255" text-anchor="middle" font-size="50">🧔</text>
+    <foreignObject x="70" y="300" width="280" height="230">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#1A237E; font-size:24px; font-weight:800;">ادموند برک</div>
+            <div style="color:#666; font-size:16px; margin:8px 0;">۱۷۲۹-۱۷۹۷</div>
+            <div style="color:#1A237E; font-size:14px; font-weight:600; background:#E0E0E0; padding:5px 10px; border-radius:10px; display:inline-block;">محافظه‌کاری</div>
+            <div style="color:#444; font-size:16px; line-height:1.5; margin-top:15px;">
+                «سنت، خرد انباشته نسل‌هاست»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Marx -->
+    <rect x="390" y="200" width="300" height="340" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="390" y="200" width="300" height="80" rx="16" fill="#C81E1E"/>
+    <rect x="390" y="265" width="300" height="15" fill="#C81E1E"/>
+    <circle cx="540" cy="240" r="50" fill="white" stroke="#F9A825" stroke-width="3"/>
+    <text x="540" y="255" text-anchor="middle" font-size="50">👨‍🦳</text>
+    <foreignObject x="400" y="300" width="280" height="230">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#C81E1E; font-size:24px; font-weight:800;">کارل مارکس</div>
+            <div style="color:#666; font-size:16px; margin:8px 0;">۱۸۱۸-۱۸۸۳</div>
+            <div style="color:#C81E1E; font-size:14px; font-weight:600; background:#FFEBEE; padding:5px 10px; border-radius:10px; display:inline-block;">کمونیسم</div>
+            <div style="color:#444; font-size:16px; line-height:1.5; margin-top:15px;">
+                «تاریخ، تاریخ مبارزه طبقاتی است»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Hayek -->
+    <rect x="720" y="200" width="300" height="340" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="720" y="200" width="300" height="80" rx="16" fill="#F9A825"/>
+    <rect x="720" y="265" width="300" height="15" fill="#F9A825"/>
+    <circle cx="870" cy="240" r="50" fill="white" stroke="#1A237E" stroke-width="3"/>
+    <text x="870" y="255" text-anchor="middle" font-size="50">👴</text>
+    <foreignObject x="730" y="300" width="280" height="230">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#B8860B; font-size:24px; font-weight:800;">فردریش هایک</div>
+            <div style="color:#666; font-size:16px; margin:8px 0;">۱۸۹۹-۱۹۹۲</div>
+            <div style="color:#B8860B; font-size:14px; font-weight:600; background:#FFF8E1; padding:5px 10px; border-radius:10px; display:inline-block;">لیبرالیسم</div>
+            <div style="color:#444; font-size:16px; line-height:1.5; margin-top:15px;">
+                «برنامه‌ریزی متمرکز راه بردگی است»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Philosopher Cards - Row 2 -->
+    <!-- Rawls -->
+    <rect x="140" y="580" width="300" height="340" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="140" y="580" width="300" height="80" rx="16" fill="#2E7D32"/>
+    <rect x="140" y="645" width="300" height="15" fill="#2E7D32"/>
+    <circle cx="290" cy="620" r="50" fill="white" stroke="#F9A825" stroke-width="3"/>
+    <text x="290" y="635" text-anchor="middle" font-size="50">🎓</text>
+    <foreignObject x="150" y="680" width="280" height="230">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#2E7D32; font-size:24px; font-weight:800;">جان رالز</div>
+            <div style="color:#666; font-size:16px; margin:8px 0;">۱۹۲۱-۲۰۰۲</div>
+            <div style="color:#2E7D32; font-size:14px; font-weight:600; background:#E8F5E9; padding:5px 10px; border-radius:10px; display:inline-block;">لیبرالیسم برابری‌خواه</div>
+            <div style="color:#444; font-size:16px; line-height:1.5; margin-top:15px;">
+                «عدالت نخستین فضیلت نهادهاست»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Foucault -->
+    <rect x="640" y="580" width="300" height="340" rx="16" fill="white" filter="drop-shadow(0 4px 15px rgba(0,0,0,0.1))"/>
+    <rect x="640" y="580" width="300" height="80" rx="16" fill="#6A1B9A"/>
+    <rect x="640" y="645" width="300" height="15" fill="#6A1B9A"/>
+    <circle cx="790" cy="620" r="50" fill="white" stroke="#F9A825" stroke-width="3"/>
+    <text x="790" y="635" text-anchor="middle" font-size="50">🧑‍🦲</text>
+    <foreignObject x="650" y="680" width="280" height="230">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn;">
+            <div style="color:#6A1B9A; font-size:24px; font-weight:800;">میشل فوکو</div>
+            <div style="color:#666; font-size:16px; margin:8px 0;">۱۹۲۶-۱۹۸۴</div>
+            <div style="color:#6A1B9A; font-size:14px; font-weight:600; background:#F3E5F5; padding:5px 10px; border-radius:10px; display:inline-block;">پست‌مدرنیسم</div>
+            <div style="color:#444; font-size:16px; line-height:1.5; margin-top:15px;">
+                «قدرت همه‌جا حاضر است»
+            </div>
+        </div>
+    </foreignObject>
+    
+    <!-- Bottom Info -->
+    <rect x="60" y="960" width="960" height="120" rx="16" fill="#1A237E" opacity="0.05"/>
+    <foreignObject x="80" y="980" width="920" height="90">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#1A237E;">
+            <div style="font-size:22px; font-weight:700;">📚 در ضمیمه ۲ کتاب</div>
+            <div style="font-size:18px; margin-top:8px; opacity:0.8;">شناخت‌نامه ۱۰۰ چهره کلیدی تاریخ اندیشه سیاسی</div>
+        </div>
+    </foreignObject>
+    
+    <!-- Page Number -->
+    <foreignObject x="40" y="1100" width="1000" height="50">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="direction:rtl; text-align:center; font-family:Vazirmatn; color:#999; font-size:18px;">
+            فصل ۲: فلسفه و معرفت‌شناسی چپ و راست
+        </div>
+    </foreignObject>
+</svg>
