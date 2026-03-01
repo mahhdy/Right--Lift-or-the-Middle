@@ -1,0 +1,335 @@
+\chapter*{ضمیمهٔ ۸: تقابل‌های موضوعی}
+\addcontentsline{toc}{chapter}{ضمیمهٔ ۸: تقابل‌های موضوعی}
+
+\begin{center}
+\textit{تصویرسازی بصری از تنش‌های بنیادین اندیشهٔ سیاسی}
+\end{center}
+
+\section*{۱. فرد در برابر جمع}
+
+\begin{center}
+\begin{tikzpicture}[scale=1, every node/.style={font=\small}]
+
+% Spectrum line
+\draw[line width=4pt, left color=rightblue, right color=leftred] (0,0) -- (14,0);
+
+% Position markers
+\foreach \x/\label in {
+    1/{\rl{آنارکو-کاپیتالیسم}},
+    3.5/{\rl{لیبرتارینیسم}},
+    6/{\rl{لیبرالیسم}},
+    8.5/{\rl{سوسیال دموکراسی}},
+    11/{\rl{سوسیالیسم}},
+    13/{\rl{کمونیسم}}
+} {
+    \fill[color=darkgray] (\x,0) circle (4pt);
+    \node[below, align=center] at (\x,-0.5) {\label};
+}
+
+% Axis labels
+\node[above, font=\bfseries, color=rightblue] at (1,0.8) {\rl{فرد مطلق}};
+\node[above, font=\bfseries, color=leftred] at (13,0.8) {\rl{جمع مطلق}};
+
+% Description boxes
+\node[draw=rightblue, fill=rightblue!10, rounded corners, align=right, text width=5cm] at (2,3) {
+\textbf{\rl{تأکید بر فرد:}}\\
+\rl{• حقوق فردی مقدس}\\
+\rl{• مالکیت خصوصی}\\
+\rl{• مسئولیت شخصی}\\
+\rl{• رقابت}
+};
+
+\node[draw=leftred, fill=leftred!10, rounded corners, align=right, text width=5cm] at (12,3) {
+\textbf{\rl{تأکید بر جمع:}}\\
+\rl{• منافع اجتماعی مقدم}\\
+\rl{• مالکیت اجتماعی}\\
+\rl{• مسئولیت جمعی}\\
+\rl{• همکاری}
+};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{۲. آزادی در برابر برابری}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9, every node/.style={font=\small}]
+
+% Two-dimensional chart
+\draw[line width=2pt, ->] (0,0) -- (10,0) node[right] {\rl{برابری}};
+\draw[line width=2pt, ->] (0,0) -- (0,8) node[above] {\rl{آزادی}};
+
+% Quadrant labels
+\node[align=center] at (2.5,6) {\rl{لیبرتارینیسم}\\{\footnotesize\rl{آزادی بالا، برابری پایین}}};
+\node[align=center] at (7.5,6) {\rl{لیبرالیسم اجتماعی}\\{\footnotesize\rl{آزادی بالا، برابری بالا}}};
+\node[align=center] at (2.5,2) {\rl{اقتدارگرایی راست}\\{\footnotesize\rl{آزادی پایین، برابری پایین}}};
+\node[align=center] at (7.5,2) {\rl{اقتدارگرایی چپ}\\{\footnotesize\rl{آزادی پایین، برابری بالا}}};
+
+% Position dots for ideologies
+\fill[color=rightblue] (1.5,7) circle (5pt) node[right] {\footnotesize\rl{ لیبرتارین}};
+\fill[color=centergreen] (5,5.5) circle (5pt) node[right] {\footnotesize\rl{ لیبرال}};
+\fill[color=leftred] (8,4) circle (5pt) node[right] {\footnotesize\rl{ سوسیال دموکرات}};
+\fill[color=leftred!70] (7,1.5) circle (5pt) node[right] {\footnotesize\rl{ استالینیسم}};
+\fill[color=darkgray] (2,1.5) circle (5pt) node[right] {\footnotesize\rl{ فاشیسم}};
+
+% Ideal point?
+\fill[color=goldaccent] (6,6) circle (6pt);
+\node[above right, color=goldaccent] at (6,6) {\rl{آرمان؟}};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{۳. مالکیت خصوصی در برابر مالکیت عمومی}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.85, every node/.style={font=\small}]
+
+% Visual representation
+\node[font=\bfseries\large] at (7,7) {\rl{طیف مالکیت}};
+
+% Left side - Private
+\node[draw=rightblue, fill=rightblue!20, rounded corners, minimum width=3cm, minimum height=1.5cm, align=center] at (1,4) {
+\textbf{\rl{مالکیت خصوصی کامل}}\\
+\rl{آنارکو-کاپیتالیسم}
+};
+
+% Middle-left
+\node[draw=rightblue!70, fill=rightblue!10, rounded corners, minimum width=3cm, minimum height=1.5cm, align=center] at (4.5,4) {
+\textbf{\rl{خصوصی با تنظیم}}\\
+\rl{لیبرالیسم}
+};
+
+% Middle
+\node[draw=centergreen, fill=centergreen!20, rounded corners, minimum width=3cm, minimum height=1.5cm, align=center] at (8,4) {
+\textbf{\rl{اقتصاد مختلط}}\\
+\rl{سوسیال دموکراسی}
+};
+
+% Middle-right
+\node[draw=leftred!70, fill=leftred!10, rounded corners, minimum width=3cm, minimum height=1.5cm, align=center] at (11.5,4) {
+\textbf{\rl{عمومی غالب}}\\
+\rl{سوسیالیسم}
+};
+
+% Right side - Public
+\node[draw=leftred, fill=leftred!20, rounded corners, minimum width=3cm, minimum height=1.5cm, align=center] at (15,4) {
+\textbf{\rl{مالکیت عمومی کامل}}\\
+\rl{کمونیسم}
+};
+
+% Examples below
+\node[below, align=center] at (1,2.5) {\footnotesize\rl{همه چیز خصوصی}\\{\scriptsize\rl{جاده، پلیس، دادگاه}}};
+\node[below, align=center] at (8,2.5) {\footnotesize\rl{خصوصی + دولتی}\\{\scriptsize\rl{بازار + دولت رفاه}}};
+\node[below, align=center] at (15,2.5) {\footnotesize\rl{همه چیز عمومی}\\{\scriptsize\rl{کارخانه، زمین، خدمات}}};
+
+% Arrow
+\draw[<->, line width=2pt, color=darkgray] (1,1.5) -- (15,1.5);
+\node[below] at (8,1.2) {\rl{میزان مالکیت دولتی/اجتماعی}};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{۴. رقابت در برابر همکاری}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9, every node/.style={font=\small}]
+
+% Two columns comparison
+\node[draw=rightblue, fill=rightblue!15, rounded corners, minimum width=6cm, minimum height=6cm, align=center] at (3,3) {};
+\node[font=\bfseries, color=rightblue] at (3,5.5) {\large\rl{رقابت}};
+
+\node[draw=leftred, fill=leftred!15, rounded corners, minimum width=6cm, minimum height=6cm, align=center] at (11,3) {};
+\node[font=\bfseries, color=leftred] at (11,5.5) {\large\rl{همکاری}};
+
+% Competition side
+\node[align=right, text width=5cm] at (3,3.5) {
+\rl{• انگیزه برای نوآوری}\\
+\rl{• کارایی اقتصادی}\\
+\rl{• انتخاب مصرف‌کننده}\\
+\rl{• پاداش استعداد}
+};
+
+\node[align=right, text width=5cm, color=leftred!70] at (3,1) {
+\rl{⚠ نابرابری}\\
+\rl{⚠ انحصار}\\
+\rl{⚠ استثمار}
+};
+
+% Cooperation side
+\node[align=right, text width=5cm] at (11,3.5) {
+\rl{• همبستگی اجتماعی}\\
+\rl{• کاهش نابرابری}\\
+\rl{• تأمین همگانی}\\
+\rl{• هدف مشترک}
+};
+
+\node[align=right, text width=5cm, color=rightblue!70] at (11,1) {
+\rl{⚠ کاهش انگیزه؟}\\
+\rl{⚠ ناکارآمدی؟}\\
+\rl{⚠ بوروکراسی}
+};
+
+% Middle - synthesis?
+\draw[<->, line width=3pt, color=centergreen] (6,3) -- (8,3);
+\node[above, color=centergreen, font=\bfseries] at (7,3.3) {\rl{ترکیب؟}};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{۵. آزادی منفی در برابر آزادی مثبت}
+
+\begin{tcolorbox}[
+    enhanced,
+    colback=lightbg,
+    colframe=darkgray,
+    boxrule=2pt,
+    arc=8pt,
+    sidebyside,
+    sidebyside align=top,
+    lefthand width=0.45\textwidth
+]
+\begin{center}
+\textbf{\Large\rl{آزادی منفی}}\\[3mm]
+\textbf{\rl{«آزادی از...»}}
+\end{center}
+
+\begin{itemize}
+    \item آزادی از دخالت دیگران
+    \item آزادی از اجبار دولت
+    \item «رهایم بگذارید»
+    \item حقوق منفی: حق نداشتن مزاحم
+\end{itemize}
+
+\textbf{\rl{نمایندگان:}} آیزایا برلین، هایک، لیبرتارین‌ها
+
+\textbf{\rl{نقد:}} آزادی صوری؛ گرسنه آزاد است؟
+
+\tcblower
+
+\begin{center}
+\textbf{\Large\rl{آزادی مثبت}}\\[3mm]
+\textbf{\rl{«آزادی برای...»}}
+\end{center}
+
+\begin{itemize}
+    \item آزادی برای تحقق خود
+    \item توانمندسازی واقعی
+    \item «کمکم کنید بتوانم»
+    \item حقوق مثبت: حق داشتن منابع
+\end{itemize}
+
+\textbf{\rl{نمایندگان:}} روسو، مارکس، سوسیال دموکرات‌ها
+
+\textbf{\rl{نقد:}} بهانه برای پدرسالاری دولتی؟
+\end{tcolorbox}
+
+\section*{۶. کوتاه‌مدت در برابر بلندمدت}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9, every node/.style={font=\small}]
+
+% Timeline arrow
+\draw[line width=3pt, ->] (0,3) -- (14,3);
+\node[above] at (2,3.2) {\rl{امروز}};
+\node[above] at (12,3.2) {\rl{آینده}};
+
+% Short-term focused
+\node[draw=goldaccent, fill=goldaccent!20, rounded corners, align=center] at (3,5) {
+\textbf{\rl{تمرکز کوتاه‌مدت}}\\[2mm]
+\rl{• نتایج فوری}\\
+\rl{• انتخابات بعدی}\\
+\rl{• سود سه‌ماهه}
+};
+
+% Long-term focused
+\node[draw=centergreen, fill=centergreen!20, rounded corners, align=center] at (11,5) {
+\textbf{\rl{تمرکز بلندمدت}}\\[2mm]
+\rl{• نسل‌های آینده}\\
+\rl{• پایداری}\\
+\rl{• سرمایه‌گذاری}
+};
+
+% Issues
+\node[below, align=center] at (3,1.5) {
+\rl{بحران اقلیم: «بعداً»}\\
+\rl{بدهی ملی: «مشکل بعدی‌ها»}
+};
+
+\node[below, align=center] at (11,1.5) {
+\rl{بحران اقلیم: «الان»}\\
+\rl{بدهی: «مسئولیت ما»}
+};
+
+% Tension
+\draw[<->, line width=2pt, dashed, color=leftred] (5,5) -- (9,5);
+\node[above, color=leftred] at (7,5.2) {\rl{تنش}};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{۷. نظم در برابر آزادی}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9, every node/.style={font=\small}]
+
+% Main spectrum
+\draw[line width=4pt, left color=darkgray, right color=centergreen] (0,0) -- (14,0);
+
+% Labels
+\node[above, font=\bfseries] at (1,0.5) {\rl{نظم مطلق}};
+\node[above, font=\bfseries] at (13,0.5) {\rl{آزادی مطلق}};
+
+% Position markers
+\fill[color=darkgray] (1,0) circle (5pt);
+\node[below] at (1,-0.3) {\rl{توتالیتاریسم}};
+
+\fill[color=rightblue] (4,0) circle (5pt);
+\node[below] at (4,-0.3) {\rl{اقتدارگرایی}};
+
+\fill[color=centergreen] (7,0) circle (5pt);
+\node[below] at (7,-0.3) {\rl{دموکراسی لیبرال}};
+
+\fill[color=goldaccent] (10,0) circle (5pt);
+\node[below] at (10,-0.3) {\rl{لیبرتارینیسم}};
+
+\fill[color=violet] (13,0) circle (5pt);
+\node[below] at (13,-0.3) {\rl{آنارشیسم}};
+
+% Optimal zone?
+\draw[line width=2pt, color=centergreen, decorate, decoration={brace, amplitude=10pt, mirror}] (5,-1) -- (9,-1);
+\node[below, color=centergreen] at (7,-1.5) {\rl{محدودهٔ مطلوب؟}};
+
+\end{tikzpicture}
+\end{center}
+
+\section*{۸. جدول جامع تقابل‌ها}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{|>{\columncolor{darkgray!10}}r|p{4cm}|p{4cm}|p{3.5cm}|}
+\hline
+\rowcolor{darkgray!30}
+\textbf{تقابل} & \textbf{قطب چپ} & \textbf{قطب راست} & \textbf{میانه} \\
+\hline
+فرد/جمع & جمع‌گرایی & فردگرایی & توازن حقوق و وظایف \\
+\hline
+برابری/آزادی & برابری مقدم & آزادی مقدم & آزادی + فرصت برابر \\
+\hline
+دولت/بازار & دولت هدایت‌گر & بازار آزاد & اقتصاد مختلط \\
+\hline
+تغییر/سنت & تغییر بنیادین & حفظ سنت & اصلاح تدریجی \\
+\hline
+جهان/ملت & انترناسیونالیسم & ناسیونالیسم & همکاری + حاکمیت \\
+\hline
+آرمان/واقعیت & آرمان‌گرایی & واقع‌گرایی & واقع‌گرایی اخلاقی \\
+\hline
+خصوصی/عمومی & مالکیت اجتماعی & مالکیت خصوصی & اقتصاد مختلط \\
+\hline
+همکاری/رقابت & همکاری اجتماعی & رقابت بازار & رقابت تنظیم‌شده \\
+\hline
+بلندمدت/کوتاه‌مدت & برنامه‌ریزی بلندمدت & سود فوری & پایداری \\
+\hline
+\end{tabular}
+\caption{خلاصهٔ تقابل‌های موضوعی}
+\end{table}

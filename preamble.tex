@@ -1,0 +1,716 @@
+% ══════════════════════════════════════════════════════════════════════════════
+%                     کتاب: راست یا چپ؛ میانه کجاست؟
+%                          نویسنده: مهدی سالم
+%                           شهر: ریچموندهیل
+% ══════════════════════════════════════════════════════════════════════════════
+%                            فایل اصلی: main.tex
+%                    کامپایلر: XeLaTeX | فونت: Vazirmatn
+% ══════════════════════════════════════════════════════════════════════════════
+
+\documentclass[12pt, a4paper, twoside, openany]{book}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                              پکیج‌های پایه
+% ══════════════════════════════════════════════════════════════════════════════
+
+\usepackage[
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2cm,
+    right=2.5cm,
+    headheight=50pt,
+    headsep=1cm,
+    footskip=1.5cm,
+    bindingoffset=0.5cm]{geometry}
+
+% ریاضی و نمادها
+\usepackage{amsmath, amssymb, amsfonts}
+
+% گرافیک و رنگ
+\usepackage[dvipsnames, svgnames, x11names, table]{xcolor}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% کتابخانه‌های TikZ
+\usetikzlibrary{
+    shapes.geometric,
+    shapes.symbols,
+    shapes.arrows,
+    shapes.callouts,
+    shapes.misc,
+    arrows.meta,
+    positioning,
+    calc,
+    fit,
+    backgrounds,
+    decorations.pathreplacing,
+    decorations.pathmorphing,
+    decorations.markings,
+    decorations.text,
+    patterns,
+    shadows,
+    shadows.blur,
+    fadings,
+    chains,
+    matrix,
+    mindmap,
+    calendar,
+    quotes,
+    angles,
+    through,
+    spy,
+    turtle,
+    lindenmayersystems,
+    folding,
+    patterns.meta,
+    bending
+}
+
+% جداول پیشرفته
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{tabularx}
+
+% کادرها و باکس‌ها
+\usepackage[most, skins, breakable]{tcolorbox}
+
+% صفحات عرضی
+\usepackage{pdflscape}
+\usepackage{rotating}
+
+% هدر و فوتر
+\usepackage{fancyhdr}
+
+% لینک‌ها
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue4,
+    citecolor=ForestGreen,
+    urlcolor=Maroon,
+    pdfencoding=unicode,
+    unicode=true,
+    pdflang={fa-IR},
+    bookmarks=true,
+    bookmarksopen=true,
+    pdfauthor={مهدی سالم},
+    pdftitle={راست یا چپ؛ میانه کجاست؟},
+    pdfsubject={اندیشه سیاسی},
+    pdfkeywords={چپ، راست، سیاست، ایدئولوژی}
+}
+
+% شماره‌گذاری و فهرست
+\usepackage{tocbibind}
+\usepackage{titletoc}
+\usepackage{titlesec}
+
+% پاورقی
+\usepackage[perpage, symbol*]{footmisc}
+
+% نقل‌قول
+\usepackage{csquotes}
+
+% سایر
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{lettrine}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{needspace}
+
+% در پریمبل اضافه کنید (قبل از xepersian):
+\usepackage{svg}
+\svgsetup{
+	inkscapelatex=false,   % متن SVG را Inkscape رندر کند نه LaTeX
+	inkscapeformat=pdf,
+	inkscapearea=drawing
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   🎨 پالت رنگی اختصاصی کتاب
+% ══════════════════════════════════════════════════════════════════════════════
+
+% رنگ‌های اصلی طیف سیاسی
+\definecolor{LeftRed}{RGB}{180, 30, 30}
+\definecolor{LeftRedLight}{RGB}{220, 80, 80}
+\definecolor{LeftRedDark}{RGB}{130, 20, 20}
+
+\definecolor{RightBlue}{RGB}{30, 60, 140}
+\definecolor{RightBlueLight}{RGB}{70, 100, 180}
+\definecolor{RightBlueDark}{RGB}{20, 40, 100}
+
+\definecolor{CenterGreen}{RGB}{50, 130, 70}
+\definecolor{CenterGreenLight}{RGB}{90, 170, 110}
+\definecolor{CenterGreenDark}{RGB}{30, 90, 50}
+
+% رنگ‌های تأکیدی
+\definecolor{GoldAccent}{RGB}{180, 150, 40}
+\definecolor{GoldLight}{RGB}{220, 190, 80}
+\definecolor{GoldDark}{RGB}{140, 110, 20}
+
+\definecolor{PurpleAccent}{RGB}{100, 50, 120}
+\definecolor{PurpleLight}{RGB}{150, 100, 170}
+
+\definecolor{OrangeAccent}{RGB}{200, 100, 30}
+\definecolor{OrangeLight}{RGB}{240, 150, 80}
+
+% رنگ‌های خنثی
+\definecolor{DarkGray}{RGB}{50, 50, 55}
+\definecolor{MediumGray}{RGB}{100, 100, 105}
+\definecolor{LightGray}{RGB}{200, 200, 205}
+\definecolor{VeryLightGray}{RGB}{240, 240, 242}
+\definecolor{PageBg}{RGB}{252, 251, 248}
+\definecolor{lightbg}{RGB}{250,248,245}
+
+% رنگ‌های کادرها
+\definecolor{DefBoxBg}{RGB}{232, 245, 250}
+\definecolor{DefBoxFrame}{RGB}{70, 130, 180}
+\definecolor{QuoteBoxBg}{RGB}{235, 250, 240}
+\definecolor{QuoteBoxFrame}{RGB}{60, 140, 90}
+\definecolor{HistoryBoxBg}{RGB}{255, 250, 235}
+\definecolor{HistoryBoxFrame}{RGB}{180, 150, 50}
+\definecolor{DebateBoxBg}{RGB}{255, 240, 240}
+\definecolor{DebateBoxFrame}{RGB}{180, 50, 50}
+\definecolor{CompareBoxBg}{RGB}{245, 240, 255}
+\definecolor{CompareBoxFrame}{RGB}{100, 60, 130}
+\definecolor{PersonBoxBg}{RGB}{248, 248, 252}
+\definecolor{PersonBoxFrame}{RGB}{80, 80, 120}
+\definecolor{WarningBoxBg}{RGB}{255, 245, 230}
+\definecolor{WarningBoxFrame}{RGB}{200, 120, 40}
+
+% ── رنگ‌های اضافه برای عمق بصری ──────────────────────────────────────────
+\definecolor{ChapterBandColor}{RGB}{25, 50, 120}   % نوار فصل
+\definecolor{ChapterNumColor}{RGB}{220, 185, 60}   % شماره فصل طلایی
+\definecolor{OrnamentColor}{RGB}{160, 130, 40}     % رنگ زیورها
+\definecolor{PartBg}{RGB}{20, 40, 90}              % پس‌زمینه بخش
+\definecolor{ShadeLine}{RGB}{180, 160, 100}        % خط‌های سایه‌دار
+
+% Color aliases
+\colorlet{leftred}{LeftRed}
+\colorlet{rightblue}{RightBlue}
+\colorlet{centergreen}{CenterGreen}
+\colorlet{goldaccent}{GoldAccent}
+\colorlet{violet}{PurpleAccent}
+\colorlet{darkgray}{DarkGray}
+\colorlet{lightgray}{LightGray}
+\colorlet{verylightgray}{VeryLightGray}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%              🖼️  زیور و تزئینات تکرارشونده (TikZ helpers)
+% ══════════════════════════════════════════════════════════════════════════════
+
+% ─── خط تزئینی طلایی ─────────────────────────────────────────────────────────
+%  استفاده: \ornamentalrule   (در هر جا که \titlerule قدیمی بود)
+% در پریمبل، ornamentalrule را کاملاً بازنویسی کنید:
+\newcommand{\ornamentalrule}{%
+  \begin{center}
+  \begin{tikzpicture}[baseline=0pt]
+    % خط چپ
+    \draw[OrnamentColor, line width=0.8pt]
+      (0,0) -- (0.28\linewidth, 0);
+    % نقطهٔ گرد چپ
+    \fill[OrnamentColor]
+      (0.28\linewidth, 0) circle (2pt);
+    % خط مرکزی ضخیم
+    \draw[GoldAccent, line width=1.8pt]
+      (0.28\linewidth, 0) -- (0.72\linewidth, 0);
+    % لوزی مرکزی
+    \node[diamond, fill=GoldAccent,
+          inner sep=2.2pt, outer sep=0pt]
+      at (0.5\linewidth, 0) {};
+    % نقطهٔ گرد راست
+    \fill[OrnamentColor]
+      (0.72\linewidth, 0) circle (2pt);
+    % خط راست
+    \draw[OrnamentColor, line width=0.8pt]
+      (0.72\linewidth, 0) -- (\linewidth, 0);
+  \end{tikzpicture}
+  \end{center}%
+}
+
+\newcommand{\bookrule}{%
+  \vspace{4pt}\ornamentalrule\vspace{4pt}%
+}
+
+% ─── جداکننده بند (section ornament) ────────────────────────────────────────
+\newcommand{\sectionornament}{%
+  \begin{center}
+  \begin{tikzpicture}
+    \foreach \x in {-1.2,-0.6,0,0.6,1.2}{
+      \filldraw[OrnamentColor!\x*30+60] (\x,0) circle (2pt);
+    }
+    \draw[OrnamentColor, line width=0.5pt] (-1.5,0)--(1.5,0);
+  \end{tikzpicture}
+  \end{center}%
+}
+
+% ─── corner ornament (برای صفحه عنوان / بخش) ─────────────────────────────────
+\newcommand{\cornerornament}[1][OrnamentColor]{%
+  \begin{tikzpicture}[remember picture, overlay]
+    % گوشه بالا-راست
+    \draw[#1, line width=1pt]
+      ([xshift=-1.5cm, yshift=-1.5cm]current page.north east)
+      -| ([xshift=-1.5cm, yshift=-1.5cm]current page.north east
+          -| current page.north east)
+         ([xshift=-1.5cm, yshift=-1.5cm]current page.north east)
+      |- ([xshift=-1.5cm, yshift=-1.5cm]current page.north east
+          |- current page.north east);
+    % گوشه پایین-چپ
+    \draw[#1, line width=1pt]
+      ([xshift=1.5cm, yshift=1.5cm]current page.south west)
+      -| ([xshift=1.5cm, yshift=1.5cm]current page.south west
+          -| current page.south west)
+         ([xshift=1.5cm, yshift=1.5cm]current page.south west)
+      |- ([xshift=1.5cm, yshift=1.5cm]current page.south west
+          |- current page.south west);
+  \end{tikzpicture}%
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📦 تعریف کادرهای رنگی (tcolorbox)
+% ══════════════════════════════════════════════════════════════════════════════
+
+% ─── تنظیم جهانی tcolorbox ─────────────────────────────────────────────────
+% تمام کادرها از این پایه ارث می‌برند؛ تغییر اینجا = تغییر همه جا
+\tcbset{
+  bookbase/.style={
+    enhanced,
+    breakable,
+    arc=3mm,
+    boxrule=0.8pt,
+    fonttitle=\bfseries,
+    attach boxed title to top right={yshift=-2.5mm, xshift=-5mm},
+    boxed title style={
+      rounded corners, % was =2mm
+      boxrule=0pt,
+      interior style={
+        left color=#1!80!black,
+        right color=#1
+      }
+    },
+    % سایه نرم با blur
+    drop fuzzy shadow=black!30,
+    left=8pt, right=8pt, top=8pt, bottom=8pt,
+    after skip=8pt, before skip=8pt,
+    % خط نازک تزئینی داخل
+    underlay={\draw[#1!40, line width=0.3pt, dashed]
+               (interior.south west) -- (interior.south east);},
+  }
+}
+
+% ──── 🔵 کادر تعریف ──────────────────────────────────────────────────────────
+\newtcolorbox{defbox}[1][]{
+    bookbase=DefBoxFrame,
+    colback=DefBoxBg,
+    colframe=DefBoxFrame,
+    coltitle=white,
+    title={\rl{📖 #1}},
+    boxed title style={colback=DefBoxFrame, rounded corners},
+    % نوار جانبی
+    borderline west={4pt}{-4pt}{DefBoxFrame!70},
+    before upper={\parindent=1.5em},
+}
+
+% ──── 🟢 کادر نقل‌قول ────────────────────────────────────────────────────────
+\newtcolorbox{quotebox}[1][]{
+    bookbase=QuoteBoxFrame,
+    colback=QuoteBoxBg,
+    colframe=QuoteBoxFrame,
+    coltitle=white,
+    title={\rl{💬 #1}},
+    boxed title style={colback=QuoteBoxFrame, rounded corners},
+    borderline west={5pt}{-5pt}{QuoteBoxFrame},
+    % علامت نقل‌قول تزئینی در پس‌زمینه
+    watermark text={\textcolor{QuoteBoxFrame!15}{\fontsize{60}{60}\selectfont"}},
+    before upper={\parindent=0em},
+}
+
+% ──── 🟡 کادر نکته تاریخی ───────────────────────────────────────────────────
+\newtcolorbox{historybox}[1][]{
+    bookbase=HistoryBoxFrame,
+    colback=HistoryBoxBg,
+    colframe=HistoryBoxFrame,
+    coltitle=white,
+    title={\rl{📜 #1}},
+    boxed title style={colback=HistoryBoxFrame, rounded corners},
+    % تزئین گوشه
+    overlay={
+      \node[anchor=south west, opacity=0.07,
+            font=\fontsize{36}{36}\selectfont]
+        at (interior.south west) {⏳};
+    },
+}
+
+% ──── 🔴 کادر اختلافی ───────────────────────────────────────────────────────
+\newtcolorbox{debatebox}[1][]{
+    bookbase=DebateBoxFrame,
+    colback=DebateBoxBg,
+    colframe=DebateBoxFrame,
+    coltitle=white,
+    title={\rl{⚔️ #1}},
+    boxed title style={colback=DebateBoxFrame, rounded corners},
+    borderline={0.8pt}{-4pt}{DebateBoxFrame, dashed},
+    overlay={
+      \node[anchor=south east, opacity=0.06,
+            font=\fontsize{40}{40}\selectfont]
+        at (interior.south east) {⚔️};
+    },
+}
+
+% ──── 🟣 کادر مقایسه ────────────────────────────────────────────────────────
+\newtcolorbox{comparebox}[1][]{
+    bookbase=CompareBoxFrame,
+    colback=CompareBoxBg,
+    colframe=CompareBoxFrame,
+    coltitle=white,
+    title={\rl{⚖️ #1}},
+    boxed title style={colback=CompareBoxFrame, rounded corners},
+    % دو نوار جانبی متقارن
+    borderline west={3pt}{-3pt}{LeftRed!60},
+    borderline east={3pt}{-3pt}{RightBlue!60},
+}
+
+% ──── 👤 کادر شخصیت ─────────────────────────────────────────────────────────
+\newtcolorbox{personbox}[1][]{
+    bookbase=PersonBoxFrame,
+    colback=PersonBoxBg,
+    colframe=PersonBoxFrame,
+    coltitle=white,
+    title={\rl{👤 #1}},
+    boxed title style={colback=PersonBoxFrame, rounded corners},
+    % هاشور سبک در پس‌زمینه
+    interior style={
+      top color=PersonBoxBg,
+      bottom color=PersonBoxBg!85!PersonBoxFrame
+    },
+    before upper={\parindent=1.5em},
+}
+
+% ──── ⚠️ کادر هشدار ─────────────────────────────────────────────────────────
+\newtcolorbox{warningbox}[1][]{
+    bookbase=WarningBoxFrame,
+    colback=WarningBoxBg,
+    colframe=WarningBoxFrame,
+    coltitle=white,
+    title={\rl{⚠️ #1}},
+    boxed title style={colback=WarningBoxFrame, rounded corners},
+    borderline west={5pt}{-5pt}{WarningBoxFrame},
+    overlay={
+      \node[anchor=south east, opacity=0.06,
+            font=\fontsize{40}{40}\selectfont]
+        at (interior.south east) {⚠️};
+    },
+}
+
+% ──── 📝 کادر خلاصه فصل ─────────────────────────────────────────────────────
+\newtcolorbox{summarybox}{
+    enhanced, breakable,
+    colback=VeryLightGray,
+    colframe=DarkGray,
+    coltitle=white,
+    fonttitle=\bfseries\large,
+    title={\rl{📝 خلاصه فصل}},
+    attach boxed title to top right={yshift=-2.5mm, xshift=-5mm},
+    boxed title style={
+      colback=DarkGray,
+      rounded corners,
+      % گرادیان روی تایتل
+      interior style={left color=DarkGray!80, right color=DarkGray}
+    },
+    arc=4mm,
+    boxrule=1.2pt,
+    % کادر دوگانه
+    frame style={
+      top color=DarkGray!70,
+      bottom color=DarkGray
+    },
+    drop fuzzy shadow=black!30,
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    after skip=8pt, before skip=0pt,
+    % خط تزئینی پایین
+    underlay={
+      \draw[GoldAccent, line width=1pt]
+        (interior.south west) -- (interior.south east);
+    },
+}
+
+% ──── ❓ کادر پرسش‌های تأملی ────────────────────────────────────────────────
+\newtcolorbox{questionbox}{
+    enhanced, breakable,
+    colback=white,
+    colframe=CenterGreen,
+    coltitle=white,
+    fonttitle=\bfseries\large,
+    title={\rl{❓ پرسش‌های تأملی}},
+    attach boxed title to top right={yshift=-2.5mm, xshift=-5mm},
+    boxed title style={
+      colback=CenterGreen,
+      rounded corners,
+      interior style={left color=CenterGreenDark, right color=CenterGreen}
+    },
+    arc=4mm,
+    boxrule=1.2pt,
+    borderline west={4pt}{-4pt}{CenterGreen},
+    drop fuzzy shadow=black!20,
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    after skip=0pt, before skip=8pt,
+    underlay={
+      \draw[CenterGreen!40, line width=0.4pt, dashed]
+        ([xshift=4pt]interior.north west)
+        -- ([xshift=4pt]interior.south west);
+    },
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   🎨 استایل‌های TikZ
+% ══════════════════════════════════════════════════════════════════════════════
+
+\tikzstyle{timenode}=[rectangle, rounded corners=3pt,
+    minimum width=2.5cm, minimum height=0.8cm,
+    text centered, font=\small]
+\tikzstyle{leftevent}=[timenode, fill=LeftRedLight,
+    draw=LeftRed, line width=1pt, text=white]
+\tikzstyle{rightevent}=[timenode, fill=RightBlueLight,
+    draw=RightBlue, line width=1pt, text=white]
+\tikzstyle{centerevent}=[timenode, fill=CenterGreenLight,
+    draw=CenterGreen, line width=1pt, text=white]
+\tikzstyle{neutralevent}=[timenode, fill=LightGray,
+    draw=DarkGray, line width=1pt, text=DarkGray]
+
+\tikzstyle{concept}=[ellipse, minimum width=2.5cm,
+    minimum height=1.2cm, text centered, font=\small\bfseries]
+\tikzstyle{leftconcept}=[concept, fill=LeftRedLight!50,
+    draw=LeftRed, line width=1.5pt, text=LeftRedDark]
+\tikzstyle{rightconcept}=[concept, fill=RightBlueLight!50,
+    draw=RightBlue, line width=1.5pt, text=RightBlueDark]
+\tikzstyle{centerconcept}=[concept, fill=CenterGreenLight!50,
+    draw=CenterGreen, line width=1.5pt, text=CenterGreenDark]
+
+\tikzstyle{thickarrow}=[{-Stealth[length=8pt,width=6pt]},line width=2pt]
+\tikzstyle{thinarrow}=[{-Stealth[length=5pt,width=4pt]},line width=1pt]
+\tikzstyle{dashedarrow}=[{-Stealth[length=5pt,width=4pt]},line width=1pt,dashed]
+
+% ══════════════════════════════════════════════════════════════════════════════
+%            📐 استایل فصل با TikZ (جایگزین titleformat ساده)
+% ══════════════════════════════════════════════════════════════════════════════
+
+% ─── Part ────────────────────────────────────────────────────────────────────
+\titleformat{\part}[display]
+    {\centering\Huge\bfseries}
+    {%
+      % نوار رنگی پشت شماره بخش
+      \begin{tikzpicture}[remember picture]
+        \fill[PartBg, rounded corners=4pt]
+             (-0.5\linewidth, -0.3cm) rectangle (0.5\linewidth, 0.9cm);
+        \draw[GoldAccent, line width=1.5pt, rounded corners=4pt]
+             (-0.5\linewidth, -0.3cm) rectangle (0.5\linewidth, 0.9cm);
+        \node[text=GoldAccent, font=\Large\bfseries]
+             at (0, 0.3cm) {\rl{بخش \thepart}};
+      \end{tikzpicture}%
+    }
+    {20pt}
+    {\textcolor{DarkGray}}
+\titlespacing*{\part}{0pt}{50pt}{40pt}
+
+% ─── Chapter  ← BUG FIX: outer [] protected with braces ─────────────────────
+\titleformat{\chapter}[display]
+    {%
+      \normalfont\huge\bfseries\raggedleft
+      % پس‌زمینه نوار فصل (overlay)
+      \begin{tikzpicture}[remember picture, overlay]
+        % نوار بالای صفحه
+        \fill[ChapterBandColor]
+          ([yshift=-2pt]current page.north west)
+          rectangle
+          ([yshift=-8pt]current page.north east);
+        % مستطیل شماره فصل
+        \fill[ChapterBandColor, rounded corners=3pt]
+          ([xshift=1.5cm, yshift=-3cm]current page.north east)
+          rectangle
+          ([xshift=4cm, yshift=-1.5cm]current page.north east);
+        \node[text=ChapterNumColor,
+              font=\fontsize{28}{28}\bfseries,
+              anchor=center]
+          at ([xshift=2.75cm, yshift=-2.25cm]current page.north east)
+          {\thechapter};
+      \end{tikzpicture}%
+    }
+    {\textcolor{MediumGray}{\Large\rl{فصل \thechapter}}}
+    {10pt}
+    {\textcolor{DarkGray}}
+    % ↓ BUG FIX: braces around \titlerule[2pt] prevent stray ]
+    [\vspace{4pt}%
+     \ornamentalrule%
+     \vspace{2pt}]
+\titlespacing*{\chapter}{0pt}{-20pt}{30pt}
+
+% ─── Section ─────────────────────────────────────────────────────────────────
+\titleformat{\section}
+    {\normalfont\Large\bfseries\color{RightBlue}}
+    {%
+      % شماره با پس‌زمینه کوچک
+      \colorbox{RightBlue!12}{%
+        \textcolor{RightBlue}{\thesection}%
+      }%
+    }
+    {10pt}
+    {}
+    % خط کوتاه تزئینی زیر عنوان
+    [\vspace{2pt}%
+     \noindent{\color{RightBlue!40}\rule{\linewidth}{0.5pt}}%
+     \vspace{1pt}]
+\titlespacing*{\section}{0pt}{25pt}{15pt}
+
+% ─── Subsection ──────────────────────────────────────────────────────────────
+\titleformat{\subsection}
+    {\normalfont\large\bfseries\color{DarkGray}}
+    {\colorbox{DarkGray!10}{\textcolor{DarkGray}{\thesubsection}}}
+    {8pt}
+    {}
+\titlespacing*{\subsection}{0pt}{20pt}{10pt}
+
+% ─── Subsubsection ───────────────────────────────────────────────────────────
+\titleformat{\subsubsection}
+    {\normalfont\normalsize\bfseries\color{MediumGray}}
+    {\thesubsubsection}
+    {6pt}
+    {}
+\titlespacing*{\subsubsection}{0pt}{15pt}{8pt}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%              📄 هدر و فوتر با TikZ (غنی‌شده)
+% ══════════════════════════════════════════════════════════════════════════════
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% ─── هدر ─────────────────────────────────────────────────────────────────────
+\fancyhead[RO]{\small\textcolor{DarkGray}{\leftmark}}
+\fancyhead[LE]{\small\textcolor{DarkGray}{\rightmark}}
+
+% شماره صفحه با دایره تزئینی
+\fancyhead[LO]{%
+  \begin{tikzpicture}[baseline=-0.6ex]
+    \fill[ChapterBandColor!85] (0,0) circle (9pt);
+    \node[text=white, font=\small\bfseries] at (0,0) {\thepage};
+  \end{tikzpicture}%
+}
+\fancyhead[RE]{%
+  \begin{tikzpicture}[baseline=-0.6ex]
+    \fill[ChapterBandColor!85] (0,0) circle (9pt);
+    \node[text=white, font=\small\bfseries] at (0,0) {\thepage};
+  \end{tikzpicture}%
+}
+
+% خط هدر طلایی دو-لایه
+\renewcommand{\headrulewidth}{0pt}   % غیرفعال‌سازی پیش‌فرض
+\renewcommand{\headrule}{%
+  \vspace{-4pt}%
+  {\color{GoldAccent}\rule{\headwidth}{1.5pt}}\\[-2pt]
+  {\color{ChapterBandColor!30}\rule{\headwidth}{0.4pt}}%
+}
+
+% فوتر
+\fancyfoot[C]{}
+\renewcommand{\footrulewidth}{0pt}
+
+% ─── صفحات ساده (ابتدای فصل) ──────────────────────────────────────────────
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{%
+      \begin{tikzpicture}[baseline=-0.6ex]
+        \draw[GoldAccent, line width=0.8pt]
+             (-1cm, 0) -- (-0.25cm, 0);
+        \fill[GoldAccent] (0,0) circle (3pt);
+        \node[text=DarkGray, font=\small\bfseries]
+             at (0,0) {};
+        \node[text=DarkGray, font=\small]
+             at (0,-0.5) {\thepage};
+        \draw[GoldAccent, line width=0.8pt]
+             (0.25cm, 0) -- (1cm, 0);
+      \end{tikzpicture}%
+    }
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📋 تنظیمات فهرست مطالب (غنی‌شده)
+% ══════════════════════════════════════════════════════════════════════════════
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
+
+\titlecontents{part}[0pt]
+    {\addvspace{20pt}\bfseries\large\color{ChapterBandColor}}
+    {{\colorbox{ChapterBandColor!15}{\textcolor{ChapterBandColor}{بخش \thecontentslabel}}}\quad}
+    {}
+    {\hfill\contentspage}
+
+\titlecontents{chapter}[15pt]
+    {\addvspace{10pt}\bfseries\color{DarkGray}}
+    {{\textcolor{GoldDark}{فصل \thecontentslabel:}}\quad}
+    {}
+    {\titlerule*[6pt]{\textcolor{GoldAccent!60}{·}}\contentspage}
+
+\titlecontents{section}[35pt]
+    {\addvspace{3pt}\color{MediumGray}}
+    {\thecontentslabel\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
+
+\titlecontents{subsection}[55pt]
+    {\color{MediumGray!80}}
+    {\thecontentslabel\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   🔧 دستورات سفارشی
+% ══════════════════════════════════════════════════════════════════════════════
+
+\newcommand{\fa}[1]{{\rl{#1}}}
+\newcommand{\keyword}[1]{\textbf{\textcolor{RightBlue}{#1}}}
+\newcommand{\leftkw}[1]{\textbf{\textcolor{LeftRed}{#1}}}
+\newcommand{\rightkw}[1]{\textbf{\textcolor{RightBlue}{#1}}}
+\newcommand{\centerkw}[1]{\textbf{\textcolor{CenterGreen}{#1}}}
+\newcommand{\person}[1]{\textbf{#1}}
+\newcommand{\book}[1]{\textit{«#1»}}
+\newcommand{\term}[1]{\textbf{\textcolor{DarkGray}{#1}}}
+\newcommand{\yearmark}[1]{\textbf{\textcolor{GoldDark}{#1}}}
+\newcommand{\pmark}{\textcolor{LeftRed}{$\bullet$}}
+\newcommand{\rmark}{\textcolor{RightBlue}{$\blacktriangleright$}}
+\newcommand{\mediumspace}{\vspace{6pt}}
+\newcommand{\largespace}{\vspace{12pt}}
+\newcommand{\en}[1]{\lr{#1}}
+\newcommand{\enfootnote}[1]{\footnote{\lr{#1}}}
+\newcommand{\enref}[1]{\lr{\cite{#1}}}
+
+% ──── جدیدها ────────────────────────────────────────────────────────────────
+% تأکید سیاسی ترکیبی
+\newcommand{\polmark}[1]{%
+  \tikz[baseline=-0.5ex]{%
+    \fill[GoldAccent!20, rounded corners=2pt]
+         (0,-1pt) rectangle (\widthof{#1}+4pt, 9pt);
+    \node[inner sep=2pt] at (0.5\widthof{#1}+2pt, 4pt) {#1};
+  }%
+}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📚 xepersian باید آخرین پکیج باشد
+% ══════════════════════════════════════════════════════════════════════════════
+
+\usepackage{xepersian}
+\settextfont{Vazirmatn}
+\setdigitfont{Vazirmatn}
+%\PersianFootnotes

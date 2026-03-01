@@ -1,0 +1,410 @@
+\contentsline {chapter}{پیشگفتار}{ت}{chapter*.1}%
+\contentsline {chapter}{راهنمای خواندن کتاب}{ج}{chapter*.2}%
+\contentsline {chapter}{فهرست مطالب}{خ}{chapter*.4}%
+\thispagestyle {empty}
+\contentsline {chapter}{فهرست نمودارها}{ف}{section*.5}%
+\contentsline {chapter}{فهرست تصاویر}{ف}{chapter*.6}%
+\contentsline {chapter}{فهرست جداول}{ک}{section*.7}%
+\contentsline {chapter}{فهرست جداول}{ک}{chapter*.8}%
+\contentsline {part}{اول\hspace {1em}مبانی و مفاهیم}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}زایش طیف سیاسی}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}پیش از چپ و راست: جهان سیاسی پیشامدرن}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}نظام‌های سلسله‌مراتبی}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}غیاب مفهوم طیف سیاسی}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}انقلاب فرانسه: لحظه زایش}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}بحران مالی و تشکیل مجلس عمومی}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}از مجلس عمومی به مجلس ملی}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}تولد چپ و راست: سپتامبر ۱۷۸۹}{4}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}محتوای اولیه چپ و راست}{5}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}رادیکالی‌شدن انقلاب}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}از ژیروندن تا ژاکوبن}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}دوران ترور و پیامدهایش}{6}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}شخصیت‌های کلیدی}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}گسترش مفهوم در قرن نوزدهم}{7}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}بازگشت و انقلاب: ۱۸۱۵-۱۸۴۸}{7}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}انقلاب‌های ۱۸۴۸: بهار ملت‌ها}{8}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}ظهور سوسیالیسم: بُعد جدید}{8}{subsection.1.5.3}%
+\contentsline {section}{\numberline {1.6}اختلافات اولیه درون هر جناح}{8}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}شکاف‌های درون راست}{9}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}شکاف‌های درون چپ}{9}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}نقد مفهوم طیف خطی}{10}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}محدودیت‌های مدل یک‌بعدی}{10}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}پیش‌درآمد مدل‌های جایگزین}{10}{subsection.1.7.2}%
+\contentsline {chapter}{\numberline {2}فلسفه و معرفت‌شناسی چپ و راست}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}انسان‌شناسی فلسفی: انسان چیست؟}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}نگاه بدبینانه: انسان ناقص}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}نگاه خوش‌بینانه: انسان قابل تکامل}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}جان لاک: راه میانه}{14}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}معرفت‌شناسی سیاسی: چگونه می‌دانیم؟}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}خرد جمعی در برابر خرد فردی}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}نقد ایدئولوژی: مارکس و آگاهی کاذب}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}مایکل اوکشات: نقد عقل‌گرایی از راست}{16}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}فلسفه تاریخ: تاریخ به کجا می‌رود؟}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}پیشرفت‌گرایی: روایت غالب چپ}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}تاریخ‌گرایی مارکسی}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}نقد محافظه‌کارانه: تاریخ معلم نیست، هشدار است}{17}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}عدالت و برابری}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}عدالت چیست؟}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}جان رالز: عدالت به مثابه انصاف}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}رابرت نوزیک: عدالت به مثابه استحقاق}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}برابری: صوری یا واقعی؟}{19}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}آزادی: مفهومی مورد مناقشه}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}آزادی منفی و مثبت: تمایز برلین}{20}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}آزادی جمهوری‌خواهانه: راه سوم؟}{21}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}اختلافات درون‌مکتبی}{21}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}اختلاف درون چپ}{21}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}اختلاف درون راست}{22}{subsection.2.6.2}%
+\contentsline {chapter}{\numberline {3}اقتصاد سیاسی و جدال بنیادین}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}مالکیت: بنیادی‌ترین اختلاف}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}دفاع از مالکیت خصوصی}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}نقد مالکیت خصوصی}{26}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}بازار در برابر برنامه‌ریزی}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}بازار آزاد: دست نامرئی}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}نقد بازار: شکست‌های بازار}{28}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}برنامه‌ریزی مرکزی: جایگزین سوسیالیستی}{28}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}مناظره محاسبه سوسیالیستی}{29}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}نقش دولت در اقتصاد}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}طیف نقش‌های دولت}{30}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}دولت رفاه: میانه کینزی}{30}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}نظریه‌های ارزش: اختلافی بنیادین}{31}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}نظریه ارزش کار}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}نظریه ارزش ذهنی}{31}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}مکاتب اقتصادی معاصر}{32}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}مکتب شیکاگو و نئولیبرالیسم}{32}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}مکتب اتریش}{32}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}اقتصاد مارکسی معاصر}{33}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}اختلافات درون‌مکتبی}{33}{section.3.6}%
+\contentsline {section}{\numberline {3.7}جدول جامع: مکاتب اقتصادی و مواضع}{34}{section.3.7}%
+\contentsline {part}{دوم\hspace {1em}جهان چپ}{36}{part.2}%
+\contentsline {chapter}{\numberline {4}سوسیالیسم: ریشه‌ها و شاخه‌ها}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}سوسیالیسم چیست؟}{37}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}تعاریف رقیب}{37}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}ویژگی‌های مشترک}{37}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}سوسیالیسم پیشامارکسی: آرمان‌شهرگرایان}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}کلود هانری سن‌سیمون}{39}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}شارل فوریه}{39}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}رابرت اوون}{40}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}نقد مارکس به سوسیالیسم تخیلی}{40}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}سوسیالیسم علمی: مارکس و انگلس}{41}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}مبانی مارکسیسم}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}نقد اقتصاد سیاسی}{41}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}انقلاب و دیکتاتوری پرولتاریا}{42}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}شاخه‌های پس از مارکس}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}انترناسیونال اول و دوم}{43}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}انشعاب بزرگ: انقلابی در برابر اصلاح‌طلب}{43}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}سوسیالیسم دموکراتیک}{44}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}فابیان‌ها در انگلستان}{45}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}SPD آلمان}{45}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}سوسیالیسم گیلدی و سندیکالیسم}{45}{section.4.6}%
+\contentsline {section}{\numberline {4.7}سوسیالیسم مسیحی و مذهبی}{46}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}سوسیالیسم مسیحی}{46}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}الهیات رهایی‌بخش}{46}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}سوسیالیسم اسلامی؟}{47}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}اختلافات کلیدی درون سوسیالیسم}{47}{section.4.8}%
+\contentsline {chapter}{\numberline {5}کمونیسم: از مارکس تا مائو}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}کمونیسم به مثابه هدف نهایی}{49}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}تفاوت سوسیالیسم و کمونیسم در نظریه مارکسی}{49}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}کمونیسم: آرمان‌شهر یا علم؟}{50}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}لنینیسم: نظریه و عمل}{50}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}حزب پیشاهنگ}{51}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}انقلاب اکتبر ۱۹۱۷}{51}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}استالینیسم}{52}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}تروتسکی در برابر استالین}{53}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}مائوئیسم}{53}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}انقلاب فرهنگی (۱۹۶۶-۱۹۷۶)}{54}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}کمونیسم در جهان سوم}{55}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}انقلاب کوبا}{55}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}ویتنام}{56}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}یوروکمونیسم}{56}{section.5.6}%
+\contentsline {section}{\numberline {5.7}فروپاشی بلوک شرق}{57}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}علل فروپاشی}{57}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}ارزیابی‌های متفاوت از فروپاشی}{57}{subsection.5.7.2}%
+\contentsline {section}{\numberline {5.8}کمونیسم امروز}{58}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}چین: کمونیسم یا سرمایه‌داری دولتی؟}{58}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}کوبا، ویتنام، کره شمالی}{58}{subsection.5.8.2}%
+\contentsline {chapter}{\numberline {6}آنارشیسم و چپ آزادی‌خواه}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}آنارشیسم چیست؟}{61}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}تعریف و اصول بنیادین}{61}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}تفاوت با سایر جریان‌های چپ}{62}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}پیشگامان آنارشیسم}{62}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}ویلیام گادوین}{62}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}پیر ژوزف پرودون}{63}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}ماکس اشتیرنر}{63}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}آنارشیسم جمعی: باکونین}{64}{section.6.3}%
+\contentsline {section}{\numberline {6.4}آنارکو-کمونیسم: کروپوتکین}{65}{section.6.4}%
+\contentsline {section}{\numberline {6.5}آنارکو-سندیکالیسم}{65}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}انقلاب اسپانیا (۱۹۳۶-۱۹۳۹)}{66}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}آنارشیسم فردگرا}{67}{section.6.6}%
+\contentsline {section}{\numberline {6.7}جریان‌های معاصر آنارشیسم}{67}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}آنارکا-فمینیسم}{68}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}آنارشیسم سبز و بدوی‌گرایی}{69}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}پست-آنارشیسم}{69}{subsection.6.7.3}%
+\contentsline {section}{\numberline {6.8}نقد آنارشیسم}{69}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}نقد از چپ مارکسیستی}{70}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}نقد از راست}{70}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.3}پاسخ آنارشیست‌ها}{70}{subsection.6.8.3}%
+\contentsline {section}{\numberline {6.9}آنارشیسم امروز}{70}{section.6.9}%
+\contentsline {chapter}{\numberline {7}سوسیال‌دموکراسی و چپ میانه}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}سوسیال‌دموکراسی چیست؟}{73}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}تعریف و تحول تاریخی}{73}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}ویژگی‌های کلیدی}{74}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}مناظره برنشتاین: نقطه عطف}{74}{section.7.2}%
+\contentsline {section}{\numberline {7.3}مدل اسکاندیناوی}{75}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}دولت رفاه سوئدی}{75}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}کورپوراتیسم اجتماعی}{77}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}حزب کارگر بریتانیا}{77}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}دولت اتلی و بنیان‌گذاری دولت رفاه}{77}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}از ویلسون تا بلر}{78}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}سوسیال‌دموکراسی آلمان}{78}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}برنامه بادگودسبرگ (۱۹۵۹)}{79}{subsection.7.5.1}%
+\contentsline {section}{\numberline {7.6}احزاب سوسیالیست در اروپای جنوبی}{80}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}PSOE اسپانیا}{80}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}PS فرانسه و میتران}{80}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}PCI/PD ایتالیا}{81}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}بحران سوسیال‌دموکراسی}{81}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}علل بحران}{82}{subsection.7.7.1}%
+\contentsline {section}{\numberline {7.8}اختلافات درونی}{82}{section.7.8}%
+\contentsline {section}{\numberline {7.9}جدول جامع: احزاب سوسیال‌دموکرات اروپا}{83}{section.7.9}%
+\contentsline {chapter}{\numberline {8}چپ نو و جنبش‌های معاصر}{85}{chapter.8}%
+\contentsline {section}{\numberline {8.1}شکست چپ سنتی و تولد چپ نو}{85}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}چرا چپ نو؟}{85}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}ریشه‌های فکری چپ نو}{86}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}مکتب فرانکفورت}{86}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}نقد تمدن صنعتی}{87}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}مه ۱۹۶۸: لحظه انقلابی}{87}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}جنبش ضد جنگ ویتنام}{88}{subsection.8.3.1}%
+\contentsline {section}{\numberline {8.4}جنبش‌های هویتی}{89}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}جنبش حقوق مدنی سیاه‌پوستان}{89}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}فمینیسم موج دوم و سوم}{90}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}جنبش LGBTQ+}{91}{subsection.8.4.3}%
+\contentsline {section}{\numberline {8.5}جنبش زیست‌محیطی}{91}{section.8.5}%
+\contentsline {section}{\numberline {8.6}آلترگلوبالیسم}{92}{section.8.6}%
+\contentsline {section}{\numberline {8.7}چپ پست‌مدرن و پسااستعماری}{93}{section.8.7}%
+\contentsline {section}{\numberline {8.8}چپ معاصر}{94}{section.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}اختلافات درون چپ معاصر}{94}{subsection.8.8.1}%
+\contentsline {part}{سوم\hspace {1em}جهان راست}{97}{part.3}%
+\contentsline {chapter}{\numberline {9}محافظه‌کاری: از برک تا امروز}{98}{chapter.9}%
+\contentsline {section}{\numberline {9.1}محافظه‌کاری چیست؟}{98}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}تعریف: منفی یا مثبت؟}{98}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}ویژگی‌های مشترک}{99}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}ادموند برک: پدر محافظه‌کاری مدرن}{100}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}برک و انقلاب: چرا آمریکا آری، فرانسه نه؟}{100}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}محافظه‌کاری قاره‌ای اروپا}{101}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}ضدانقلابیون فرانسوی}{101}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}رمانتیسم محافظه‌کار}{101}{subsection.9.3.2}%
+\contentsline {section}{\numberline {9.4}محافظه‌کاری بریتانیایی}{102}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}محافظه‌کاری یک‌ملتی: دیزرائیلی}{102}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}تاچریسم: انقلاب محافظه‌کارانه؟}{103}{subsection.9.4.2}%
+\contentsline {section}{\numberline {9.5}محافظه‌کاری آمریکایی}{103}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}محافظه‌کاری سنتی: راسل کرک}{104}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}ویلیام باکلی و National Review}{105}{subsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.5.3}نومحافظه‌کاری}{105}{subsection.9.5.3}%
+\contentsline {subsection}{\numberline {9.5.4}ریگانیسم}{105}{subsection.9.5.4}%
+\contentsline {section}{\numberline {9.6}محافظه‌کاری اجتماعی}{106}{section.9.6}%
+\contentsline {section}{\numberline {9.7}محافظه‌کاری و دولت رفاه}{107}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}محافظه‌کاری پدرسالارانه: بیسمارک}{107}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Red Tory: محافظه‌کاری اجتماعی جدید}{108}{subsection.9.7.2}%
+\contentsline {section}{\numberline {9.8}اختلافات درونی محافظه‌کاری}{108}{section.9.8}%
+\contentsline {section}{\numberline {9.9}نقد محافظه‌کاری}{109}{section.9.9}%
+\contentsline {subsection}{\numberline {9.9.1}نقد از چپ}{109}{subsection.9.9.1}%
+\contentsline {subsection}{\numberline {9.9.2}نقد از لیبرال‌ها}{109}{subsection.9.9.2}%
+\contentsline {subsection}{\numberline {9.9.3}خودانتقادی: چه چیزی ارزش حفظ دارد؟}{110}{subsection.9.9.3}%
+\contentsline {section}{\numberline {9.10}محافظه‌کاری معاصر}{110}{section.9.10}%
+\contentsline {chapter}{\numberline {10}لیبرالیسم کلاسیک و نئولیبرالیسم}{112}{chapter.10}%
+\contentsline {section}{\numberline {10.1}لیبرالیسم چیست؟}{112}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}سردرگمی معنایی}{112}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}ویژگی‌های مشترک لیبرالیسم}{113}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}لیبرالیسم کلاسیک: ریشه‌ها}{113}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}جان لاک: پدر لیبرالیسم}{113}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}آدام اسمیت: لیبرالیسم اقتصادی}{114}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}جان استوارت میل: لیبرالیسم و آزادی}{115}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}لیبرالیسم اجتماعی: چرخش به چپ}{116}{section.10.3}%
+\contentsline {section}{\numberline {10.4}بحران و احیا: نئولیبرالیسم}{117}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}جامعه مون پلرن: نقطه آغاز}{117}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}هایک و راه بردگی}{118}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}فریدمن و مکتب شیکاگو}{119}{subsection.10.4.3}%
+\contentsline {section}{\numberline {10.5}نئولیبرالیسم در عمل}{119}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}شیلی: آزمایشگاه نئولیبرال}{120}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}اجماع واشنگتن}{120}{subsection.10.5.2}%
+\contentsline {section}{\numberline {10.6}نقد نئولیبرالیسم}{120}{section.10.6}%
+\contentsline {subsection}{\numberline {10.6.1}نقد از چپ}{121}{subsection.10.6.1}%
+\contentsline {subsection}{\numberline {10.6.2}نقد از راست محافظه‌کار}{121}{subsection.10.6.2}%
+\contentsline {section}{\numberline {10.7}لیبرالیسم معاصر: رالز و منتقدانش}{121}{section.10.7}%
+\contentsline {section}{\numberline {10.8}اختلافات درون لیبرالیسم}{122}{section.10.8}%
+\contentsline {chapter}{\numberline {11}لیبرتارینیسم و راست آزادی‌خواه}{125}{chapter.11}%
+\contentsline {section}{\numberline {11.1}لیبرتارینیسم چیست؟}{125}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}تعریف و مفهوم}{126}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}اصل عدم تجاوز (NAP)}{126}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}تفاوت با جریان‌های مشابه}{127}{subsection.11.1.3}%
+\contentsline {section}{\numberline {11.2}ریشه‌های تاریخی}{127}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}فردگرایی آمریکایی}{127}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}مکتب اقتصادی اتریش}{128}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}آین رند و ابژکتیویسم}{128}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}مینارشیسم: دولت حداقلی}{129}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}دولت حداقلی چیست؟}{130}{subsection.11.3.1}%
+\contentsline {section}{\numberline {11.4}آنارکو-کاپیتالیسم}{131}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}موری راتبارد: معمار آنارکو-کاپیتالیسم}{131}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}خصوصی‌سازی همه چیز}{131}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}نقد مینارشیسم توسط آنارکو-کاپیتالیست‌ها}{132}{subsection.11.4.3}%
+\contentsline {subsection}{\numberline {11.4.4}دیوید فریدمن و رویکرد فایده‌گرایانه}{132}{subsection.11.4.4}%
+\contentsline {section}{\numberline {11.5}جنبش لیبرتارین آمریکا}{133}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}حزب لیبرتارین}{133}{subsection.11.5.1}%
+\contentsline {subsection}{\numberline {11.5.2}نهادهای فکری}{133}{subsection.11.5.2}%
+\contentsline {subsection}{\numberline {11.5.3}ران پال و لیبرتارینیسم عامه‌پسند}{134}{subsection.11.5.3}%
+\contentsline {section}{\numberline {11.6}لیبرتارینیسم چپ}{135}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}جورجیسم}{135}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}لیبرتارینیسم برابری‌خواه}{135}{subsection.11.6.2}%
+\contentsline {section}{\numberline {11.7}مسائل اختلافی}{136}{section.11.7}%
+\contentsline {subsection}{\numberline {11.7.1}مهاجرت: مرزهای باز؟}{136}{subsection.11.7.1}%
+\contentsline {subsection}{\numberline {11.7.2}مالکیت فکری}{137}{subsection.11.7.2}%
+\contentsline {section}{\numberline {11.8}نقد لیبرتارینیسم}{137}{section.11.8}%
+\contentsline {subsection}{\numberline {11.8.1}نقد از چپ}{138}{subsection.11.8.1}%
+\contentsline {subsection}{\numberline {11.8.2}نقد از محافظه‌کاران}{138}{subsection.11.8.2}%
+\contentsline {subsection}{\numberline {11.8.3}آرمانشهری یا عملی؟}{138}{subsection.11.8.3}%
+\contentsline {section}{\numberline {11.9}لیبرتارینیسم در عصر دیجیتال}{139}{section.11.9}%
+\contentsline {subsection}{\numberline {11.9.1}سیلیکون ولی و لیبرتارینیسم}{139}{subsection.11.9.1}%
+\contentsline {subsection}{\numberline {11.9.2}کریپتو-آنارشیسم}{140}{subsection.11.9.2}%
+\contentsline {subsection}{\numberline {11.9.3}بیت‌کوین و ارزهای دیجیتال}{140}{subsection.11.9.3}%
+\contentsline {subsection}{\numberline {11.9.4}آیندهٔ لیبرتارینیسم دیجیتال}{141}{subsection.11.9.4}%
+\contentsline {chapter}{\numberline {12}ناسیونالیسم و راست افراطی}{144}{chapter.12}%
+\contentsline {section}{\numberline {12.1}ناسیونالیسم چیست؟}{144}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}تعریف و انواع}{145}{subsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.1.2}ملت: واقعیت یا ساخته؟}{145}{subsection.12.1.2}%
+\contentsline {section}{\numberline {12.2}ریشه‌های تاریخی ناسیونالیسم}{146}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}انقلاب فرانسه و زایش ناسیونالیسم}{146}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}تایم‌لاین: ظهور ناسیونالیسم در اروپا}{146}{subsection.12.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}بهار ملت‌ها ۱۸۴۸}{147}{subsection.12.2.3}%
+\contentsline {section}{\numberline {12.3}ناسیونالیسم یکپارچه‌ساز}{147}{section.12.3}%
+\contentsline {section}{\numberline {12.4}فاشیسم: ناسیونالیسم افراطی}{148}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}ایتالیای موسولینی}{148}{subsection.12.4.1}%
+\contentsline {subsection}{\numberline {12.4.2}آیا فاشیسم راست است؟}{149}{subsection.12.4.2}%
+\contentsline {section}{\numberline {12.5}نازیسم}{149}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}ایدئولوژی نازیسم}{150}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}مسیر به قدرت}{150}{subsection.12.5.2}%
+\contentsline {subsection}{\numberline {12.5.3}هولوکاست}{150}{subsection.12.5.3}%
+\contentsline {section}{\numberline {12.6}راست افراطی پس از جنگ جهانی دوم}{151}{section.12.6}%
+\contentsline {subsection}{\numberline {12.6.1}نئونازیسم و نفی هولوکاست}{151}{subsection.12.6.1}%
+\contentsline {subsection}{\numberline {12.6.2}راست رادیکال اروپایی}{151}{subsection.12.6.2}%
+\contentsline {subsection}{\numberline {12.6.3}تمایز مفهومی}{152}{subsection.12.6.3}%
+\contentsline {section}{\numberline {12.7}موضوعات محوری راست افراطی معاصر}{152}{section.12.7}%
+\contentsline {subsection}{\numberline {12.7.1}مهاجرت و اسلام‌هراسی}{152}{subsection.12.7.1}%
+\contentsline {subsection}{\numberline {12.7.2}هویت و فرهنگ}{152}{subsection.12.7.2}%
+\contentsline {subsection}{\numberline {12.7.3}هویت و فرهنگ}{153}{subsection.12.7.3}%
+\contentsline {subsection}{\numberline {12.7.4}ضد جهانی‌شدن و یوروسپتیسیزم}{153}{subsection.12.7.4}%
+\contentsline {section}{\numberline {12.8}شخصیت‌های کلیدی معاصر}{154}{section.12.8}%
+\contentsline {section}{\numberline {12.9}نقد و تحلیل}{155}{section.12.9}%
+\contentsline {subsection}{\numberline {12.9.1}چرا راست افراطی رشد می‌کند؟}{155}{subsection.12.9.1}%
+\contentsline {subsection}{\numberline {12.9.2}محرومیت یا نژادپرستی؟}{156}{subsection.12.9.2}%
+\contentsline {chapter}{\numberline {13}راست نو و پوپولیسم معاصر}{159}{chapter.13}%
+\contentsline {section}{\numberline {13.1}راست نو اروپایی (Nouvelle Droite)}{159}{section.13.1}%
+\contentsline {subsection}{\numberline {13.1.1}آلن دوبنوا و GRECE}{160}{subsection.13.1.1}%
+\contentsline {subsection}{\numberline {13.1.2}ایده‌های کلیدی راست نو}{160}{subsection.13.1.2}%
+\contentsline {section}{\numberline {13.2}آلت‌رایت آمریکایی}{161}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}تایم‌لاین ظهور آلت‌رایت}{161}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}فرهنگ اینترنتی و جنگ میم‌ها}{162}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.3}ارتباط با ترامپیسم}{162}{subsection.13.2.3}%
+\contentsline {section}{\numberline {13.3}پوپولیسم راست}{163}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}ترامپ، برگزیت، اوربان}{163}{subsection.13.3.1}%
+\contentsline {subsection}{\numberline {13.3.2}پوپولیسم: تهدید یا تصحیح؟}{164}{subsection.13.3.2}%
+\contentsline {section}{\numberline {13.4}محافظه‌کاری ملی}{164}{section.13.4}%
+\contentsline {section}{\numberline {13.5}نئوری‌اکشنیسم و نقد دموکراسی}{165}{section.13.5}%
+\contentsline {section}{\numberline {13.6}صنعت فکری راست نو}{165}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}رسانه‌های جایگزین}{165}{subsection.13.6.1}%
+\contentsline {subsection}{\numberline {13.6.2}اینفلوئنسرهای راست}{166}{subsection.13.6.2}%
+\contentsline {part}{چهارم\hspace {1em}میانه و ترکیب}{169}{part.4}%
+\contentsline {chapter}{\numberline {14}میانه‌روی: هنر یا بی‌اصالتی؟}{170}{chapter.14}%
+\contentsline {section}{\numberline {14.1}میانه چیست؟}{170}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}سه معنای میانه}{171}{subsection.14.1.1}%
+\contentsline {section}{\numberline {14.2}فلسفهٔ میانه‌روی}{171}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}ارسطو و حد وسط}{172}{subsection.14.2.1}%
+\contentsline {subsection}{\numberline {14.2.2}اعتدال در سنت‌های دینی}{172}{subsection.14.2.2}%
+\contentsline {subsection}{\numberline {14.2.3}پراگماتیسم}{173}{subsection.14.2.3}%
+\contentsline {section}{\numberline {14.3}سانتریسم رادیکال؟}{173}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}ماکرونیسم: موردکاوی}{174}{subsection.14.3.1}%
+\contentsline {section}{\numberline {14.4}میانه در نظام‌های حزبی}{175}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}نظام دوحزبی}{175}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}احزاب میانه در نظام‌های چندحزبی}{175}{subsection.14.4.2}%
+\contentsline {section}{\numberline {14.5}نقد میانه‌روی}{176}{section.14.5}%
+\contentsline {section}{\numberline {14.6}پنجرهٔ اورتون: میانهٔ متحرک}{177}{section.14.6}%
+\contentsline {section}{\numberline {14.7}آیندهٔ میانه}{178}{section.14.7}%
+\contentsline {subsection}{\numberline {14.7.1}بحران احزاب میانه}{178}{subsection.14.7.1}%
+\contentsline {subsection}{\numberline {14.7.2}آیا میانه بازمی‌گردد؟}{178}{subsection.14.7.2}%
+\contentsline {chapter}{\numberline {15}راه سوم و تجربه‌های ترکیبی}{181}{chapter.15}%
+\contentsline {section}{\numberline {15.1}ایدهٔ «راه سوم»}{182}{section.15.1}%
+\contentsline {section}{\numberline {15.2}راه سوم بلر-گیدنز}{182}{section.15.2}%
+\contentsline {subsection}{\numberline {15.2.1}آنتونی گیدنز: معمار نظری}{183}{subsection.15.2.1}%
+\contentsline {subsection}{\numberline {15.2.2}تونی بلر و نیو لیبر}{184}{subsection.15.2.2}%
+\contentsline {subsection}{\numberline {15.2.3}ارزیابی راه سوم بریتانیا}{185}{subsection.15.2.3}%
+\contentsline {section}{\numberline {15.3}کلینتونیسم در آمریکا}{185}{section.15.3}%
+\contentsline {section}{\numberline {15.4}شرودر و دستورکار ۲۰۱۰}{186}{section.15.4}%
+\contentsline {section}{\numberline {15.5}چرا راه سوم به پایان رسید؟}{187}{section.15.5}%
+\contentsline {section}{\numberline {15.6}تجربه‌های ترکیبی دیگر}{187}{section.15.6}%
+\contentsline {subsection}{\numberline {15.6.1}اوردولیبرالیسم آلمانی}{188}{subsection.15.6.1}%
+\contentsline {subsection}{\numberline {15.6.2}مدل سنگاپور}{188}{subsection.15.6.2}%
+\contentsline {subsection}{\numberline {15.6.3}چین: سوسیالیسم با ویژگی‌های چینی؟}{189}{subsection.15.6.3}%
+\contentsline {section}{\numberline {15.7}کمونیتارینیسم}{190}{section.15.7}%
+\contentsline {section}{\numberline {15.8}دموکراسی مسیحی}{190}{section.15.8}%
+\contentsline {section}{\numberline {15.9}آیندهٔ تجربه‌های ترکیبی}{191}{section.15.9}%
+\contentsline {subsection}{\numberline {15.9.1}سرمایه‌داری ذی‌نفعان}{191}{subsection.15.9.1}%
+\contentsline {subsection}{\numberline {15.9.2}اقتصاد سبز و دایره‌ای}{192}{subsection.15.9.2}%
+\contentsline {part}{پنجم\hspace {1em}تحلیل و آینده‌نگری}{195}{part.5}%
+\contentsline {chapter}{\numberline {16}طیف سیاسی در جهان غیرغربی}{196}{chapter.16}%
+\contentsline {section}{\numberline {16.1}آیا چپ و راست جهانشمول است؟}{197}{section.16.1}%
+\contentsline {section}{\numberline {16.2}خاورمیانه و جهان عرب}{197}{section.16.2}%
+\contentsline {subsection}{\numberline {16.2.1}ناسیونالیسم عربی}{197}{subsection.16.2.1}%
+\contentsline {subsection}{\numberline {16.2.2}اسلام‌گرایی: کجای طیف؟}{198}{subsection.16.2.2}%
+\contentsline {subsection}{\numberline {16.2.3}ترکیه: از کمالیسم تا اردوغانیسم}{199}{subsection.16.2.3}%
+\contentsline {section}{\numberline {16.3}ایران}{199}{section.16.3}%
+\contentsline {subsection}{\numberline {16.3.1}از مشروطه تا انقلاب}{199}{subsection.16.3.1}%
+\contentsline {subsection}{\numberline {16.3.2}انقلاب اسلامی: فراتر از طیف؟}{200}{subsection.16.3.2}%
+\contentsline {subsection}{\numberline {16.3.3}جناح‌بندی در جمهوری اسلامی}{201}{subsection.16.3.3}%
+\contentsline {section}{\numberline {16.4}آسیای جنوبی: هند}{201}{section.16.4}%
+\contentsline {section}{\numberline {16.5}آسیای شرقی}{202}{section.16.5}%
+\contentsline {subsection}{\numberline {16.5.1}چین: از مائو تا شی}{202}{subsection.16.5.1}%
+\contentsline {subsection}{\numberline {16.5.2}ژاپن و کرهٔ جنوبی}{203}{subsection.16.5.2}%
+\contentsline {section}{\numberline {16.6}آمریکای لاتین}{203}{section.16.6}%
+\contentsline {subsection}{\numberline {16.6.1}پوپولیسم لاتین}{203}{subsection.16.6.1}%
+\contentsline {subsection}{\numberline {16.6.2}موج صورتی و چاوز}{204}{subsection.16.6.2}%
+\contentsline {subsection}{\numberline {16.6.3}راست جدید: بولسونارو}{204}{subsection.16.6.3}%
+\contentsline {chapter}{\numberline {17}آیندهٔ طیف سیاسی}{207}{chapter.17}%
+\contentsline {section}{\numberline {17.1}آیا چپ و راست هنوز معنادار است؟}{208}{section.17.1}%
+\contentsline {section}{\numberline {17.2}مدل‌های جایگزین}{208}{section.17.2}%
+\contentsline {subsection}{\numberline {17.2.1}مدل دوبعدی نولان}{209}{subsection.17.2.1}%
+\contentsline {subsection}{\numberline {17.2.2}مدل سه‌بعدی و فراتر}{209}{subsection.17.2.2}%
+\contentsline {subsection}{\numberline {17.2.3}نظریهٔ نعل اسب}{210}{subsection.17.2.3}%
+\contentsline {section}{\numberline {17.3}شکاف‌های جدید}{211}{section.17.3}%
+\contentsline {subsection}{\numberline {17.3.1}GAL-TAN}{211}{subsection.17.3.1}%
+\contentsline {subsection}{\numberline {17.3.2}باز در برابر بسته}{211}{subsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.3.3}شکاف جغرافیایی: شهری در برابر روستایی}{212}{subsection.17.3.3}%
+\contentsline {section}{\numberline {17.4}چالش‌های قرن بیست‌ویکم}{213}{section.17.4}%
+\contentsline {subsection}{\numberline {17.4.1}بحران اقلیمی}{213}{subsection.17.4.1}%
+\contentsline {subsection}{\numberline {17.4.2}هوش مصنوعی و آیندهٔ کار}{213}{subsection.17.4.2}%
+\contentsline {subsection}{\numberline {17.4.3}قطبی‌شدن و بحران دموکراسی}{214}{subsection.17.4.3}%
+\contentsline {section}{\numberline {17.5}سناریوهای آینده}{214}{section.17.5}%
+\contentsline {section}{\numberline {17.6}جمع‌بندی کتاب: میانه کجاست؟}{215}{section.17.6}%
+\contentsline {subsection}{\numberline {17.6.1}ده درس از این کتاب}{216}{subsection.17.6.1}%
+\contentsline {subsection}{\numberline {17.6.2}پیام پایانی}{217}{subsection.17.6.2}%
+\contentsline {chapter}{ضمیمهٔ ۱: تایم‌لاین جامع}{219}{appendix*.86}%
+\contentsline {chapter}{ضمیمهٔ ۲: شخصیت‌نامه}{221}{appendix*.87}%
+\contentsline {chapter}{ضمیمهٔ ۳: واژه‌نامه}{228}{appendix*.88}%
+\contentsline {chapter}{ضمیمهٔ ۴: کتاب‌شناسی}{230}{appendix*.89}%
+\contentsline {chapter}{نمایه}{234}{appendix*.90}%
+\contentsline {chapter}{ضمیمهٔ ۵: واقع‌گرایی و آرمان‌گرایی}{236}{appendix*.91}%
+\contentsline {section}{\numberline {.1}تعاریف و ریشه‌ها}{236}{section.Alph0.1}%
+\contentsline {subsection}{\numberline {.1.1}واقع‌گرایی سیاسی}{236}{subsection.Alph0.1.1}%
+\contentsline {subsection}{\numberline {.1.2}آرمان‌گرایی سیاسی}{237}{subsection.Alph0.1.2}%
+\contentsline {section}{\numberline {.2}مکاتب سیاسی و این دو گرایش}{238}{section.Alph0.2}%
+\contentsline {subsection}{\numberline {.2.1}تحلیل: وقتی ادعا با عمل نمی‌خواند}{239}{subsection.Alph0.2.1}%
+\contentsline {section}{\numberline {.3}نظم بین‌المللی: واقع‌گرایی یا آرمان‌گرایی؟}{239}{section.Alph0.3}%
+\contentsline {subsection}{\numberline {.3.1}معاهدات کلیدی و بازیگران}{239}{subsection.Alph0.3.1}%
+\contentsline {subsection}{\numberline {.3.2}الگوهای همکاری و تضاد}{240}{subsection.Alph0.3.2}%
+\contentsline {subsection}{\numberline {.3.3}کجا همکاری کارساز بود؟}{241}{subsection.Alph0.3.3}%
+\contentsline {subsection}{\numberline {.3.4}کجا تضاد به خرابی انجامید؟}{241}{subsection.Alph0.3.4}%
+\contentsline {section}{\numberline {.4}درس‌ها برای امروز و فردا}{242}{section.Alph0.4}%
+\contentsline {section}{\numberline {.5}نتیجه‌گیری: به سوی واقع‌گرایی اخلاقی}{242}{section.Alph0.5}%
+\contentsline {chapter}{ضمیمهٔ ۶: خلاصهٔ کتاب}{243}{appendix*.93}%
+\contentsline {chapter}{ضمیمهٔ ۷: نقشه‌های جغرافیایی-تاریخی}{249}{appendix*.95}%
+\contentsline {chapter}{ضمیمهٔ ۸: تقابل‌های موضوعی}{255}{appendix*.99}%
+\contentsline {chapter}{ضمیمهٔ ۹: رابطهٔ ایسم‌ها با چپ و راست}{264}{appendix*.107}%
+\contentsline {chapter}{منابع و مآخذ}{272}{appendix*.110}%
+\contentsfinish 
