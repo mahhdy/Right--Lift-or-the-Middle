@@ -497,9 +497,11 @@
 \tikzstyle{centerconcept}=[concept, fill=CenterGreenLight!50,
     draw=CenterGreen, line width=1.5pt, text=CenterGreenDark]
 
-\tikzstyle{thickarrow}=[{-Stealth[length=8pt,width=6pt]},line width=2pt]
-\tikzstyle{thinarrow}=[{-Stealth[length=5pt,width=4pt]},line width=1pt]
-\tikzstyle{dashedarrow}=[{-Stealth[length=5pt,width=4pt]},line width=1pt,dashed]
+\tikzset{
+  thickarrow/.style={-{Stealth[length=8pt,width=6pt]}, line width=2pt},
+  thinarrow/.style={-{Stealth[length=5pt,width=4pt]}, line width=1pt},
+  dashedarrow/.style={-{Stealth[length=5pt,width=4pt]}, line width=1pt, dashed}
+}
 
 % ══════════════════════════════════════════════════════════════════════════════
 %            📐 استایل فصل با TikZ (جایگزین titleformat ساده)

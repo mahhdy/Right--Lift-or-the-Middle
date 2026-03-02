@@ -1,9 +1,11 @@
-\chapter*{ضمیمهٔ ۸: تقابل‌های موضوعی}
-\addcontentsline{toc}{chapter}{ضمیمهٔ ۸: تقابل‌های موضوعی}
+\chapter*{ضمیمهٔ ۵: تقابل‌های موضوعی}
+\addcontentsline{toc}{chapter}{ضمیمهٔ ۵: تقابل‌های موضوعی}
+\markboth{ضمیمهٔ ۵: تقابل‌های موضوعی}{ضمیمهٔ ۵: تقابل‌های موضوعی}
 \thispagestyle{plain}
 
 \begin{center}
-  \begin{tikzpicture}
+  \resizebox{\columnwidth}{!}{%
+\begin{tikzpicture}
     \node[
       draw=GoldAccent, line width=1.2pt,
       fill=GoldAccent!6,
@@ -17,7 +19,8 @@
       \textcolor{MediumGray}{\small
         هر بخش با منابع آکادمیک دست‌اول مستند شده است}
     };
-  \end{tikzpicture}
+  \end{tikzpicture}%
+}
 \end{center}
 
 % FIXED: ornamentalrule بدون \leaders — در این موقعیت امن است
@@ -85,6 +88,7 @@ Politico-Economic Systems. \textit{The Individualist}.}}
 % ─────────────────────────────────────────────────────────────────
 
 \begin{center}
+\resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[scale=1, every node/.style={font=\small}]
 
   % گرادیان رنگی با مستطیل‌های متوالی
@@ -170,7 +174,8 @@ Politico-Economic Systems. \textit{The Individualist}.}}
   \draw[LeftRed!40, dashed, line width=0.7pt]
     (11.5,2.3) -- (11.5,0.3);
 
-\end{tikzpicture}
+\end{tikzpicture}%
+}
 \end{center}
 
 \vspace{4pt}
@@ -196,12 +201,14 @@ Politico-Economic Systems. \textit{The Individualist}.}}
 ]
 
   \begin{center}
-    \begin{tikzpicture}
+    \resizebox{\columnwidth}{!}{%
+\begin{tikzpicture}
       \fill[RightBlue!15, rounded corners=4pt]
            (-2.2,-0.3) rectangle (2.2,0.7);
       \node[font=\large\bfseries, color=RightBlue] at (0,0.2)
            {\rl{آزادی منفی}};
-    \end{tikzpicture}\\[2pt]
+    \end{tikzpicture}%
+}\\[2pt]
     \textbf{\textcolor{RightBlue}{\rl{«آزادی از...»}}}
     \quad \en{Negative Liberty}
   \end{center}
@@ -225,12 +232,14 @@ Politico-Economic Systems. \textit{The Individualist}.}}
 \tcblower
 
   \begin{center}
-    \begin{tikzpicture}
+    \resizebox{\columnwidth}{!}{%
+\begin{tikzpicture}
       \fill[LeftRed!15, rounded corners=4pt]
            (-2.2,-0.3) rectangle (2.2,0.7);
       \node[font=\large\bfseries, color=LeftRed] at (0,0.2)
            {\rl{آزادی مثبت}};
-    \end{tikzpicture}\\[2pt]
+    \end{tikzpicture}%
+}\\[2pt]
     \textbf{\textcolor{LeftRed}{\rl{«آزادی برای...»}}}
     \quad \en{Positive Liberty}
   \end{center}
@@ -278,6 +287,7 @@ Politico-Economic Systems. \textit{The Individualist}.}}
 
 \begin{comparebox}[سه نظریهٔ کلاسیک مالکیت]
 \begin{center}
+\resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[
     node distance=0.4cm,
     box/.style={
@@ -314,7 +324,8 @@ Politico-Economic Systems. \textit{The Individualist}.}}
     \rl{انتقال داوطلبانه}\\[3pt]
     {\footnotesize\en{Anarchy, State (1974)}}
   };
-\end{tikzpicture}
+\end{tikzpicture}%
+}
 \end{center}
 \end{comparebox}
 
@@ -370,6 +381,7 @@ Politico-Economic Systems. \textit{The Individualist}.}}
 
 \begin{defbox}[پرده جهل رولز]
 \begin{center}
+\resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[every node/.style={font=\small}]
   \fill[DarkGray!80, rounded corners=6pt]
        (0,0) rectangle (12,3.8);
@@ -399,7 +411,8 @@ Politico-Economic Systems. \textit{The Individualist}.}}
        {\rl{• اصل تفاوت}};
   \node[text=GoldLight!80, align=center, font=\footnotesize] at (9,0.7)
        {\en{Rawls, 1971}};
-\end{tikzpicture}
+\end{tikzpicture}%
+}
 \end{center}
 \mediumspace
 \person{جان رولز} در \book{نظریهٔ عدالت} (۱۹۷۱) استدلال کرد

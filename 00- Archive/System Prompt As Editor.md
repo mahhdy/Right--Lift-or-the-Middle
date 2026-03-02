@@ -278,6 +278,12 @@ Apply before headings:
 - **Emoji Compatibility**: Vazirmatn and most Persian fonts do NOT support emojis. Replace `✅`, `❌`, `⚠️` with text-based indicators like `(v)`, `(x)`, `(!)` in the LaTeX source.
 - **Environment Balancing**: Deeply nested TikZ/tcolorbox environments are prone to missing `\end`. Use `python check_latex.py` to verify balanced counts before compiling.
 - **XePersian Ordering**: It is NOT a suggestion; it must be the LAST package loaded.
+- **Math Modes**: DO NOT mix `\[` with `$$`. Display math started with `\[` must always end with `\]`. Mismatched math modes crash XeLaTeX.
+- **TikZ Library Conflicts**: The TikZ library `intersections` has known conflicts with bidi/xepersian and can cause `\fill` and `\draw` to fail randomly. Remove it unless absolutely necessary.
+- **Multicol Package**: The `multicol` package (`\begin{multicols}`) often causes layout breakage and page-breaking errors in books with complex floats/tcolorboxes. Avoid using it for book layouts.
+- **Color Definitions**: Always ensure custom colors used inside TikZ diagrams (e.g., `lightbg`) are explicitly defined in the `preamble.tex`.
+- **Image Paths**: Remember to explicitly declare `\graphicspath{{figures/}}` in the preamble if graphics are isolated in a subdirectory.
+- **English Footnotes/References**: Any English text inside a footnote or reference list must be enclosed in `\lr{...}` to render LTR correctly under xepersian.
 
 ## 16. Build Command (Master)
 
@@ -287,6 +293,7 @@ rm -f *.aux chapters/*.aux appendices/*.aux && xelatex -interaction=nonstopmode 
 ```
 
 ## 17. Response Format
+
 - Return only corrected code.
 - Mark changed lines with `% FIXED: <reason>`.
 - Add a summary table: `[line | issue | fix]`.

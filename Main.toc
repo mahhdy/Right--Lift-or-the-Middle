@@ -349,11 +349,11 @@
 \contentsline {subsection}{\numberline {15.9.2}اقتصاد سبز و دایره‌ای}{192}{subsection.15.9.2}%
 \contentsline {part}{پنجم\hspace {1em}تحلیل و آینده‌نگری}{195}{part.5}%
 \contentsline {chapter}{\numberline {16}طیف سیاسی در جهان غیرغربی}{196}{chapter.16}%
-\contentsline {section}{\numberline {16.1}آیا چپ و راست جهانشمول است؟}{197}{section.16.1}%
+\contentsline {section}{\numberline {16.1}آیا چپ و راست جهانشمول است؟}{196}{section.16.1}%
 \contentsline {section}{\numberline {16.2}خاورمیانه و جهان عرب}{197}{section.16.2}%
 \contentsline {subsection}{\numberline {16.2.1}ناسیونالیسم عربی}{197}{subsection.16.2.1}%
 \contentsline {subsection}{\numberline {16.2.2}اسلام‌گرایی: کجای طیف؟}{198}{subsection.16.2.2}%
-\contentsline {subsection}{\numberline {16.2.3}ترکیه: از کمالیسم تا اردوغانیسم}{199}{subsection.16.2.3}%
+\contentsline {subsection}{\numberline {16.2.3}ترکیه: از کمالیسم تا اردوغانیسم}{198}{subsection.16.2.3}%
 \contentsline {section}{\numberline {16.3}ایران}{199}{section.16.3}%
 \contentsline {subsection}{\numberline {16.3.1}از مشروطه تا انقلاب}{199}{subsection.16.3.1}%
 \contentsline {subsection}{\numberline {16.3.2}انقلاب اسلامی: فراتر از طیف؟}{200}{subsection.16.3.2}%
@@ -384,12 +384,12 @@
 \contentsline {section}{\numberline {17.6}جمع‌بندی کتاب: میانه کجاست؟}{215}{section.17.6}%
 \contentsline {subsection}{\numberline {17.6.1}ده درس از این کتاب}{216}{subsection.17.6.1}%
 \contentsline {subsection}{\numberline {17.6.2}پیام پایانی}{217}{subsection.17.6.2}%
-\contentsline {chapter}{ضمیمهٔ ۱: تایم‌لاین جامع}{219}{appendix*.86}%
-\contentsline {chapter}{ضمیمهٔ ۲: شخصیت‌نامه}{221}{appendix*.87}%
-\contentsline {chapter}{ضمیمهٔ ۳: واژه‌نامه}{228}{appendix*.88}%
-\contentsline {chapter}{ضمیمهٔ ۴: کتاب‌شناسی}{230}{appendix*.89}%
-\contentsline {chapter}{نمایه}{234}{appendix*.90}%
-\contentsline {chapter}{ضمیمهٔ ۵: واقع‌گرایی و آرمان‌گرایی}{236}{appendix*.91}%
+\contentsline {part}{پیوست‌ها}{219}{Item.197}%
+\contentsline {part}{پیوست‌ها}{220}{Item.197}%
+\contentsline {chapter}{ضمیمهٔ ۱: تایم‌لاین جامع}{220}{appendix*.86}%
+\contentsline {chapter}{ضمیمهٔ ۲: شخصیت‌نامه}{222}{appendix*.87}%
+\contentsline {chapter}{ضمیمهٔ ۳: خلاصهٔ کتاب}{229}{appendix*.88}%
+\contentsline {chapter}{ضمیمهٔ ۴: واقع‌گرایی و آرمان‌گرایی}{236}{appendix*.90}%
 \contentsline {section}{\numberline {.1}تعاریف و ریشه‌ها}{236}{section.Alph0.1}%
 \contentsline {subsection}{\numberline {.1.1}واقع‌گرایی سیاسی}{236}{subsection.Alph0.1.1}%
 \contentsline {subsection}{\numberline {.1.2}آرمان‌گرایی سیاسی}{237}{subsection.Alph0.1.2}%
@@ -397,14 +397,18 @@
 \contentsline {subsection}{\numberline {.2.1}تحلیل: وقتی ادعا با عمل نمی‌خواند}{239}{subsection.Alph0.2.1}%
 \contentsline {section}{\numberline {.3}نظم بین‌المللی: واقع‌گرایی یا آرمان‌گرایی؟}{239}{section.Alph0.3}%
 \contentsline {subsection}{\numberline {.3.1}معاهدات کلیدی و بازیگران}{239}{subsection.Alph0.3.1}%
-\contentsline {subsection}{\numberline {.3.2}الگوهای همکاری و تضاد}{240}{subsection.Alph0.3.2}%
+\contentsline {subsection}{\numberline {.3.2}الگوهای همکاری و تضاد}{241}{subsection.Alph0.3.2}%
 \contentsline {subsection}{\numberline {.3.3}کجا همکاری کارساز بود؟}{241}{subsection.Alph0.3.3}%
-\contentsline {subsection}{\numberline {.3.4}کجا تضاد به خرابی انجامید؟}{241}{subsection.Alph0.3.4}%
+\contentsline {subsection}{\numberline {.3.4}کجا تضاد به خرابی انجامید؟}{242}{subsection.Alph0.3.4}%
 \contentsline {section}{\numberline {.4}درس‌ها برای امروز و فردا}{242}{section.Alph0.4}%
-\contentsline {section}{\numberline {.5}نتیجه‌گیری: به سوی واقع‌گرایی اخلاقی}{242}{section.Alph0.5}%
-\contentsline {chapter}{ضمیمهٔ ۶: خلاصهٔ کتاب}{243}{appendix*.93}%
-\contentsline {chapter}{ضمیمهٔ ۷: نقشه‌های جغرافیایی-تاریخی}{249}{appendix*.95}%
-\contentsline {chapter}{ضمیمهٔ ۸: تقابل‌های موضوعی}{255}{appendix*.99}%
-\contentsline {chapter}{ضمیمهٔ ۹: رابطهٔ ایسم‌ها با چپ و راست}{264}{appendix*.107}%
-\contentsline {chapter}{منابع و مآخذ}{272}{appendix*.110}%
+\contentsline {section}{\numberline {.5}نتیجه‌گیری: به سوی واقع‌گرایی اخلاقی}{243}{section.Alph0.5}%
+\contentsline {chapter}{ضمیمهٔ ۵: تقابل‌های موضوعی}{244}{appendix*.92}%
+\contentsline {chapter}{ضمیمهٔ ۶: نقشه‌های جغرافیایی-تاریخی}{254}{appendix*.100}%
+\contentsline {chapter}{ضمیمهٔ ۷: خانوادهٔ ایسم‌ها}{261}{appendix*.104}%
+\contentsline {part}{بخش‌های ارجاعی}{275}{table.caption.106}%
+\contentsline {part}{بخش‌های ارجاعی}{276}{table.caption.106}%
+\contentsline {chapter}{واژه‌نامهٔ تخصصی}{276}{appendix*.107}%
+\contentsline {chapter}{کتاب‌شناسی تفصیلی}{278}{appendix*.108}%
+\contentsline {chapter}{منابع و مآخذ}{282}{appendix*.109}%
+\contentsline {chapter}{نمایه}{284}{appendix*.110}%
 \contentsfinish 
