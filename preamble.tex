@@ -647,35 +647,7 @@
 }
 
 % ══════════════════════════════════════════════════════════════════════════════
-%                   📋 تنظیمات فهرست مطالب (غنی‌شده)
-% ══════════════════════════════════════════════════════════════════════════════
 
-\setcounter{tocdepth}{2}
-\setcounter{secnumdepth}{3}
-
-\titlecontents{part}[0pt]
-    {\addvspace{20pt}\bfseries\large\color{ChapterBandColor}}
-    {{\colorbox{ChapterBandColor!15}{\textcolor{ChapterBandColor}{بخش \thecontentslabel}}}\quad}
-    {}
-    {\hfill\contentspage}
-
-\titlecontents{chapter}[15pt]
-    {\addvspace{10pt}\bfseries\color{DarkGray}}
-    {{\textcolor{GoldDark}{فصل \thecontentslabel:}}\quad}
-    {}
-    {\titlerule*[6pt]{\textcolor{GoldAccent!60}{·}}\contentspage}
-
-\titlecontents{section}[35pt]
-    {\addvspace{3pt}\color{MediumGray}}
-    {\thecontentslabel\quad}
-    {}
-    {\titlerule*[8pt]{.}\contentspage}
-
-\titlecontents{subsection}[55pt]
-    {\color{MediumGray!80}}
-    {\thecontentslabel\quad}
-    {}
-    {\titlerule*[8pt]{.}\contentspage}
 
 % ══════════════════════════════════════════════════════════════════════════════
 %                   🔧 دستورات سفارشی
@@ -713,6 +685,40 @@
 % ══════════════════════════════════════════════════════════════════════════════
 
 \usepackage{xepersian}
-\settextfont{Vazirmatn}
-\setdigitfont{Vazirmatn}
+\settextfont{Parsi Matn}
+\setdigitfont{Parsi Matn}
+
+% ══════════════════════════════════════════════════════════════════════════════
+%                   📋 تنظیمات فهرست مطالب (بعد از xepersian)
+% ══════════════════════════════════════════════════════════════════════════════
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
+
+\renewcommand{\listfigurename}{فهرست نمودارها}
+\renewcommand{\listtablename}{فهرست جداول}
+
+\titlecontents{part}[0pt]
+    {\addvspace{20pt}\bfseries\large\color{ChapterBandColor}}
+    {{\colorbox{ChapterBandColor!15}{\textcolor{ChapterBandColor}{بخش \thecontentslabel}}}\quad}
+    {}
+    {\hfill\contentspage}
+
+\titlecontents{chapter}[15pt]
+    {\addvspace{10pt}\bfseries\color{DarkGray}}
+    {{\textcolor{GoldDark}{فصل \thecontentslabel:}}\quad}
+    {}
+    {\titlerule*[6pt]{\textcolor{GoldAccent!60}{·}}\contentspage}
+
+\titlecontents{section}[35pt]
+    {\addvspace{3pt}\color{MediumGray}}
+    {\thecontentslabel\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
+
+\titlecontents{subsection}[55pt]
+    {\color{MediumGray!80}}
+    {\thecontentslabel\quad}
+    {}
+    {\titlerule*[8pt]{.}\contentspage}
 %\PersianFootnotes
